@@ -1,25 +1,25 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: D:/Wizard LLC/Wizard LLC/Packages/manifest.json
+    m_FilePath: E:/Arbeit/Projekte/GameJam/Wizard-LLC copy/Wizard-LLC/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638569265449417524
-    m_Hash: 1336198215
+      ticks: 638572601945999155
+    m_Hash: 2180497618
   m_LockFileStatus:
-    m_FilePath: D:/Wizard LLC/Wizard LLC/Packages/packages-lock.json
+    m_FilePath: E:/Arbeit/Projekte/GameJam/Wizard-LLC copy/Wizard-LLC/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638569265589585391
-    m_Hash: 3486135539
+      ticks: 638572601945999155
+    m_Hash: 3989029039
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
-m_ProjectPath: D:/Wizard LLC/Wizard LLC/Packages
+m_ProjectPath: E:/Arbeit/Projekte/GameJam/Wizard-LLC copy/Wizard-LLC/Packages
 m_EditorVersion: 2022.3.10f1 (ff3792e53c62)
 m_ResolvedPackages:
 - packageId: com.unity.ads@4.4.2
@@ -27,7 +27,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 4.4.2
   source: 1
-  resolvedPath: D:\Wizard LLC\Wizard LLC\Library\PackageCache\com.unity.ads@4.4.2
+  resolvedPath: E:\Arbeit\Projekte\GameJam\Wizard-LLC copy\Wizard-LLC\Library\PackageCache\com.unity.ads@4.4.2
   assetPath: Packages/com.unity.ads
   name: com.unity.ads
   displayName: Advertisement Legacy
@@ -36,7 +36,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: asset
+  type: 
   description: "Connect your game to the Unity Ads Network for iOS and Android to
     quickly and effectively monetize your games.\n\nNOTE: Unity has joined forces
     with ironSource and recommends using Unity LevelPlay for ad mediation (instead
@@ -48,58 +48,9 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
-    - 0.0.3
-    - 0.0.4
-    - 0.0.5
-    - 0.0.6
-    - 0.0.7
-    - 0.0.8
-    - 0.0.10
-    - 0.0.11
-    - 0.0.12
-    - 0.0.13
-    - 0.0.14
-    - 0.0.15
-    - 0.0.16
-    - 2.0.0
-    - 2.0.3
-    - 2.0.4
-    - 2.0.7
-    - 2.0.8
-    - 2.3.1
-    - 2.3.2
-    - 3.0.1
-    - 3.0.2
-    - 3.0.3
-    - 3.1.1
-    - 3.2.0
-    - 3.3.0
-    - 3.3.1
-    - 3.4.0
-    - 3.4.1
-    - 3.4.2
-    - 3.4.4
-    - 3.4.5
-    - 3.4.7
-    - 3.4.9
-    - 3.5.0
-    - 3.5.2
-    - 3.6.1
-    - 3.7.0
-    - 3.7.1
-    - 3.7.3
-    - 3.7.5
-    - 4.0.0
-    - 4.0.1
-    - 4.1.0
-    - 4.2.1
-    - 4.3.0
-    - 4.4.1
     - 4.4.2
-    - 4.12.0
     compatible:
     - 4.4.2
-    - 4.12.0
     recommended: 4.4.2
     deprecated: []
   dependencies:
@@ -125,7 +76,7 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638161229410000000
+  datePublishedTicks: 0
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.ads@4.4/manual/index.html
   hasRepository: 1
   repository:
@@ -146,7 +97,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 3.8.1
   source: 1
-  resolvedPath: D:\Wizard LLC\Wizard LLC\Library\PackageCache\com.unity.analytics@3.8.1
+  resolvedPath: E:\Arbeit\Projekte\GameJam\Wizard-LLC copy\Wizard-LLC\Library\PackageCache\com.unity.analytics@3.8.1
   assetPath: Packages/com.unity.analytics
   name: com.unity.analytics
   displayName: Analytics Library
@@ -155,50 +106,13 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: asset
+  type: 
   description: The Unity Analytics Library contains the Analytics Event Tracker component,
     the Data Privacy plug-in, and the Standard Events API.
   status: 0
   errors: []
   versions:
     all:
-    - 0.0.3
-    - 0.0.4
-    - 0.0.5
-    - 0.0.7
-    - 0.0.8
-    - 0.0.9
-    - 0.0.10
-    - 0.0.11
-    - 0.0.12
-    - 0.0.13
-    - 0.0.14
-    - 0.0.15
-    - 0.0.16
-    - 0.0.17
-    - 0.0.19
-    - 2.0.5
-    - 2.0.11
-    - 2.0.13
-    - 2.0.14
-    - 2.0.15
-    - 2.0.16
-    - 3.0.5
-    - 3.0.9
-    - 3.1.1
-    - 3.2.0
-    - 3.2.2
-    - 3.2.3
-    - 3.3.0
-    - 3.3.2-preview
-    - 3.3.2
-    - 3.3.4
-    - 3.3.5
-    - 3.4.0
-    - 3.5.3
-    - 3.6.11
-    - 3.6.12
-    - 3.7.1
     - 3.8.1
     compatible:
     - 3.8.1
@@ -241,7 +155,7 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637789683740000000
+  datePublishedTicks: 0
   documentationUrl: 
   hasRepository: 1
   repository:
@@ -262,7 +176,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.4.3
   source: 1
-  resolvedPath: D:\Wizard LLC\Wizard LLC\Library\PackageCache\com.unity.collab-proxy@2.4.3
+  resolvedPath: E:\Arbeit\Projekte\GameJam\Wizard-LLC copy\Wizard-LLC\Library\PackageCache\com.unity.collab-proxy@2.4.3
   assetPath: Packages/com.unity.collab-proxy
   name: com.unity.collab-proxy
   displayName: Version Control
@@ -410,7 +324,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.1
   source: 2
-  resolvedPath: D:\Wizard LLC\Wizard LLC\Library\PackageCache\com.unity.feature.development@1.0.1
+  resolvedPath: E:\Arbeit\Projekte\GameJam\Wizard-LLC copy\Wizard-LLC\Library\PackageCache\com.unity.feature.development@1.0.1
   assetPath: Packages/com.unity.feature.development
   name: com.unity.feature.development
   displayName: Engineering
@@ -503,7 +417,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 3.2.2
   source: 1
-  resolvedPath: D:\Wizard LLC\Wizard LLC\Library\PackageCache\com.unity.postprocessing@3.2.2
+  resolvedPath: E:\Arbeit\Projekte\GameJam\Wizard-LLC copy\Wizard-LLC\Library\PackageCache\com.unity.postprocessing@3.2.2
   assetPath: Packages/com.unity.postprocessing
   name: com.unity.postprocessing
   displayName: Post Processing
@@ -512,7 +426,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: asset
+  type: 
   description: The post-processing stack (v2) comes with a collection of effects
     and image filters you can apply to your cameras to improve the visuals of your
     games.
@@ -520,48 +434,9 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
-    - 0.1.7
-    - 0.1.8
-    - 2.0.0-beta
-    - 2.0.1-beta
-    - 2.0.2-preview
-    - 2.0.3-preview
-    - 2.0.5-preview
-    - 2.0.7-preview
-    - 2.0.8-preview
-    - 2.0.9-preview
-    - 2.0.10-preview
-    - 2.0.11-preview
-    - 2.0.12-preview
-    - 2.0.13-preview
-    - 2.0.14-preview
-    - 2.0.15-preview
-    - 2.0.16-preview
-    - 2.0.17-preview
-    - 2.1.0
-    - 2.1.1
-    - 2.1.2
-    - 2.1.3
-    - 2.1.4
-    - 2.1.5
-    - 2.1.6
-    - 2.1.7
-    - 2.2.1
-    - 2.2.2
-    - 2.3.0
-    - 3.0.1
-    - 3.0.3
-    - 3.1.0
-    - 3.1.1
-    - 3.2.0
-    - 3.2.1
     - 3.2.2
-    - 3.3.0
-    - 3.4.0
     compatible:
     - 3.2.2
-    - 3.3.0
-    - 3.4.0
     recommended: 3.2.2
     deprecated: []
   dependencies:
@@ -581,7 +456,7 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637855259850000000
+  datePublishedTicks: 0
   documentationUrl: 
   hasRepository: 1
   repository:
@@ -602,7 +477,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 4.9.3
   source: 1
-  resolvedPath: D:\Wizard LLC\Wizard LLC\Library\PackageCache\com.unity.purchasing@4.9.3
+  resolvedPath: E:\Arbeit\Projekte\GameJam\Wizard-LLC copy\Wizard-LLC\Library\PackageCache\com.unity.purchasing@4.9.3
   assetPath: Packages/com.unity.purchasing
   name: com.unity.purchasing
   displayName: In App Purchasing
@@ -611,7 +486,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: assets
+  type: 
   description: "IMPORTANT UPGRADE NOTES:\n\nIf updating from Unity IAP (com.unity.purchasing
     + the Asset Store plugin) versions 2.x to version 3.x, complete the following
     actions in order to resolve compilation errors:\n 1. Move IAPProductCatalog.json
@@ -634,86 +509,10 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
-    - 0.0.3
-    - 0.0.4
-    - 0.0.5
-    - 0.0.6
-    - 0.0.7
-    - 0.0.8
-    - 0.0.9
-    - 0.0.10
-    - 0.0.11
-    - 0.0.12
-    - 0.0.13
-    - 0.0.14
-    - 0.0.15
-    - 0.0.16
-    - 0.0.17
-    - 0.0.18
-    - 0.0.19
-    - 2.0.0
-    - 2.0.1
-    - 2.0.3
-    - 2.0.5
-    - 2.0.6
-    - 2.1.0
-    - 2.1.1
-    - 2.2.0
-    - 2.2.1
-    - 2.2.2
-    - 3.0.0-pre.3
-    - 3.0.0-pre.4
-    - 3.0.0-pre.5
-    - 3.0.0-pre.6
-    - 3.0.1
-    - 3.0.2
-    - 3.1.0
-    - 3.2.1
-    - 3.2.2
-    - 3.2.3
-    - 4.0.0
-    - 4.0.3
-    - 4.1.0
-    - 4.1.1
-    - 4.1.2
-    - 4.1.3
-    - 4.1.4
-    - 4.1.5
-    - 4.2.0-pre.1
-    - 4.2.0-pre.2
-    - 4.2.1
-    - 4.3.0
-    - 4.4.0
-    - 4.4.1
-    - 4.5.0
-    - 4.5.1
-    - 4.5.2
-    - 4.6.0
-    - 4.7.0
-    - 4.8.0
-    - 4.9.2
     - 4.9.3
-    - 4.9.4
-    - 4.10.0
-    - 4.11.0
-    - 4.12.0
-    - 4.12.1-pre.1
-    - 4.12.1-pre.3
-    - 4.12.1-pre.4
-    - 4.12.1
-    - 4.12.2
     compatible:
     - 4.9.3
-    - 4.9.4
-    - 4.10.0
-    - 4.11.0
-    - 4.12.0
-    - 4.12.1-pre.1
-    - 4.12.1-pre.3
-    - 4.12.1-pre.4
-    - 4.12.1
-    - 4.12.2
-    recommended: 4.9.4
+    recommended: 4.9.3
     deprecated: []
   dependencies:
   - name: com.unity.ugui
@@ -761,7 +560,7 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 638223389530000000
+  datePublishedTicks: 0
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.purchasing@4.9/manual/index.html
   hasRepository: 1
   repository:
@@ -782,7 +581,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 3.0.6
   source: 1
-  resolvedPath: D:\Wizard LLC\Wizard LLC\Library\PackageCache\com.unity.textmeshpro@3.0.6
+  resolvedPath: E:\Arbeit\Projekte\GameJam\Wizard-LLC copy\Wizard-LLC\Library\PackageCache\com.unity.textmeshpro@3.0.6
   assetPath: Packages/com.unity.textmeshpro
   name: com.unity.textmeshpro
   displayName: TextMeshPro
@@ -977,7 +776,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.7.5
   source: 1
-  resolvedPath: D:\Wizard LLC\Wizard LLC\Library\PackageCache\com.unity.timeline@1.7.5
+  resolvedPath: E:\Arbeit\Projekte\GameJam\Wizard-LLC copy\Wizard-LLC\Library\PackageCache\com.unity.timeline@1.7.5
   assetPath: Packages/com.unity.timeline
   name: com.unity.timeline
   displayName: Timeline
@@ -1147,7 +946,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\Wizard LLC\Wizard LLC\Library\PackageCache\com.unity.ugui@1.0.0
+  resolvedPath: E:\Arbeit\Projekte\GameJam\Wizard-LLC copy\Wizard-LLC\Library\PackageCache\com.unity.ugui@1.0.0
   assetPath: Packages/com.unity.ugui
   name: com.unity.ugui
   displayName: Unity UI
@@ -1219,7 +1018,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.9.0
   source: 1
-  resolvedPath: D:\Wizard LLC\Wizard LLC\Library\PackageCache\com.unity.visualscripting@1.9.0
+  resolvedPath: E:\Arbeit\Projekte\GameJam\Wizard-LLC copy\Wizard-LLC\Library\PackageCache\com.unity.visualscripting@1.9.0
   assetPath: Packages/com.unity.visualscripting
   name: com.unity.visualscripting
   displayName: Visual Scripting
@@ -1320,7 +1119,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\Wizard LLC\Wizard LLC\Library\PackageCache\com.unity.modules.ai@1.0.0
+  resolvedPath: E:\Arbeit\Projekte\GameJam\Wizard-LLC copy\Wizard-LLC\Library\PackageCache\com.unity.modules.ai@1.0.0
   assetPath: Packages/com.unity.modules.ai
   name: com.unity.modules.ai
   displayName: AI
@@ -1375,7 +1174,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\Wizard LLC\Wizard LLC\Library\PackageCache\com.unity.modules.androidjni@1.0.0
+  resolvedPath: E:\Arbeit\Projekte\GameJam\Wizard-LLC copy\Wizard-LLC\Library\PackageCache\com.unity.modules.androidjni@1.0.0
   assetPath: Packages/com.unity.modules.androidjni
   name: com.unity.modules.androidjni
   displayName: Android JNI
@@ -1429,7 +1228,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\Wizard LLC\Wizard LLC\Library\PackageCache\com.unity.modules.animation@1.0.0
+  resolvedPath: E:\Arbeit\Projekte\GameJam\Wizard-LLC copy\Wizard-LLC\Library\PackageCache\com.unity.modules.animation@1.0.0
   assetPath: Packages/com.unity.modules.animation
   name: com.unity.modules.animation
   displayName: Animation
@@ -1484,7 +1283,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\Wizard LLC\Wizard LLC\Library\PackageCache\com.unity.modules.assetbundle@1.0.0
+  resolvedPath: E:\Arbeit\Projekte\GameJam\Wizard-LLC copy\Wizard-LLC\Library\PackageCache\com.unity.modules.assetbundle@1.0.0
   assetPath: Packages/com.unity.modules.assetbundle
   name: com.unity.modules.assetbundle
   displayName: Asset Bundle
@@ -1539,7 +1338,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\Wizard LLC\Wizard LLC\Library\PackageCache\com.unity.modules.audio@1.0.0
+  resolvedPath: E:\Arbeit\Projekte\GameJam\Wizard-LLC copy\Wizard-LLC\Library\PackageCache\com.unity.modules.audio@1.0.0
   assetPath: Packages/com.unity.modules.audio
   name: com.unity.modules.audio
   displayName: Audio
@@ -1594,7 +1393,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\Wizard LLC\Wizard LLC\Library\PackageCache\com.unity.modules.cloth@1.0.0
+  resolvedPath: E:\Arbeit\Projekte\GameJam\Wizard-LLC copy\Wizard-LLC\Library\PackageCache\com.unity.modules.cloth@1.0.0
   assetPath: Packages/com.unity.modules.cloth
   name: com.unity.modules.cloth
   displayName: Cloth
@@ -1653,7 +1452,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\Wizard LLC\Wizard LLC\Library\PackageCache\com.unity.modules.director@1.0.0
+  resolvedPath: E:\Arbeit\Projekte\GameJam\Wizard-LLC copy\Wizard-LLC\Library\PackageCache\com.unity.modules.director@1.0.0
   assetPath: Packages/com.unity.modules.director
   name: com.unity.modules.director
   displayName: Director
@@ -1716,7 +1515,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\Wizard LLC\Wizard LLC\Library\PackageCache\com.unity.modules.imageconversion@1.0.0
+  resolvedPath: E:\Arbeit\Projekte\GameJam\Wizard-LLC copy\Wizard-LLC\Library\PackageCache\com.unity.modules.imageconversion@1.0.0
   assetPath: Packages/com.unity.modules.imageconversion
   name: com.unity.modules.imageconversion
   displayName: Image Conversion
@@ -1772,7 +1571,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\Wizard LLC\Wizard LLC\Library\PackageCache\com.unity.modules.imgui@1.0.0
+  resolvedPath: E:\Arbeit\Projekte\GameJam\Wizard-LLC copy\Wizard-LLC\Library\PackageCache\com.unity.modules.imgui@1.0.0
   assetPath: Packages/com.unity.modules.imgui
   name: com.unity.modules.imgui
   displayName: IMGUI
@@ -1827,7 +1626,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\Wizard LLC\Wizard LLC\Library\PackageCache\com.unity.modules.jsonserialize@1.0.0
+  resolvedPath: E:\Arbeit\Projekte\GameJam\Wizard-LLC copy\Wizard-LLC\Library\PackageCache\com.unity.modules.jsonserialize@1.0.0
   assetPath: Packages/com.unity.modules.jsonserialize
   name: com.unity.modules.jsonserialize
   displayName: JSONSerialize
@@ -1882,7 +1681,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\Wizard LLC\Wizard LLC\Library\PackageCache\com.unity.modules.particlesystem@1.0.0
+  resolvedPath: E:\Arbeit\Projekte\GameJam\Wizard-LLC copy\Wizard-LLC\Library\PackageCache\com.unity.modules.particlesystem@1.0.0
   assetPath: Packages/com.unity.modules.particlesystem
   name: com.unity.modules.particlesystem
   displayName: Particle System
@@ -1937,7 +1736,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\Wizard LLC\Wizard LLC\Library\PackageCache\com.unity.modules.physics@1.0.0
+  resolvedPath: E:\Arbeit\Projekte\GameJam\Wizard-LLC copy\Wizard-LLC\Library\PackageCache\com.unity.modules.physics@1.0.0
   assetPath: Packages/com.unity.modules.physics
   name: com.unity.modules.physics
   displayName: Physics
@@ -1992,7 +1791,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\Wizard LLC\Wizard LLC\Library\PackageCache\com.unity.modules.physics2d@1.0.0
+  resolvedPath: E:\Arbeit\Projekte\GameJam\Wizard-LLC copy\Wizard-LLC\Library\PackageCache\com.unity.modules.physics2d@1.0.0
   assetPath: Packages/com.unity.modules.physics2d
   name: com.unity.modules.physics2d
   displayName: Physics 2D
@@ -2047,7 +1846,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\Wizard LLC\Wizard LLC\Library\PackageCache\com.unity.modules.screencapture@1.0.0
+  resolvedPath: E:\Arbeit\Projekte\GameJam\Wizard-LLC copy\Wizard-LLC\Library\PackageCache\com.unity.modules.screencapture@1.0.0
   assetPath: Packages/com.unity.modules.screencapture
   name: com.unity.modules.screencapture
   displayName: Screen Capture
@@ -2106,7 +1905,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\Wizard LLC\Wizard LLC\Library\PackageCache\com.unity.modules.terrain@1.0.0
+  resolvedPath: E:\Arbeit\Projekte\GameJam\Wizard-LLC copy\Wizard-LLC\Library\PackageCache\com.unity.modules.terrain@1.0.0
   assetPath: Packages/com.unity.modules.terrain
   name: com.unity.modules.terrain
   displayName: Terrain
@@ -2161,7 +1960,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\Wizard LLC\Wizard LLC\Library\PackageCache\com.unity.modules.terrainphysics@1.0.0
+  resolvedPath: E:\Arbeit\Projekte\GameJam\Wizard-LLC copy\Wizard-LLC\Library\PackageCache\com.unity.modules.terrainphysics@1.0.0
   assetPath: Packages/com.unity.modules.terrainphysics
   name: com.unity.modules.terrainphysics
   displayName: Terrain Physics
@@ -2224,7 +2023,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\Wizard LLC\Wizard LLC\Library\PackageCache\com.unity.modules.tilemap@1.0.0
+  resolvedPath: E:\Arbeit\Projekte\GameJam\Wizard-LLC copy\Wizard-LLC\Library\PackageCache\com.unity.modules.tilemap@1.0.0
   assetPath: Packages/com.unity.modules.tilemap
   name: com.unity.modules.tilemap
   displayName: Tilemap
@@ -2282,7 +2081,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\Wizard LLC\Wizard LLC\Library\PackageCache\com.unity.modules.ui@1.0.0
+  resolvedPath: E:\Arbeit\Projekte\GameJam\Wizard-LLC copy\Wizard-LLC\Library\PackageCache\com.unity.modules.ui@1.0.0
   assetPath: Packages/com.unity.modules.ui
   name: com.unity.modules.ui
   displayName: UI
@@ -2337,7 +2136,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\Wizard LLC\Wizard LLC\Library\PackageCache\com.unity.modules.uielements@1.0.0
+  resolvedPath: E:\Arbeit\Projekte\GameJam\Wizard-LLC copy\Wizard-LLC\Library\PackageCache\com.unity.modules.uielements@1.0.0
   assetPath: Packages/com.unity.modules.uielements
   name: com.unity.modules.uielements
   displayName: UIElements
@@ -2404,7 +2203,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\Wizard LLC\Wizard LLC\Library\PackageCache\com.unity.modules.umbra@1.0.0
+  resolvedPath: E:\Arbeit\Projekte\GameJam\Wizard-LLC copy\Wizard-LLC\Library\PackageCache\com.unity.modules.umbra@1.0.0
   assetPath: Packages/com.unity.modules.umbra
   name: com.unity.modules.umbra
   displayName: Umbra
@@ -2459,7 +2258,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\Wizard LLC\Wizard LLC\Library\PackageCache\com.unity.modules.unityanalytics@1.0.0
+  resolvedPath: E:\Arbeit\Projekte\GameJam\Wizard-LLC copy\Wizard-LLC\Library\PackageCache\com.unity.modules.unityanalytics@1.0.0
   assetPath: Packages/com.unity.modules.unityanalytics
   name: com.unity.modules.unityanalytics
   displayName: Unity Analytics
@@ -2522,7 +2321,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\Wizard LLC\Wizard LLC\Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0
+  resolvedPath: E:\Arbeit\Projekte\GameJam\Wizard-LLC copy\Wizard-LLC\Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequest
   name: com.unity.modules.unitywebrequest
   displayName: Unity Web Request
@@ -2577,7 +2376,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\Wizard LLC\Wizard LLC\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0
+  resolvedPath: E:\Arbeit\Projekte\GameJam\Wizard-LLC copy\Wizard-LLC\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequestassetbundle
   name: com.unity.modules.unitywebrequestassetbundle
   displayName: Unity Web Request Asset Bundle
@@ -2640,7 +2439,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\Wizard LLC\Wizard LLC\Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0
+  resolvedPath: E:\Arbeit\Projekte\GameJam\Wizard-LLC copy\Wizard-LLC\Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequestaudio
   name: com.unity.modules.unitywebrequestaudio
   displayName: Unity Web Request Audio
@@ -2703,7 +2502,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\Wizard LLC\Wizard LLC\Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0
+  resolvedPath: E:\Arbeit\Projekte\GameJam\Wizard-LLC copy\Wizard-LLC\Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequesttexture
   name: com.unity.modules.unitywebrequesttexture
   displayName: Unity Web Request Texture
@@ -2766,7 +2565,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\Wizard LLC\Wizard LLC\Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0
+  resolvedPath: E:\Arbeit\Projekte\GameJam\Wizard-LLC copy\Wizard-LLC\Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequestwww
   name: com.unity.modules.unitywebrequestwww
   displayName: Unity Web Request WWW
@@ -2845,7 +2644,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\Wizard LLC\Wizard LLC\Library\PackageCache\com.unity.modules.vehicles@1.0.0
+  resolvedPath: E:\Arbeit\Projekte\GameJam\Wizard-LLC copy\Wizard-LLC\Library\PackageCache\com.unity.modules.vehicles@1.0.0
   assetPath: Packages/com.unity.modules.vehicles
   name: com.unity.modules.vehicles
   displayName: Vehicles
@@ -2904,7 +2703,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\Wizard LLC\Wizard LLC\Library\PackageCache\com.unity.modules.video@1.0.0
+  resolvedPath: E:\Arbeit\Projekte\GameJam\Wizard-LLC copy\Wizard-LLC\Library\PackageCache\com.unity.modules.video@1.0.0
   assetPath: Packages/com.unity.modules.video
   name: com.unity.modules.video
   displayName: Video
@@ -2971,7 +2770,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\Wizard LLC\Wizard LLC\Library\PackageCache\com.unity.modules.vr@1.0.0
+  resolvedPath: E:\Arbeit\Projekte\GameJam\Wizard-LLC copy\Wizard-LLC\Library\PackageCache\com.unity.modules.vr@1.0.0
   assetPath: Packages/com.unity.modules.vr
   name: com.unity.modules.vr
   displayName: VR
@@ -3040,7 +2839,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\Wizard LLC\Wizard LLC\Library\PackageCache\com.unity.modules.wind@1.0.0
+  resolvedPath: E:\Arbeit\Projekte\GameJam\Wizard-LLC copy\Wizard-LLC\Library\PackageCache\com.unity.modules.wind@1.0.0
   assetPath: Packages/com.unity.modules.wind
   name: com.unity.modules.wind
   displayName: Wind
@@ -3095,7 +2894,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\Wizard LLC\Wizard LLC\Library\PackageCache\com.unity.modules.xr@1.0.0
+  resolvedPath: E:\Arbeit\Projekte\GameJam\Wizard-LLC copy\Wizard-LLC\Library\PackageCache\com.unity.modules.xr@1.0.0
   assetPath: Packages/com.unity.modules.xr
   name: com.unity.modules.xr
   displayName: XR
@@ -3162,7 +2961,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: D:\Wizard LLC\Wizard LLC\Library\PackageCache\com.unity.modules.subsystems@1.0.0
+  resolvedPath: E:\Arbeit\Projekte\GameJam\Wizard-LLC copy\Wizard-LLC\Library\PackageCache\com.unity.modules.subsystems@1.0.0
   assetPath: Packages/com.unity.modules.subsystems
   name: com.unity.modules.subsystems
   displayName: Subsystems
@@ -3221,7 +3020,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.11.0
   source: 1
-  resolvedPath: D:\Wizard LLC\Wizard LLC\Library\PackageCache\com.unity.services.core@1.11.0
+  resolvedPath: E:\Arbeit\Projekte\GameJam\Wizard-LLC copy\Wizard-LLC\Library\PackageCache\com.unity.services.core@1.11.0
   assetPath: Packages/com.unity.services.core
   name: com.unity.services.core
   displayName: Services Core
@@ -3230,7 +3029,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: assets
+  type: 
   description: 'This package defines common components used by multiple Game Service
     packages.
 
@@ -3240,44 +3039,9 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
-    - 1.0.1
-    - 1.1.0-pre.7
-    - 1.1.0-pre.8
-    - 1.1.0-pre.9
-    - 1.1.0-pre.10
-    - 1.1.0-pre.11
-    - 1.1.0-pre.41
-    - 1.1.0-pre.69
-    - 1.2.0
-    - 1.3.1
-    - 1.3.2
-    - 1.4.0
-    - 1.4.1
-    - 1.4.2
-    - 1.4.3
-    - 1.5.2
-    - 1.6.0
-    - 1.7.0
-    - 1.7.1
-    - 1.8.1
-    - 1.8.2
-    - 1.9.0
-    - 1.10.1
     - 1.11.0
-    - 1.12.0
-    - 1.12.1
-    - 1.12.2
-    - 1.12.4
-    - 1.12.5
-    - 1.13.0
     compatible:
     - 1.11.0
-    - 1.12.0
-    - 1.12.1
-    - 1.12.2
-    - 1.12.4
-    - 1.12.5
-    - 1.13.0
     recommended: 1.11.0
     deprecated: []
   dependencies:
@@ -3305,7 +3069,7 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638269929060000000
+  datePublishedTicks: 0
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.services.core@1.11/manual/index.html
   hasRepository: 1
   repository:
@@ -3326,7 +3090,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.0.18
   source: 1
-  resolvedPath: D:\Wizard LLC\Wizard LLC\Library\PackageCache\com.unity.ide.visualstudio@2.0.18
+  resolvedPath: E:\Arbeit\Projekte\GameJam\Wizard-LLC copy\Wizard-LLC\Library\PackageCache\com.unity.ide.visualstudio@2.0.18
   assetPath: Packages/com.unity.ide.visualstudio
   name: com.unity.ide.visualstudio
   displayName: Visual Studio Editor
@@ -3418,7 +3182,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 3.0.24
   source: 1
-  resolvedPath: D:\Wizard LLC\Wizard LLC\Library\PackageCache\com.unity.ide.rider@3.0.24
+  resolvedPath: E:\Arbeit\Projekte\GameJam\Wizard-LLC copy\Wizard-LLC\Library\PackageCache\com.unity.ide.rider@3.0.24
   assetPath: Packages/com.unity.ide.rider
   name: com.unity.ide.rider
   displayName: JetBrains Rider Editor
@@ -3525,7 +3289,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.2.5
   source: 1
-  resolvedPath: D:\Wizard LLC\Wizard LLC\Library\PackageCache\com.unity.ide.vscode@1.2.5
+  resolvedPath: E:\Arbeit\Projekte\GameJam\Wizard-LLC copy\Wizard-LLC\Library\PackageCache\com.unity.ide.vscode@1.2.5
   assetPath: Packages/com.unity.ide.vscode
   name: com.unity.ide.vscode
   displayName: Visual Studio Code Editor
@@ -3593,7 +3357,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 1
-  resolvedPath: D:\Wizard LLC\Wizard LLC\Library\PackageCache\com.unity.editorcoroutines@1.0.0
+  resolvedPath: E:\Arbeit\Projekte\GameJam\Wizard-LLC copy\Wizard-LLC\Library\PackageCache\com.unity.editorcoroutines@1.0.0
   assetPath: Packages/com.unity.editorcoroutines
   name: com.unity.editorcoroutines
   displayName: Editor Coroutines
@@ -3658,7 +3422,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.2.2
   source: 1
-  resolvedPath: D:\Wizard LLC\Wizard LLC\Library\PackageCache\com.unity.performance.profile-analyzer@1.2.2
+  resolvedPath: E:\Arbeit\Projekte\GameJam\Wizard-LLC copy\Wizard-LLC\Library\PackageCache\com.unity.performance.profile-analyzer@1.2.2
   assetPath: Packages/com.unity.performance.profile-analyzer
   name: com.unity.performance.profile-analyzer
   displayName: Profile Analyzer
@@ -3729,7 +3493,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.1.33
   source: 1
-  resolvedPath: D:\Wizard LLC\Wizard LLC\Library\PackageCache\com.unity.test-framework@1.1.33
+  resolvedPath: E:\Arbeit\Projekte\GameJam\Wizard-LLC copy\Wizard-LLC\Library\PackageCache\com.unity.test-framework@1.1.33
   assetPath: Packages/com.unity.test-framework
   name: com.unity.test-framework
   displayName: Test Framework
@@ -3866,7 +3630,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.2.4
   source: 1
-  resolvedPath: D:\Wizard LLC\Wizard LLC\Library\PackageCache\com.unity.testtools.codecoverage@1.2.4
+  resolvedPath: E:\Arbeit\Projekte\GameJam\Wizard-LLC copy\Wizard-LLC\Library\PackageCache\com.unity.testtools.codecoverage@1.2.4
   assetPath: Packages/com.unity.testtools.codecoverage
   name: com.unity.testtools.codecoverage
   displayName: Code Coverage
@@ -3972,7 +3736,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 5.0.0
   source: 1
-  resolvedPath: D:\Wizard LLC\Wizard LLC\Library\PackageCache\com.unity.services.analytics@5.0.0
+  resolvedPath: E:\Arbeit\Projekte\GameJam\Wizard-LLC copy\Wizard-LLC\Library\PackageCache\com.unity.services.analytics@5.0.0
   assetPath: Packages/com.unity.services.analytics
   name: com.unity.services.analytics
   displayName: Analytics
@@ -3981,7 +3745,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: assets
+  type: 
   description: The Unity Analytics package automatically collects core events and
     user properties when someone uses your game or application, and enables you to
     track specific in-game actions your user performs by defining custom events.
@@ -3992,37 +3756,10 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
-    - 1.0.3
-    - 1.0.4
-    - 1.0.5
-    - 2.0.7-pre.4
-    - 2.0.7-pre.6
-    - 2.0.7-pre.7
-    - 3.0.0-pre.2
-    - 3.0.0-pre.3
-    - 3.0.0-pre.4
-    - 4.0.0-pre.2
-    - 4.0.0-pre.3
-    - 4.0.0
-    - 4.0.1
-    - 4.1.0
-    - 4.2.0
-    - 4.3.0
-    - 4.4.0
-    - 4.4.1
-    - 4.4.2
     - 5.0.0
-    - 5.0.1
-    - 5.0.2
-    - 5.1.0
-    - 5.1.1
     compatible:
     - 5.0.0
-    - 5.0.1
-    - 5.0.2
-    - 5.1.0
-    - 5.1.1
-    recommended: 5.0.2
+    recommended: 5.0.0
     deprecated: []
   dependencies:
   - name: com.unity.ugui
@@ -4059,7 +3796,7 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638241542710000000
+  datePublishedTicks: 0
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.services.analytics@5.0/manual/index.html
   hasRepository: 1
   repository:
@@ -4080,7 +3817,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 3.2.1
   source: 1
-  resolvedPath: D:\Wizard LLC\Wizard LLC\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.2.1
+  resolvedPath: E:\Arbeit\Projekte\GameJam\Wizard-LLC copy\Wizard-LLC\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.2.1
   assetPath: Packages/com.unity.nuget.newtonsoft-json
   name: com.unity.nuget.newtonsoft-json
   displayName: Newtonsoft Json
@@ -4104,21 +3841,6 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
-    - 1.0.0-preview.2
-    - 1.0.0-preview.3
-    - 1.0.0-preview.4
-    - 1.0.1-preview.1
-    - 1.1.2
-    - 2.0.0-preview
-    - 2.0.0-preview.1
-    - 2.0.0-preview.2
-    - 2.0.0
-    - 2.0.1-preview.1
-    - 2.0.2
-    - 3.0.1
-    - 3.0.2
-    - 3.1.0
-    - 3.2.0
     - 3.2.1
     compatible:
     - 3.2.1
@@ -4137,7 +3859,7 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638186318800000000
+  datePublishedTicks: 0
   documentationUrl: 
   hasRepository: 1
   repository:
@@ -4158,7 +3880,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.0.1
   source: 1
-  resolvedPath: D:\Wizard LLC\Wizard LLC\Library\PackageCache\com.unity.settings-manager@2.0.1
+  resolvedPath: E:\Arbeit\Projekte\GameJam\Wizard-LLC copy\Wizard-LLC\Library\PackageCache\com.unity.settings-manager@2.0.1
   assetPath: Packages/com.unity.settings-manager
   name: com.unity.settings-manager
   displayName: Settings Manager
@@ -4167,7 +3889,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: asset
   description: A framework for making any serializable field a setting, complete
     with a pre-built settings interface.
   status: 0
@@ -4220,7 +3942,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.6
   source: 1
-  resolvedPath: D:\Wizard LLC\Wizard LLC\Library\PackageCache\com.unity.ext.nunit@1.0.6
+  resolvedPath: E:\Arbeit\Projekte\GameJam\Wizard-LLC copy\Wizard-LLC\Library\PackageCache\com.unity.ext.nunit@1.0.6
   assetPath: Packages/com.unity.ext.nunit
   name: com.unity.ext.nunit
   displayName: Custom NUnit
