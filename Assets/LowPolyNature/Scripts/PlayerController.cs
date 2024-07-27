@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.Rendering;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.EventSystems;
@@ -12,8 +13,6 @@ public class PlayerController : MonoBehaviour
     private Animator _animator;
 
     private CharacterController _characterController;
-
-    private float Gravity = 20.0f;
 
     private Vector3 _moveDirection = Vector3.zero;
 
@@ -33,9 +32,9 @@ public class PlayerController : MonoBehaviour
 
     #region Public Members
 
-    public float Speed = 5.0f;
+    public float Speed = 0.25f;
 
-    public float RotationSpeed = 240.0f;
+    public float RotationSpeed = 0.5f;
 
     public Inventory Inventory;
 
@@ -49,6 +48,12 @@ public class PlayerController : MonoBehaviour
 
     public GameObject Obj;
 
+    private bool CameraBool;
+    public GameObject Camera1;
+    public GameObject Camera2;
+
+    public Animator animator;
+    public Transform player1;
 
     #endregion
 
@@ -344,9 +349,61 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    void HandleMovement()
+    {
+        if (Input.GetKey(KeyCode.W))
+        {
+            animator.SetTrigger("Back Walk");
+            player1.transform.Translate(0, 0, Speed);
+        }
+        if (Input.GetKey(KeyCode.A))
+        {
+            animator.SetTrigger("Side Walk");
+            player1.transform.Translate(-Speed, 0, 0);
+        }
+        if (Input.GetKey(KeyCode.S))
+        {
+            animator.SetTrigger("Front Walk");
+            player1.transform.Translate(0, 0, -Speed);
+        }
+        if (Input.GetKey(KeyCode.D))
+        {
+            animator.SetTrigger("Front Walk");
+            player1.transform.Translate(Speed, 0, 0);
+        }
+
+        if (Input.GetKey(KeyCode.Q))
+        {
+            Obj.transform.Rotate(0, RotationSpeed, 0);
+        }
+        if (Input.GetKey(KeyCode.E))
+        {
+            Obj.transform.Rotate(0, -RotationSpeed, 0);
+        }
+    }
+
     // Update is called once per frame
     void Update()
     {
+        HandleMovement();
+
+        if (Input.GetKeyDown(KeyCode.X))
+        {
+            CameraBool = !CameraBool;
+        }
+
+        if (CameraBool == true)
+        {
+            Camera1.SetActive(false);
+            Camera2.SetActive(true);
+        }
+        else if (CameraBool == false)
+        {
+            Camera1.SetActive(true);
+            Camera2.SetActive(false);
+        }
+
+
         if (!IsDead && mIsControlEnabled)
         {
             // Interact with the item
@@ -366,100 +423,43 @@ public class PlayerController : MonoBehaviour
                     _animator.SetTrigger("attack_1");
                 }
             }
-
-            // Get Input for axis
-            float h = Input.GetAxis("Horizontal");
-            float v = Input.GetAxis("Vertical");
-
-            // Calculate the forward vector
-            Vector3 camForward_Dir = Vector3.Scale(Camera.main.transform.forward, new Vector3(1, 0, 1)).normalized;
-            Vector3 move = v * camForward_Dir + h * Camera.main.transform.right;
-
-            if (move.magnitude > 1f) move.Normalize();
-
-
-            // Calculate the rotation for the player
-            move = transform.InverseTransformDirection(move);
-
-            //Vector3 move = transform.right * x + transform.forward * z;
-            _characterController.Move(move * Speed * Time.deltaTime);
-        
-    
-
-    if (_characterController.isGrounded || mExternalMovement != Vector3.zero)
-    {
-        //_moveDirection = transform.forward * move.magnitude;
-
-        //_moveDirection *= Speed;
-        if(Input.GetKeyDown(KeyCode.Q))
-        {
-            Obj.transform.Rotate(0, 1, 0);
-        }
-        if(Input.GetKeyDown(KeyCode.E))
-        {
-            Obj.transform.Rotate(0, -1, 0);
-        }
-
-        if (Input.GetButton("Jump"))
-        {
-            _animator.SetBool("is_in_air", true);
-            _moveDirection.y = JumpSpeed;
-
-        }
-        else
-        {
-            _animator.SetBool("is_in_air", false);
-            _animator.SetBool("run", move.magnitude > 0);
-            
         }
 
     }
-    else
-    {
-        _animator.SetBool("run", false);
-        Gravity = 20.0f;
-    }
-    
-
-            _moveDirection.y -= Gravity * Time.deltaTime;
-
-            _characterController.Move(_moveDirection * Time.deltaTime);
-        }
-    }
-
     public void InteractWithItem()
     {
         if (mInteractItem != null)
         {
             mInteractItem.OnInteract();
+        }
+        if (mInteractItem is InventoryItemBase)
+        {
+            InventoryItemBase inventoryItem = mInteractItem as InventoryItemBase;
+            Inventory.AddItem(inventoryItem);
+            inventoryItem.OnPickup();
 
-            if (mInteractItem is InventoryItemBase)
+            if (inventoryItem.UseItemAfterPickup)
             {
-                InventoryItemBase inventoryItem = mInteractItem as InventoryItemBase;
-                Inventory.AddItem(inventoryItem);
-                inventoryItem.OnPickup();
-
-                if (inventoryItem.UseItemAfterPickup)
-                {
-                    Inventory.UseItem(inventoryItem);
-                }
-                Hud.CloseMessagePanel();
-                mInteractItem = null;
+                Inventory.UseItem(inventoryItem);
             }
-            //else
-            //{
-            //    if (mInteractItem.ContinueInteract())
-            //    {
-            //        Hud.OpenMessagePanel(mInteractItem);
-            //    }
-            //    else
-            //    {
-            //        Hud.CloseMessagePanel();
-            //        mInteractItem = null;
-            //    }
-            //}
+            Hud.CloseMessagePanel();
+            mInteractItem = null;
         }
     }
+        
+        //else
+        //{
+        //    if (mInteractItem.ContinueInteract())
+        //    {
+        //        Hud.OpenMessagePanel(mInteractItem);
+        //    }
+        //    else
+        //    {
+        //        Hud.CloseMessagePanel();
+        //        mInteractItem = null;
+        //    }
+        //}
+
 
     private InteractableItemBase mInteractItem = null;
 

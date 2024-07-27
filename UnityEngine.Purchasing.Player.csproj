@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{FB6C0369-286E-2304-F1D0-8F8B4B68D54F}</ProjectGuid>
+    <ProjectGuid>{26B94CB5-2D01-43D9-EAEB-5D54C54A9711}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>UnityEngine.Purchasing</AssemblyName>
@@ -132,8 +132,8 @@
     <Compile Include="Library\PackageCache\com.unity.purchasing@4.9.3\Runtime\Purchasing\Telemetry\Metrics\Interfaces\ITelemetryMetricsService.cs" />
     <Compile Include="Library\PackageCache\com.unity.purchasing@4.9.3\Runtime\Purchasing\StoreListenerProxy.cs" />
     <Compile Include="Library\PackageCache\com.unity.purchasing@4.9.3\Runtime\Purchasing\Analytics\Models\AnalyticsTransactionReceipt.cs" />
-    <Compile Include="Library\PackageCache\com.unity.purchasing@4.9.3\Runtime\Purchasing\Analytics\Interfaces\Legacy\ILegacyUnityAnalytics.cs" />
     <Compile Include="Library\PackageCache\com.unity.purchasing@4.9.3\Runtime\Purchasing\Extension\ICatalogProvider.cs" />
+    <Compile Include="Library\PackageCache\com.unity.purchasing@4.9.3\Runtime\Purchasing\Analytics\Interfaces\Legacy\ILegacyUnityAnalytics.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Library\PackageCache\com.unity.purchasing@4.9.3\Runtime\Purchasing\UnityEngine.Purchasing.asmdef" />
@@ -715,27 +715,27 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Purchasing.Common.Player.csproj">
-      <Project>{72F4BBB8-BB95-93AC-E96D-A48974C60335}</Project>
+      <Project>{DB442881-F534-8287-8120-5AC3EBF69417}</Project>
       <Name>Purchasing.Common.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Services.Core.Player.csproj">
-      <Project>{67008503-B4BE-11CD-4365-12E948940454}</Project>
+      <Project>{FE945DF5-D631-D6B3-3730-7C72D34D173C}</Project>
       <Name>Unity.Services.Core.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Services.Core.Environments.Player.csproj">
-      <Project>{A3D8FC39-B89D-033A-3468-342DDAC7724E}</Project>
+      <Project>{58F23D49-CA8E-D4FB-59B8-E04374BD70A4}</Project>
       <Name>Unity.Services.Core.Environments.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Services.Core.Internal.Player.csproj">
-      <Project>{4FD6EB5C-E861-8647-2BDA-DC9E6600EDFE}</Project>
+      <Project>{78168A0F-D2F1-68C9-B4BD-86E52315B944}</Project>
       <Name>Unity.Services.Core.Internal.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Services.Analytics.Player.csproj">
-      <Project>{3097C96B-5C4D-6B45-420F-4137702D3CC0}</Project>
+      <Project>{C1A09B16-2AF5-3BBC-52A0-FE6EEBC9B4A1}</Project>
       <Name>Unity.Services.Analytics.Player</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.Player.csproj">
-      <Project>{377C1B72-E1BA-90B1-0F90-8B7FC4B3F6D1}</Project>
+      <Project>{2BFA8F7E-36AE-4776-7918-2617EB3D2F1E}</Project>
       <Name>UnityEngine.UI.Player</Name>
     </ProjectReference>
   </ItemGroup>

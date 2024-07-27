@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{8B341341-1DBF-5980-35BE-CF53FA869DEB}</ProjectGuid>
+    <ProjectGuid>{B6D1718E-9E1B-B5EE-858B-714A45AE37CC}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -657,80 +657,92 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="UnityEngine.Purchasing.Stores.Player.csproj">
-      <Project>{7E7077E9-B172-461C-7CA7-4F0E40AECC16}</Project>
+      <Project>{8728522B-1E1C-E759-2B53-B28FE9B65E3C}</Project>
       <Name>UnityEngine.Purchasing.Stores.Player</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipelines.Core.Runtime.Player.csproj">
+      <Project>{B62081AD-B225-E037-522D-82BEFB8473CB}</Project>
+      <Name>Unity.RenderPipelines.Core.Runtime.Player</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.Postprocessing.Runtime.Player.csproj">
-      <Project>{9E8BB668-5FD6-F8BF-C581-5D7CF890E2A4}</Project>
+      <Project>{31746F00-C5F8-C819-3E39-E141D534DA67}</Project>
       <Name>Unity.Postprocessing.Runtime.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Analytics.DataPrivacy.Player.csproj">
-      <Project>{35448B62-A03E-ED08-1115-0E25AC849CD9}</Project>
+      <Project>{E890A62B-9B86-104F-06B4-10D8A0CDF853}</Project>
       <Name>Unity.Analytics.DataPrivacy.Player</Name>
     </ProjectReference>
-    <ProjectReference Include="UnityEngine.Purchasing.SecurityStub.Player.csproj">
-      <Project>{46ADAB27-A797-2F35-359A-066295FB2D39}</Project>
-      <Name>UnityEngine.Purchasing.SecurityStub.Player</Name>
-    </ProjectReference>
-    <ProjectReference Include="UnityEngine.Advertisements.Player.csproj">
-      <Project>{2B24B08B-2B1D-8BB5-EBA8-8E21F6F6A94E}</Project>
-      <Name>UnityEngine.Advertisements.Player</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.Services.Core.Player.csproj">
-      <Project>{67008503-B4BE-11CD-4365-12E948940454}</Project>
+      <Project>{FE945DF5-D631-D6B3-3730-7C72D34D173C}</Project>
       <Name>Unity.Services.Core.Player</Name>
     </ProjectReference>
-    <ProjectReference Include="Purchasing.Common.Player.csproj">
-      <Project>{72F4BBB8-BB95-93AC-E96D-A48974C60335}</Project>
-      <Name>Purchasing.Common.Player</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.VisualScripting.Core.Player.csproj">
-      <Project>{9C49867A-FCA6-25D5-DBE5-E830D6E8F6B4}</Project>
-      <Name>Unity.VisualScripting.Core.Player</Name>
-    </ProjectReference>
-    <ProjectReference Include="UnityEngine.UI.Player.csproj">
-      <Project>{377C1B72-E1BA-90B1-0F90-8B7FC4B3F6D1}</Project>
-      <Name>UnityEngine.UI.Player</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.Flow.Player.csproj">
-      <Project>{8390BA46-C634-FE68-DA93-37F9EF6989A4}</Project>
+      <Project>{3669E54E-DA34-DD64-6C92-3A82677F4B95}</Project>
       <Name>Unity.VisualScripting.Flow.Player</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.Timeline.Player.csproj">
-      <Project>{50E1E35D-6204-4B65-A1C2-CF570864C271}</Project>
-      <Name>Unity.Timeline.Player</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.Services.Core.Environments.Player.csproj">
-      <Project>{A3D8FC39-B89D-033A-3468-342DDAC7724E}</Project>
+      <Project>{58F23D49-CA8E-D4FB-59B8-E04374BD70A4}</Project>
       <Name>Unity.Services.Core.Environments.Player</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.Services.Analytics.Player.csproj">
-      <Project>{3097C96B-5C4D-6B45-420F-4137702D3CC0}</Project>
-      <Name>Unity.Services.Analytics.Player</Name>
-    </ProjectReference>
     <ProjectReference Include="UnityEngine.Purchasing.SecurityCore.Player.csproj">
-      <Project>{661D5C0E-597D-7502-A385-986D1A9830D4}</Project>
+      <Project>{BFAB3233-6138-C46F-A39E-80CBFEB8AFB8}</Project>
       <Name>UnityEngine.Purchasing.SecurityCore.Player</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipelines.Core.ShaderLibrary.Player.csproj">
+      <Project>{ADDAB305-20BC-61E1-9591-7FFA7F96C9D5}</Project>
+      <Name>Unity.RenderPipelines.Core.ShaderLibrary.Player</Name>
+    </ProjectReference>
     <ProjectReference Include="UnityEngine.Purchasing.Codeless.Player.csproj">
-      <Project>{0CC26F67-5DCA-3585-28F1-F1F250EB21CB}</Project>
+      <Project>{45141AD7-2955-D51C-57FB-0A8FA54A58FD}</Project>
       <Name>UnityEngine.Purchasing.Codeless.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.TextMeshPro.Player.csproj">
-      <Project>{8ADF7D66-0CCA-5B4E-500A-2AB29AEC0651}</Project>
+      <Project>{2BCD17A1-6377-D1D3-6964-A3E4ECABCF55}</Project>
       <Name>Unity.TextMeshPro.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Services.Core.Analytics.Player.csproj">
-      <Project>{829070C7-F1F1-4891-2146-00E64BDBB2C3}</Project>
+      <Project>{D31B85D9-A4BE-246C-21B5-77B942A1C0CB}</Project>
       <Name>Unity.Services.Core.Analytics.Player</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.VisualScripting.State.Player.csproj">
-      <Project>{90EF7EB2-6C91-6E4C-920F-7BEDB8EBD312}</Project>
-      <Name>Unity.VisualScripting.State.Player</Name>
-    </ProjectReference>
     <ProjectReference Include="UnityEngine.Purchasing.Player.csproj">
-      <Project>{FB6C0369-286E-2304-F1D0-8F8B4B68D54F}</Project>
+      <Project>{26B94CB5-2D01-43D9-EAEB-5D54C54A9711}</Project>
       <Name>UnityEngine.Purchasing.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.Player.csproj">
+      <Project>{66F63ACC-8D76-9949-F939-3F60FFFC06C0}</Project>
+      <Name>Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEngine.Purchasing.SecurityStub.Player.csproj">
+      <Project>{29657ACF-D734-4105-0067-FFC3B1100D34}</Project>
+      <Name>UnityEngine.Purchasing.SecurityStub.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEngine.Advertisements.Player.csproj">
+      <Project>{F9308BF0-B8C3-DF99-86B4-DDA3F8583563}</Project>
+      <Name>UnityEngine.Advertisements.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualScripting.Core.Player.csproj">
+      <Project>{DE5E3045-6890-EF8F-38B9-721E448E4911}</Project>
+      <Name>Unity.VisualScripting.Core.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEngine.UI.Player.csproj">
+      <Project>{2BFA8F7E-36AE-4776-7918-2617EB3D2F1E}</Project>
+      <Name>UnityEngine.UI.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Purchasing.Common.Player.csproj">
+      <Project>{DB442881-F534-8287-8120-5AC3EBF69417}</Project>
+      <Name>Purchasing.Common.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Timeline.Player.csproj">
+      <Project>{37CC05A6-E007-218B-9273-EF52CB5EC4DF}</Project>
+      <Name>Unity.Timeline.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Services.Analytics.Player.csproj">
+      <Project>{C1A09B16-2AF5-3BBC-52A0-FE6EEBC9B4A1}</Project>
+      <Name>Unity.Services.Analytics.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualScripting.State.Player.csproj">
+      <Project>{B9AAE61A-AB24-9170-A940-6973F2E70000}</Project>
+      <Name>Unity.VisualScripting.State.Player</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

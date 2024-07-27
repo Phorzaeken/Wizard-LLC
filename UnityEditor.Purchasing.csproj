@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{5F4FB242-417B-43D4-D602-66E871B57083}</ProjectGuid>
+    <ProjectGuid>{D59865AE-5402-7948-6E10-52FBBC2CFA8E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>UnityEditor.Purchasing</AssemblyName>
@@ -105,8 +105,8 @@
     <Compile Include="Library\PackageCache\com.unity.purchasing@4.9.3\Editor\Analytics\Entity\EventSources.cs" />
     <Compile Include="Library\PackageCache\com.unity.purchasing@4.9.3\Editor\Analytics\Entity\EventActions.cs" />
     <Compile Include="Library\PackageCache\com.unity.purchasing@4.9.3\Editor\Importer.cs" />
-    <Compile Include="Library\PackageCache\com.unity.purchasing@4.9.3\Editor\AppleCapabilities.cs" />
     <Compile Include="Library\PackageCache\com.unity.purchasing@4.9.3\Editor\ServiceProjectSettings\Entity\GoogleConfigurationData.cs" />
+    <Compile Include="Library\PackageCache\com.unity.purchasing@4.9.3\Editor\AppleCapabilities.cs" />
     <Compile Include="Library\PackageCache\com.unity.purchasing@4.9.3\Editor\ServiceProjectSettings\SimpleStateMachine.cs" />
     <Compile Include="Library\PackageCache\com.unity.purchasing@4.9.3\Editor\Analytics\Entity\EventComponents.cs" />
     <Compile Include="Library\PackageCache\com.unity.purchasing@4.9.3\Editor\BuildTargetGroupExtensions.cs" />
@@ -812,47 +812,47 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="UnityEngine.Purchasing.csproj">
-      <Project>{C7E6BF05-9ED3-B8DA-E105-FB0A4A79D0CD}</Project>
+      <Project>{0AEB5A67-771E-BE21-DF27-A183A0AFF43E}</Project>
       <Name>UnityEngine.Purchasing</Name>
     </ProjectReference>
     <ProjectReference Include="Purchasing.Common.csproj">
-      <Project>{4556E2E6-482D-C56F-65CC-4B7FB581628E}</Project>
+      <Project>{24F96E46-252E-CCE6-AF16-D614E634FE88}</Project>
       <Name>Purchasing.Common</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.Purchasing.SecurityCore.csproj">
-      <Project>{A080C440-A5AB-F74A-1745-663386D7E98C}</Project>
+      <Project>{DC3E44B9-91F6-8066-5BC6-122ACE74DB33}</Project>
       <Name>UnityEngine.Purchasing.SecurityCore</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.Purchasing.SecurityStub.csproj">
-      <Project>{55B6B474-C1BD-D61A-7316-BBB4AB133781}</Project>
+      <Project>{31C6C03B-F13C-84EF-7D73-E34B0530C257}</Project>
       <Name>UnityEngine.Purchasing.SecurityStub</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.Purchasing.Stores.csproj">
-      <Project>{BAE6818E-A005-994B-743D-30E04B56DD76}</Project>
+      <Project>{BBEEDF09-AF77-091E-F20D-93377E60E50D}</Project>
       <Name>UnityEngine.Purchasing.Stores</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.Purchasing.Codeless.csproj">
-      <Project>{DBA00040-4348-A4E0-81C1-91C48811DA52}</Project>
+      <Project>{F90F2A3C-F293-1FB5-8A3A-58111930F876}</Project>
       <Name>UnityEngine.Purchasing.Codeless</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Services.Core.Editor.csproj">
-      <Project>{44995FF2-C9A6-398B-FFE4-6639CA01732C}</Project>
+      <Project>{444A1D8C-C03F-34BE-AA9A-8392061E7289}</Project>
       <Name>Unity.Services.Core.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{06E1E7BB-0BFE-DF30-8F71-5F1345064277}</Project>
+      <Project>{C8D97942-1BCF-5BDD-ED17-B179ADE259C5}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{14591FFB-62A2-1550-2119-53208F3E46D7}</Project>
+      <Project>{F3B3A50F-7D46-3370-9421-796AE68656C4}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
-      <Project>{BC4FD1C0-EFB5-66E7-916F-1BA779FA8DCA}</Project>
+      <Project>{2E2D74DC-9FC0-CFE5-61DA-69D1873FB5E9}</Project>
       <Name>UnityEditor.TestRunner</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{8BAA801A-0E07-008C-709C-77D2354CDCE6}</Project>
+      <Project>{D12967D9-16D5-B09D-E449-FD6DE3157FF0}</Project>
       <Name>UnityEngine.TestRunner</Name>
     </ProjectReference>
   </ItemGroup>

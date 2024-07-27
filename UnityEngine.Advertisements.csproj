@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{773A5F52-4603-BBB0-F3F9-8EEE928C9D68}</ProjectGuid>
+    <ProjectGuid>{95B4EB4C-5B71-A4E0-DFCC-BB6220279FB4}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>UnityEngine.Advertisements</AssemblyName>
@@ -58,6 +58,7 @@
     <Analyzer Include="C:\Program Files\Unity 2022.3.10f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Library\PackageCache\com.unity.ads@4.4.2\Runtime\Advertisement\Utilities\UnityLifecycleManager.cs" />
     <Compile Include="Library\PackageCache\com.unity.ads@4.4.2\Runtime\Advertisement\Events\StartEventArgs.cs" />
     <Compile Include="Library\PackageCache\com.unity.ads@4.4.2\Runtime\Advertisement\Platform\Android\AndroidLoadListener.cs" />
     <Compile Include="Library\PackageCache\com.unity.ads@4.4.2\Runtime\Advertisement\Utilities\MiniJSON.cs" />
@@ -89,8 +90,8 @@
     <Compile Include="Library\PackageCache\com.unity.ads@4.4.2\Runtime\Advertisement\Utilities\CoroutineExecutor.cs" />
     <Compile Include="Library\PackageCache\com.unity.ads@4.4.2\Runtime\Advertisement\Platform\iOS\IosBanner.cs" />
     <Compile Include="Library\PackageCache\com.unity.ads@4.4.2\Runtime\Advertisement\Configuration.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ads@4.4.2\Runtime\Advertisement\Events\FinishEventArgs.cs" />
     <Compile Include="Library\PackageCache\com.unity.ads@4.4.2\Runtime\Advertisement\Listeners\IUnityAdsLoadListener.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ads@4.4.2\Runtime\Advertisement\Events\FinishEventArgs.cs" />
     <Compile Include="Library\PackageCache\com.unity.ads@4.4.2\Runtime\Advertisement\Platform\iOS\IosShowListener.cs" />
     <Compile Include="Library\PackageCache\com.unity.ads@4.4.2\Runtime\Advertisement\Platform\Platform.cs" />
     <Compile Include="Library\PackageCache\com.unity.ads@4.4.2\Runtime\Advertisement\Utilities\ApplicationQuit.cs" />
@@ -111,7 +112,6 @@
     <Compile Include="Library\PackageCache\com.unity.ads@4.4.2\Runtime\Advertisement\Dispatchers\UnityAdsInitializationListenerMainDispatch.cs" />
     <Compile Include="Library\PackageCache\com.unity.ads@4.4.2\Runtime\Advertisement\Platform\Android\AndroidShowListener.cs" />
     <Compile Include="Library\PackageCache\com.unity.ads@4.4.2\Runtime\Advertisement\Enums\BannerPosition.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ads@4.4.2\Runtime\Advertisement\Utilities\UnityLifecycleManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Library\PackageCache\com.unity.ads@4.4.2\Runtime\Advertisement\UnityEngine.Advertisements.asmdef" />
@@ -375,6 +375,12 @@
     <Reference Include="Unity.VisualScripting.YamlDotNet">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Analytics.Tracker">
+      <HintPath>Library\PackageCache\com.unity.analytics@3.8.1\Unity.Analytics.Tracker.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.Editor">
+      <HintPath>Library\PackageCache\com.unity.analytics@3.8.1\Unity.Analytics.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="ReportGeneratorMerged">
       <HintPath>Library\PackageCache\com.unity.testtools.codecoverage@1.2.4\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
     </Reference>
@@ -396,20 +402,14 @@
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.9.0\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
     </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@3.2.1\Runtime\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VisualScripting.TextureAssets">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>Library\PackageCache\com.unity.analytics@3.8.1\Unity.Analytics.Tracker.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
       <HintPath>Library\PackageCache\com.unity.analytics@3.8.1\AnalyticsStandardEvents\Unity.Analytics.StandardEvents.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Analytics.Editor">
-      <HintPath>Library\PackageCache\com.unity.analytics@3.8.1\Unity.Analytics.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@3.2.1\Runtime\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:\Program Files\Unity 2022.3.10f1\Editor\Data\NetStandard\ref\2.1.0\netstandard.dll</HintPath>
@@ -780,11 +780,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{14591FFB-62A2-1550-2119-53208F3E46D7}</Project>
+      <Project>{F3B3A50F-7D46-3370-9421-796AE68656C4}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{06E1E7BB-0BFE-DF30-8F71-5F1345064277}</Project>
+      <Project>{C8D97942-1BCF-5BDD-ED17-B179ADE259C5}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
   </ItemGroup>

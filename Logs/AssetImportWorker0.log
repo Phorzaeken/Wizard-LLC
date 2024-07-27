@@ -1,23 +1,23 @@
 Using pre-set license
 Built from '2022.3/staging' branch; Version is '2022.3.10f1 (ff3792e53c62) revision 16725906'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'de' Physical Memory: 16315 MB
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'en' Physical Memory: 65237 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2022.3.10f1\Editor\Unity.exe
+C:\Program Files\Unity 2022.3.10f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-E:/Arbeit/Projekte/GameJam/Another Wizard-LLC/Wizard-LLC
+D:/Wizard LLC/Wizard-LLC
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50821
-Successfully changed project path to: E:/Arbeit/Projekte/GameJam/Another Wizard-LLC/Wizard-LLC
-E:/Arbeit/Projekte/GameJam/Another Wizard-LLC/Wizard-LLC
+6987
+Successfully changed project path to: D:/Wizard LLC/Wizard-LLC
+D:/Wizard LLC/Wizard-LLC
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,67 +49,65 @@ E:/Arbeit/Projekte/GameJam/Another Wizard-LLC/Wizard-LLC
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [34196] Host "[IP] 192.168.0.114 [Port] 0 [Flags] 2 [Guid] 2239639658 [EditorId] 2239639658 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-QOLIB5E) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [26768] Host "[IP] 192.168.1.51 [Port] 0 [Flags] 2 [Guid] 3618957558 [EditorId] 3618957558 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [34196] Host "[IP] 192.168.0.114 [Port] 0 [Flags] 2 [Guid] 2239639658 [EditorId] 2239639658 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-QOLIB5E) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [26768] Host "[IP] 192.168.1.51 [Port] 0 [Flags] 2 [Guid] 3618957558 [EditorId] 3618957558 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
-Refreshing native plugins compatible for Editor in 18.85 ms, found 3 plugins.
+[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+Refreshing native plugins compatible for Editor in 14.12 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.10f1 (ff3792e53c62)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path E:/Arbeit/Projekte/GameJam/Another Wizard-LLC/Wizard-LLC/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2022.3.10f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Wizard LLC/Wizard-LLC/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1070 (ID=0x1b81)
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2520)
     Vendor:   NVIDIA
-    VRAM:     8067 MB
-    Driver:   31.0.15.5186
+    VRAM:     5996 MB
+    Driver:   32.0.15.5599
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56076
+Mono path[0] = 'C:/Program Files/Unity 2022.3.10f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2022.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity 2022.3.10f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56332
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.021839 seconds.
-- Loaded All Assemblies, in  0.552 seconds
+Register platform support module: C:/Program Files/Unity 2022.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004484 seconds.
+- Loaded All Assemblies, in  0.326 seconds
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.367 seconds
-Domain Reload Profiling: 914ms
-	BeginReloadAssembly (164ms)
+- Finished resetting the current domain, in  0.249 seconds
+Domain Reload Profiling: 573ms
+	BeginReloadAssembly (98ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (51ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (107ms)
-	LoadAllAssembliesAndSetupDomain (209ms)
-		LoadAssemblies (159ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (52ms)
+	LoadAllAssembliesAndSetupDomain (130ms)
+		LoadAssemblies (96ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (206ms)
-			TypeCache.Refresh (204ms)
-				TypeCache.ScanAssembly (183ms)
-			ScanForSourceGeneratedMonoScriptInfo (1ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (368ms)
+		AnalyzeDomain (128ms)
+			TypeCache.Refresh (126ms)
+				TypeCache.ScanAssembly (114ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (250ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (287ms)
+		SetupLoadedEditorAssemblies (194ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (18ms)
+			InitializePlatformSupportModulesInManaged (8ms)
 			SetLoadedEditorAssemblies (7ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (187ms)
-			ProcessInitializeOnLoadMethodAttributes (72ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (129ms)
+			ProcessInitializeOnLoadMethodAttributes (48ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -118,10 +116,9 @@ Domain Reload Profiling: 914ms
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.117 seconds
-Refreshing native plugins compatible for Editor in 9.34 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.685 seconds
+Refreshing native plugins compatible for Editor in 5.74 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
 System.Exception: Error! Visual Scripting: couldn't find visual scripting package
   at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in .\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Utilities\PackageVersionUtility.cs:31 
   at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Plugin\BoltCoreManifest.cs:11 
@@ -144,47 +141,47 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.716 seconds
-Domain Reload Profiling: 2828ms
-	BeginReloadAssembly (228ms)
+- Finished resetting the current domain, in  1.309 seconds
+Domain Reload Profiling: 1993ms
+	BeginReloadAssembly (147ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
+		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (27ms)
-	RebuildCommonClasses (52ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (69ms)
-	LoadAllAssembliesAndSetupDomain (748ms)
-		LoadAssemblies (548ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (456ms)
+		LoadAssemblies (308ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (341ms)
-			TypeCache.Refresh (293ms)
-				TypeCache.ScanAssembly (266ms)
-			ScanForSourceGeneratedMonoScriptInfo (38ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (1716ms)
+		AnalyzeDomain (233ms)
+			TypeCache.Refresh (202ms)
+				TypeCache.ScanAssembly (181ms)
+			ScanForSourceGeneratedMonoScriptInfo (25ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (1309ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1499ms)
+		SetupLoadedEditorAssemblies (1150ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (16ms)
+			InitializePlatformSupportModulesInManaged (5ms)
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (120ms)
-			ProcessInitializeOnLoadAttributes (1153ms)
-			ProcessInitializeOnLoadMethodAttributes (185ms)
-			AfterProcessingInitializeOnLoad (21ms)
+			BeforeProcessingInitializeOnLoad (74ms)
+			ProcessInitializeOnLoadAttributes (932ms)
+			ProcessInitializeOnLoadMethodAttributes (130ms)
+			AfterProcessingInitializeOnLoad (5ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (10ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 9.68 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 11.04 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 5285 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 86 unused Assets / (1.6 MB). Loaded Objects now: 5709.
-Memory consumption went from 176.9 MB to 175.3 MB.
-Total: 22.977700 ms (FindLiveObjects: 0.564600 ms CreateObjectMapping: 0.154400 ms MarkObjects: 21.674300 ms  DeleteObjects: 0.582400 ms)
+Unloading 86 unused Assets / (1.6 MB). Loaded Objects now: 5706.
+Memory consumption went from 177.4 MB to 175.8 MB.
+Total: 24.449800 ms (FindLiveObjects: 0.717200 ms CreateObjectMapping: 0.556700 ms MarkObjects: 22.807000 ms  DeleteObjects: 0.367000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -193,43 +190,34 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 579689.247143 seconds.
-  path: Assets/Dominik/Material
-  artifactKey: Guid(31bd655f8dcdb634e856c413c5652264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Material using Guid(31bd655f8dcdb634e856c413c5652264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '766ab2cbe809ca5fedc514b27543e4df') in 0.002876 seconds
+  Time since last request: 122863.037705 seconds.
+  path: Assets/Dominik/Stairs_5x8.prefab
+  artifactKey: Guid(5c27ce659e25d9e4aace53d88d7fbf23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dominik/Stairs_5x8.prefab using Guid(5c27ce659e25d9e4aace53d88d7fbf23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e99b5469a3fb7061b0ad4d25b053e7b0') in 0.327606 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Dominik/GameJa_Environment.unity
+  artifactKey: Guid(e830996a6ae3ea341acab1664481dcf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dominik/GameJa_Environment.unity using Guid(e830996a6ae3ea341acab1664481dcf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2dda00471b0a8818e2c38601a9a67f8') in 0.000570 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Dominik/Material/WoodenFloor.mat
-  artifactKey: Guid(686c7b2d4c2c14c478b67765db7f2275) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Material/WoodenFloor.mat using Guid(686c7b2d4c2c14c478b67765db7f2275) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad097f91bc082a1adfd7bd41ab8fe422') in 0.138957 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 0.624917 seconds.
-  path: Assets/Dominik/Material/Textures/Resize/WizardLLC_WoodFloor_ORM.png
-  artifactKey: Guid(78d301d7126ef3d47b4229e74dcf7e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Material/Textures/Resize/WizardLLC_WoodFloor_ORM.png using Guid(78d301d7126ef3d47b4229e74dcf7e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a138574d0b051abee36170ed0233dda8') in 0.039722 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
 Received Prepare
-Refreshing native plugins compatible for Editor in 11.08 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 5.56 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 15 unused Assets / (1.5 MB). Loaded Objects now: 5753.
-Memory consumption went from 90.0 MB to 88.4 MB.
-Total: 21.011400 ms (FindLiveObjects: 0.619500 ms CreateObjectMapping: 0.524100 ms MarkObjects: 19.529700 ms  DeleteObjects: 0.337000 ms)
+Unloading 15 unused Assets / (1.5 MB). Loaded Objects now: 5715.
+Memory consumption went from 90.4 MB to 88.8 MB.
+Total: 17.744800 ms (FindLiveObjects: 0.473900 ms CreateObjectMapping: 0.255000 ms MarkObjects: 16.629500 ms  DeleteObjects: 0.384900 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -247,230 +235,1130 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 139.985563 seconds.
+  Time since last request: 865.174603 seconds.
   path: Assets/Dominik/Environment_Shader.shadergraph
-  artifactKey: Guid(2c2054f72b44ca44195b86c0c54309ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Environment_Shader.shadergraph using Guid(2c2054f72b44ca44195b86c0c54309ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9704ac73a8824440dea0af7a356edb43') in 0.020495 seconds
+  artifactKey: Guid(2c2054f72b44ca44195b86c0c54309ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Dominik/Environment_Shader.shadergraph using Guid(2c2054f72b44ca44195b86c0c54309ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9d7b05ca075bc541cf287b2b79865bae') in 0.109120 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 14.515129 seconds.
-  path: Assets/CB
-  artifactKey: Guid(4e3e65772400d9e43a1a5ea790c1465b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CB using Guid(4e3e65772400d9e43a1a5ea790c1465b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed3de7841f644c0f2e344cf4fef03cb1') in 0.000501 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 1.303709 seconds.
-  path: Assets/CB/Materials
-  artifactKey: Guid(d381bfb09641b9348bb8f7a77569b425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CB/Materials using Guid(d381bfb09641b9348bb8f7a77569b425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4692cff74f045bd1660d8fed05d6fd00') in 0.000558 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.078909 seconds.
+  Time since last request: 0.000017 seconds.
   path: Assets/CB/Materials/BasementFloor.mat
-  artifactKey: Guid(c1b779a6668e48d46921d149a064ddfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CB/Materials/BasementFloor.mat using Guid(c1b779a6668e48d46921d149a064ddfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88dd30cafbfee778bf4a256d9064a078') in 0.056565 seconds
+  artifactKey: Guid(c1b779a6668e48d46921d149a064ddfc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CB/Materials/BasementFloor.mat using Guid(c1b779a6668e48d46921d149a064ddfc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '66a088f12efbbafd7a79fa6a14b5f81f') in 0.028705 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 4
 ========================================================================
 Received Import Request.
-  Time since last request: 1.012053 seconds.
-  path: Assets/CB/Materials/test.shadergraph
-  artifactKey: Guid(e5f1cbb02dad5134a89b251271c72fdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CB/Materials/test.shadergraph using Guid(e5f1cbb02dad5134a89b251271c72fdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd037b6b8fd5da5c000db8383f28d37c') in 0.255447 seconds
+  Time since last request: 0.000025 seconds.
+  path: Assets/Dominik/Modular Mesh/Wall_4x10_A.fbx
+  artifactKey: Guid(190f9b916e6e609438c3e18a9ab3fbb0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Dominik/Modular Mesh/Wall_4x10_A.fbx using Guid(190f9b916e6e609438c3e18a9ab3fbb0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b54bfd9aa0fbc8f6af09975355bead66') in 0.040186 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 7
 ========================================================================
 Received Import Request.
-  Time since last request: 47.625946 seconds.
-  path: Assets/CB/Textures
-  artifactKey: Guid(5ad2211f73b8c944eaeb9f1690eadaa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CB/Textures using Guid(5ad2211f73b8c944eaeb9f1690eadaa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1d78bdae30285c43ec357e5dd22f257') in 0.000538 seconds
+  Time since last request: 0.000024 seconds.
+  path: Assets/Dominik/Modular Mesh/Wall_Round_Arch_A.fbx
+  artifactKey: Guid(49b20625a656cb9418aaec145fd0ed66) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Dominik/Modular Mesh/Wall_Round_Arch_A.fbx using Guid(49b20625a656cb9418aaec145fd0ed66) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fc16a23a24046b04402b286084ebb943') in 0.020341 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 7
 ========================================================================
 Received Import Request.
-  Time since last request: 0.073701 seconds.
-  path: Assets/CB/Textures/WizardLLC_BasementFloor_basecolor.png
-  artifactKey: Guid(4d8f8a9e2b433814c9e371a7de957233) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CB/Textures/WizardLLC_BasementFloor_basecolor.png using Guid(4d8f8a9e2b433814c9e371a7de957233) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ba63d6f300b9b8d242ec0c01597ab43') in 0.032505 seconds
+  Time since last request: 0.000062 seconds.
+  path: Assets/LowPolyNature/Img/White.psd
+  artifactKey: Guid(05ac29d8d8743024e816505fb8aab75b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyNature/Img/White.psd using Guid(05ac29d8d8743024e816505fb8aab75b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bbdfe41c9337d46fc72f5d6beb02f54b') in 0.051319 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/CB/Textures/WizardLLC_BasementFloor_normal.png
-  artifactKey: Guid(f560b4dd60cfc1c4b92a8fa4850575b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CB/Textures/WizardLLC_BasementFloor_normal.png using Guid(f560b4dd60cfc1c4b92a8fa4850575b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2aef72531b7b268f09292b6c3313f54') in 0.034142 seconds
+  Time since last request: 0.000017 seconds.
+  path: Assets/LowPolyNature/Meshes/Stone4.fbx
+  artifactKey: Guid(2dffe05618cfddd49825b5989039fe1b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyNature/Meshes/Stone4.fbx using Guid(2dffe05618cfddd49825b5989039fe1b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '21d58947ad7fd681d27aa2a873041f5b') in 0.019968 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 7
 ========================================================================
 Received Import Request.
-  Time since last request: 1441.673281 seconds.
-  path: Assets/CB/Materials/test.shadergraph
-  artifactKey: Guid(e5f1cbb02dad5134a89b251271c72fdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CB/Materials/test.shadergraph using Guid(e5f1cbb02dad5134a89b251271c72fdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39ce7cf9ac8e76c362364c2b172605fc') in 0.851614 seconds
+  Time since last request: 0.000017 seconds.
+  path: Assets/LowPolyNature/Animation/OpenCrate.anim
+  artifactKey: Guid(3f53f02b1932dee43bb640ce21544c97) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyNature/Animation/OpenCrate.anim using Guid(3f53f02b1932dee43bb640ce21544c97) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '603a54186270ee60724ecb963f412203') in 0.015555 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 119.135652 seconds.
-  path: Assets/CB/Materials/Wood.mat
-  artifactKey: Guid(c25c1982aeb72fb47b1b8937ec1e1603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CB/Materials/Wood.mat using Guid(c25c1982aeb72fb47b1b8937ec1e1603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '775cbbded95c7046c089a5ecf7a65988') in 0.030276 seconds
+  Time since last request: 0.000024 seconds.
+  path: Assets/CB/Textures/WizardLLC_BasementFloor_MONIR.png
+  artifactKey: Guid(c8b7a37acb9096c439d45b664641a278) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CB/Textures/WizardLLC_BasementFloor_MONIR.png using Guid(c8b7a37acb9096c439d45b664641a278) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '29a7406951be560bb3b57065726174cb') in 0.026284 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 125.415185 seconds.
-  path: Assets/CB/Materials/Stone-Wall.mat
-  artifactKey: Guid(1e22a9d59fbad8a4aadd821421024d28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CB/Materials/Stone-Wall.mat using Guid(1e22a9d59fbad8a4aadd821421024d28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbfd49ddb8bb6b1a295c0903abf1a902') in 0.021997 seconds
+  Time since last request: 0.000016 seconds.
+  path: Assets/Dominik/Modular Mesh/Wall_Door_8x10_B.fbx
+  artifactKey: Guid(23d52c493f5e47d4d9f7f295a7442192) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Dominik/Modular Mesh/Wall_Door_8x10_B.fbx using Guid(23d52c493f5e47d4d9f7f295a7442192) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '288cceebea544b3c65d9278fa10fd37a') in 0.022431 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
+Number of asset objects unloaded after import = 7
 ========================================================================
 Received Import Request.
-  Time since last request: 42.279158 seconds.
-  path: Assets/CB/Materials/Basement Floor.mat
-  artifactKey: Guid(e8cb4aa80d8d8a948a8fa3dd0964c4ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CB/Materials/Basement Floor.mat using Guid(e8cb4aa80d8d8a948a8fa3dd0964c4ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fe7661f127b8337a2d20a8b8ee2133a') in 0.028084 seconds
+  Time since last request: 0.000017 seconds.
+  path: Assets/LowPolyNature/Meshes/mountain2.fbx
+  artifactKey: Guid(64856b1e154abf84d8af99a358da47f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyNature/Meshes/mountain2.fbx using Guid(64856b1e154abf84d8af99a358da47f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'caaf4dc30b13120ddced9b809dcf785f') in 0.024345 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
-========================================================================
-Received Import Request.
-  Time since last request: 255.217454 seconds.
-  path: Assets/Dominik/Modular Mesh
-  artifactKey: Guid(6e1ce5af8ef140247aa7feae59504909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Modular Mesh using Guid(6e1ce5af8ef140247aa7feae59504909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a17b10912043e6f22e282d82ab030fb') in 0.001204 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.077659 seconds.
-  path: Assets/Dominik/Modular Mesh/Floor_8x8.fbx
-  artifactKey: Guid(a13d5861e1f7dfa4f86bfae34e1c6ca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Modular Mesh/Floor_8x8.fbx using Guid(a13d5861e1f7dfa4f86bfae34e1c6ca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddcfcf426051e9656f4079cc411515fe') in 0.108690 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Dominik/Modular Mesh/Wall_Beam_Small_A.fbx
-  artifactKey: Guid(67b88130bbabf074eb04257aaa0ff1eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Modular Mesh/Wall_Beam_Small_A.fbx using Guid(67b88130bbabf074eb04257aaa0ff1eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ec5b73f82c2f0f57ad28eec1466e2f8') in 0.027982 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Dominik/Modular Mesh/Wall_8x10_A.fbx
-  artifactKey: Guid(4fb3a9855b9340445b8c709c4dd3f468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Modular Mesh/Wall_8x10_A.fbx using Guid(4fb3a9855b9340445b8c709c4dd3f468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d0d7abe1773a99cc5ee2e5194a6165') in 0.024137 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Dominik/Modular Mesh/Wall_Decoration_A.fbx
-  artifactKey: Guid(413a82a3343d5034b9917a991f0d8693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Modular Mesh/Wall_Decoration_A.fbx using Guid(413a82a3343d5034b9917a991f0d8693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fba43be5463a61bae93e648d44da91ee') in 0.025869 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
+Number of asset objects unloaded after import = 7
 ========================================================================
 Received Import Request.
   Time since last request: 0.000019 seconds.
-  path: Assets/Dominik/Modular Mesh/Wall_Door_8x10_B.fbx
-  artifactKey: Guid(23d52c493f5e47d4d9f7f295a7442192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Modular Mesh/Wall_Door_8x10_B.fbx using Guid(23d52c493f5e47d4d9f7f295a7442192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4febd90e785bdf06ea22b10f92365c65') in 0.034497 seconds
+  path: Assets/Dominik/Modular Mesh/Wall_Round_Arch_Corner_A.fbx
+  artifactKey: Guid(a313081367f01fd4a8fbf582abb1b05f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Dominik/Modular Mesh/Wall_Round_Arch_Corner_A.fbx using Guid(a313081367f01fd4a8fbf582abb1b05f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd5e2ac0bc72e277c1a3972543ecb9416') in 0.023887 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
+Number of asset objects unloaded after import = 7
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Dominik/Modular Mesh/Wall_Round_Arch_B.fbx
-  artifactKey: Guid(bccea4dbe6be5fc41b99b6e00ed285ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Modular Mesh/Wall_Round_Arch_B.fbx using Guid(bccea4dbe6be5fc41b99b6e00ed285ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fc892832be1fc6150605b9f6cb99d02') in 0.030082 seconds
+  Time since last request: 0.000024 seconds.
+  path: Assets/LowPolyNature/Meshes/lava_plane.fbx
+  artifactKey: Guid(8d13f46299ff16343a74795ac64eb123) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyNature/Meshes/lava_plane.fbx using Guid(8d13f46299ff16343a74795ac64eb123) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '78e09e1123033c296703550042f551fc') in 0.017615 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
+Number of asset objects unloaded after import = 7
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Dominik/Modular Mesh/Wall_Door_B.fbx
-  artifactKey: Guid(87d502515c53d43488c07696ed0c5535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Modular Mesh/Wall_Door_B.fbx using Guid(87d502515c53d43488c07696ed0c5535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62e248636f7b57734fd8c3c8c253266b') in 0.032925 seconds
+  Time since last request: 0.000017 seconds.
+  path: Assets/Dominik/Modular Mesh/Stairs_5x8_B.fbx
+  artifactKey: Guid(557511ba67627354184fc1e50f0661b5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Dominik/Modular Mesh/Stairs_5x8_B.fbx using Guid(557511ba67627354184fc1e50f0661b5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '572ee8d353a7725757867ebee1eadc46') in 0.021578 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
+Number of asset objects unloaded after import = 7
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Dominik/Modular Mesh/Wall_Round_Arch_Piece_A.fbx
-  artifactKey: Guid(d3bec655bf3f1b848a0e022815b2d7bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Modular Mesh/Wall_Round_Arch_Piece_A.fbx using Guid(d3bec655bf3f1b848a0e022815b2d7bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e705f8c6ae497820eeef87493661e0a') in 0.024524 seconds
+  Time since last request: 0.000015 seconds.
+  path: Assets/CB/Materials/Wood.mat
+  artifactKey: Guid(c25c1982aeb72fb47b1b8937ec1e1603) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CB/Materials/Wood.mat using Guid(c25c1982aeb72fb47b1b8937ec1e1603) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7e893389b31bccffc4b50691d1520bc4') in 0.208363 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/LowPolyNature/Scripts/DamageSource.cs
+  artifactKey: Guid(fbd38a9f77a354344a5a8ae183640bd7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyNature/Scripts/DamageSource.cs using Guid(fbd38a9f77a354344a5a8ae183640bd7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cbf660f22c1f2233f3c309e9bfaa5019') in 0.010838 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
   Time since last request: 0.000035 seconds.
-  path: Assets/Dominik/Modular Mesh/Stairs_5x8_B.fbx
-  artifactKey: Guid(557511ba67627354184fc1e50f0661b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Modular Mesh/Stairs_5x8_B.fbx using Guid(557511ba67627354184fc1e50f0661b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd798cc5b10b2bdd310877c110f325c97') in 0.027341 seconds
+  path: Assets/LowPolyNature/Scripts/FirstAid.cs
+  artifactKey: Guid(35a48f626d4a86d4ebaf37b97ac34aa8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyNature/Scripts/FirstAid.cs using Guid(35a48f626d4a86d4ebaf37b97ac34aa8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '897a70457abefd2af8d7ca498a4fa879') in 0.015085 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000021 seconds.
+  Time since last request: 0.000047 seconds.
+  path: Assets/LowPolyNature/Meshes/tree_stump.fbx
+  artifactKey: Guid(e23ecb131c14cb54e9d771ede132ec6e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyNature/Meshes/tree_stump.fbx using Guid(e23ecb131c14cb54e9d771ede132ec6e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1dd7aaef21ce583dc849e9f47b43db4d') in 0.024603 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/LowPolyNature/Img/first_aid.psd
+  artifactKey: Guid(ab97eea803c1fb642921225713e2020a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyNature/Img/first_aid.psd using Guid(ab97eea803c1fb642921225713e2020a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8ad15f3d61ce38cb3478055eb043e771') in 0.026412 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '73daa2c6c8482a713aaa8bc29ac1fa75') in 0.010698 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Dominik/Modular Mesh/Wall_Window_A.fbx
+  artifactKey: Guid(7f6a0cb59185eff4aa869a85093d956b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Dominik/Modular Mesh/Wall_Window_A.fbx using Guid(7f6a0cb59185eff4aa869a85093d956b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4e5ed251485cbe57848c1cf0832006aa') in 0.025990 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
   path: Assets/Dominik/Modular Mesh/Wall_Door_8x10_A.fbx
-  artifactKey: Guid(f62ee482a0ce6a04980d5054b8fdd055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Modular Mesh/Wall_Door_8x10_A.fbx using Guid(f62ee482a0ce6a04980d5054b8fdd055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d80d0533ef82df4c1b269bb7c7d251e') in 0.026548 seconds
+  artifactKey: Guid(f62ee482a0ce6a04980d5054b8fdd055) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Dominik/Modular Mesh/Wall_Door_8x10_A.fbx using Guid(f62ee482a0ce6a04980d5054b8fdd055) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'de49bb25e6d82b79a461dbf01f816947') in 0.026973 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
+Number of asset objects unloaded after import = 7
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Dominik/Modular Mesh/Wall_Doorframe_8x10_A.fbx
-  artifactKey: Guid(284b25983f0d78042a324a4526e8c7b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Modular Mesh/Wall_Doorframe_8x10_A.fbx using Guid(284b25983f0d78042a324a4526e8c7b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bab0fec239f80281e7a452fbd47af48') in 0.021847 seconds
+  Time since last request: 0.000016 seconds.
+  path: Assets/CB/Materials/Basement Floor.mat
+  artifactKey: Guid(e8cb4aa80d8d8a948a8fa3dd0964c4ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CB/Materials/Basement Floor.mat using Guid(e8cb4aa80d8d8a948a8fa3dd0964c4ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2c193584d278f6696e3d81038b285c7e') in 0.024854 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/LowPolyNature/Meshes/blue_gem.fbx
+  artifactKey: Guid(0012897f429e4b245a0eff65c137da2c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyNature/Meshes/blue_gem.fbx using Guid(0012897f429e4b245a0eff65c137da2c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '106fefca629286960187ee1e8f1de318') in 0.027194 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
 ========================================================================
 Received Import Request.
   Time since last request: 0.000022 seconds.
-  path: Assets/Dominik/Modular Mesh/Wall_8x10_B.fbx
-  artifactKey: Guid(246d6e6184cc86446a52b304284db2fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Modular Mesh/Wall_8x10_B.fbx using Guid(246d6e6184cc86446a52b304284db2fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36a64c513340b0abe52b667e5d341886') in 0.022465 seconds
+  path: Assets/LowPolyNature/Animation/crate.controller
+  artifactKey: Guid(09936c86c5cf72c468be384b07398de4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyNature/Animation/crate.controller using Guid(09936c86c5cf72c468be384b07398de4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7b913034a998afda8b70ae1e7cbcd66b') in 0.015256 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
+Number of asset objects unloaded after import = 9
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000021 seconds.
+  Time since last request: 0.000018 seconds.
+  path: Assets/LowPolyNature/Meshes/key.fbx
+  artifactKey: Guid(3d0f083bdc67b55409ae0a6736775380) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyNature/Meshes/key.fbx using Guid(3d0f083bdc67b55409ae0a6736775380) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '89b7e09cc1c1c69aa4f3bf84889378d1') in 0.019612 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/LowPolyNature/Img/chicken_leg.psd
+  artifactKey: Guid(c6dc88592953a2f4f9445a4fd0decc93) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyNature/Img/chicken_leg.psd using Guid(c6dc88592953a2f4f9445a4fd0decc93) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7875005a08fc86c02f2a30e04faf984d') in 0.025409 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/CB/Textures/WizardLLC_BasementFloor_basecolor.png
+  artifactKey: Guid(4d8f8a9e2b433814c9e371a7de957233) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CB/Textures/WizardLLC_BasementFloor_basecolor.png using Guid(4d8f8a9e2b433814c9e371a7de957233) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a920a513e9e738538083031feaad9809') in 0.026545 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/LowPolyNature/Meshes/tent.fbx
+  artifactKey: Guid(e6117170df99d464d9f8813bf81a558d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyNature/Meshes/tent.fbx using Guid(e6117170df99d464d9f8813bf81a558d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '870cb0e48d2368679e3d1026d13113d0') in 0.020538 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Dominik/Modular Mesh/Wall_Beam_Small_A.fbx
+  artifactKey: Guid(67b88130bbabf074eb04257aaa0ff1eb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Dominik/Modular Mesh/Wall_Beam_Small_A.fbx using Guid(67b88130bbabf074eb04257aaa0ff1eb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e3d41bbacc6cde55e75db8d5bc95a277') in 0.022023 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/LowPolyNature/Meshes/mountain1.fbx
+  artifactKey: Guid(ea3720b5effad9b46978919d18d12c1f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyNature/Meshes/mountain1.fbx using Guid(ea3720b5effad9b46978919d18d12c1f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8bd491f24b0e7cb6d80d7cb10c09cf38') in 0.021596 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/LowPolyNature/Meshes/log_regular.fbx
+  artifactKey: Guid(edaaeb10183afe8448dee104e9789599) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyNature/Meshes/log_regular.fbx using Guid(edaaeb10183afe8448dee104e9789599) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4b1682d95bddbc0b58c9adbb3ce40aa8') in 0.024973 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Dominik/Modular Mesh/Floor_8x8.fbx
+  artifactKey: Guid(a13d5861e1f7dfa4f86bfae34e1c6ca0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Dominik/Modular Mesh/Floor_8x8.fbx using Guid(a13d5861e1f7dfa4f86bfae34e1c6ca0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4ea30e91ad9bf2c8854511e13f5bff28') in 0.017895 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/LowPolyNature/Meshes/park_bench.fbx
+  artifactKey: Guid(d9f316861b0ce14439addf8c9a3edb41) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyNature/Meshes/park_bench.fbx using Guid(d9f316861b0ce14439addf8c9a3edb41) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '370326629f7d8d8bac8e7e53d5e3f423') in 0.022982 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/LowPolyNature/Prefabs/Environment/mushrooms_plants.prefab
+  artifactKey: Guid(975cff1267180ca43b65f176a31aa119) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyNature/Prefabs/Environment/mushrooms_plants.prefab using Guid(975cff1267180ca43b65f176a31aa119) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '680db30ed4059f028d2b15d59465a951') in 0.013591 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/LowPolyNature/Scripts/InventoryItem.cs
+  artifactKey: Guid(4100d9e5bd9227948b3ca7d620ae64ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyNature/Scripts/InventoryItem.cs using Guid(4100d9e5bd9227948b3ca7d620ae64ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '43b5d4b0d0738d0a8ef87f27bab69a9f') in 0.011560 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/LowPolyNature/Prefabs/Environment/Fence2.prefab
+  artifactKey: Guid(5c56c75f287e35c4faaa8eb5eabe1eea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyNature/Prefabs/Environment/Fence2.prefab using Guid(5c56c75f287e35c4faaa8eb5eabe1eea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e916ff3f9e98e9a1f616c8b30f4d221e') in 0.016766 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/LowPolyNature/Scripts/PlayerController.cs.bak
+  artifactKey: Guid(4e0d0e9fcb9a4794f85bd1da628219ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyNature/Scripts/PlayerController.cs.bak using Guid(4e0d0e9fcb9a4794f85bd1da628219ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '517b3cf25c93c6054986c46c07cce972') in 0.010605 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/LowPolyNature/Meshes/Materials/lowpoly_tex.png
+  artifactKey: Guid(c2298602cf2b4c84480919e6685e31db) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyNature/Meshes/Materials/lowpoly_tex.png using Guid(c2298602cf2b4c84480919e6685e31db) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c978d1b8a6cd5ff016862c7301cd860c') in 0.032401 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/LowPolyNature/Scripts/PlayerFollow.cs.bak
+  artifactKey: Guid(a3dbc2122633deb43822827df5d1dff0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyNature/Scripts/PlayerFollow.cs.bak using Guid(a3dbc2122633deb43822827df5d1dff0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '55d7d0a305259a07e764a88a4e54afaa') in 0.011638 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/LowPolyNature/Meshes/Materials/Lava_Bubble.psd
+  artifactKey: Guid(a7fe7eadf316e0448b7716e356681851) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyNature/Meshes/Materials/Lava_Bubble.psd using Guid(a7fe7eadf316e0448b7716e356681851) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7f3fce48dad7aa38d789d983c96fe21b') in 0.023692 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/LowPolyNature/Prefabs/Environment/marker.prefab
+  artifactKey: Guid(f3a01fe51ab57f74595cdeee80d56ca1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyNature/Prefabs/Environment/marker.prefab using Guid(f3a01fe51ab57f74595cdeee80d56ca1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '22834999c2bab13bc7f29c9f278348f4') in 0.016645 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/LowPolyNature/Scripts/PlayerFollow.cs
+  artifactKey: Guid(998e22959dd9ac540bacc9ea723d3f99) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyNature/Scripts/PlayerFollow.cs using Guid(998e22959dd9ac540bacc9ea723d3f99) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7cff5ffa801b6ece7e90e084a57d7ade') in 0.010943 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/LowPolyNature/Scripts/InventoryItemBase.cs
+  artifactKey: Guid(ea74b71c6e98a9042bf0b1373ec672f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyNature/Scripts/InventoryItemBase.cs using Guid(ea74b71c6e98a9042bf0b1373ec672f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'def52285cab5286a6eb00b75220ce078') in 0.015501 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
   path: Assets/Dominik/Modular Mesh/Wall_Round_Arch_Piece2_A.fbx
-  artifactKey: Guid(aa62ade1f0e0ce0479a072c619abfa44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Modular Mesh/Wall_Round_Arch_Piece2_A.fbx using Guid(aa62ade1f0e0ce0479a072c619abfa44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b752778a822f0a006a502dcd600cdd53') in 0.023934 seconds
+  artifactKey: Guid(aa62ade1f0e0ce0479a072c619abfa44) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Dominik/Modular Mesh/Wall_Round_Arch_Piece2_A.fbx using Guid(aa62ade1f0e0ce0479a072c619abfa44) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e5d5194829f111e44fb9dd682d1a1db2') in 0.021606 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/LowPolyNature/Meshes/terrain_green_hill_part.fbx
+  artifactKey: Guid(9ad72c76fd31f6c4bb751763f4519859) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyNature/Meshes/terrain_green_hill_part.fbx using Guid(9ad72c76fd31f6c4bb751763f4519859) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1242638fb90e45ec28771e9802104c6d') in 0.024833 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/LowPolyNature/Scripts/HealthBar.cs
+  artifactKey: Guid(0e13156bc0e82e94aa480fb8a6dd6e46) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyNature/Scripts/HealthBar.cs using Guid(0e13156bc0e82e94aa480fb8a6dd6e46) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5f6c0f75630b5d84240217665ca74cb1') in 0.011316 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/LowPolyNature/Meshes/Materials/matLowPoly_armskin.mat
+  artifactKey: Guid(1cafe5db057efc740b8a42538061bd01) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyNature/Meshes/Materials/matLowPoly_armskin.mat using Guid(1cafe5db057efc740b8a42538061bd01) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ce5ec08bb05fe3c47371beb5dd7af264') in 0.014967 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/LowPolyNature/Img/gem_red.psd
+  artifactKey: Guid(0819b1b381cb10548aa334239d55801b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyNature/Img/gem_red.psd using Guid(0819b1b381cb10548aa334239d55801b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '696ddbc676f4c421c93a65d3b1f4641e') in 0.025674 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/LowPolyNature/Prefabs/Environment/moving_platform1.prefab
+  artifactKey: Guid(86aaf0dd63f86fa49bff0cb174cdb172) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyNature/Prefabs/Environment/moving_platform1.prefab using Guid(86aaf0dd63f86fa49bff0cb174cdb172) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c1b81cfcb7780c5ceec513ea15921078') in 0.030470 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 10
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000070 seconds.
+  Time since last request: 0.000016 seconds.
+  path: Assets/LowPolyNature/Scripts/Key.cs
+  artifactKey: Guid(95c2a88a1a9a8464f8c8606d3b57128f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyNature/Scripts/Key.cs using Guid(95c2a88a1a9a8464f8c8606d3b57128f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a0dda574af6785525a7a66d32e8173af') in 0.011575 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/LowPolyNature/Prefabs/Environment/Mushrooms.prefab
+  artifactKey: Guid(5b8c2654c1921e447bb362f131abe512) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyNature/Prefabs/Environment/Mushrooms.prefab using Guid(5b8c2654c1921e447bb362f131abe512) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2cd2caceb1db5bea1279138f0212143e') in 0.011846 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/LowPolyNature/Prefabs/Environment/Fence1.prefab
+  artifactKey: Guid(db21c950dc27fd94b88ea7dba1c82087) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyNature/Prefabs/Environment/Fence1.prefab using Guid(db21c950dc27fd94b88ea7dba1c82087) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e3081eb05b7bcc10cdd7ff5bda3cb714') in 0.016482 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/LowPolyNature/Meshes/Lantern_holder.fbx
+  artifactKey: Guid(5a834fd8de929f246857ee4b5117be7c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyNature/Meshes/Lantern_holder.fbx using Guid(5a834fd8de929f246857ee4b5117be7c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '843105899437bbb9e4b4625440f1fb1d') in 0.021196 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/LowPolyNature/Prefabs/Environment/house1.prefab
+  artifactKey: Guid(471a0d227c9867541974ee56f41edb47) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyNature/Prefabs/Environment/house1.prefab using Guid(471a0d227c9867541974ee56f41edb47) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '987639a8829602350632a76cfdb44e50') in 0.018638 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 29
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/LowPolyNature/Meshes/mushroom2.fbx
+  artifactKey: Guid(82fccfb5e7b9f56478659a322acdbd98) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyNature/Meshes/mushroom2.fbx using Guid(82fccfb5e7b9f56478659a322acdbd98) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7dafde834fc4fcaf0eaf3439f9c9a659') in 0.021080 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/LowPolyNature/Scripts/HUD.cs
+  artifactKey: Guid(02b9452b3157a344d9e19e7f2f61f59c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyNature/Scripts/HUD.cs using Guid(02b9452b3157a344d9e19e7f2f61f59c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f17452d17a74c4fe95dc07fc237b0636') in 0.013948 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Dominik/Modular Mesh/Wall_Beam_1x5_A.fbx
+  artifactKey: Guid(5cb2d42819c589d4882dbdce6d749f28) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Dominik/Modular Mesh/Wall_Beam_1x5_A.fbx using Guid(5cb2d42819c589d4882dbdce6d749f28) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'eb688d2e2cbcd407f01be64ec6397975') in 0.020028 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/LowPolyNature/Meshes/stone3.fbx
+  artifactKey: Guid(e1142c3f0ee84a24495346a1b5e95449) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyNature/Meshes/stone3.fbx using Guid(e1142c3f0ee84a24495346a1b5e95449) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4c9def4c9bf19e72241dd2807755847c') in 0.020669 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/LowPolyNature/Meshes/Flower1.fbx
+  artifactKey: Guid(51d8a76d5c185e54a9811f7304c45437) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyNature/Meshes/Flower1.fbx using Guid(51d8a76d5c185e54a9811f7304c45437) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5e8a1aee8addd99da2fbc0dc120a4873') in 0.021536 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/LowPolyNature/Meshes/terrain_closed_2.fbx
+  artifactKey: Guid(8ad77fa2e43b88f46a7b2c101676016a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyNature/Meshes/terrain_closed_2.fbx using Guid(8ad77fa2e43b88f46a7b2c101676016a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1246609ea3fafda5cafd73bb6faf9508') in 0.019248 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/LowPolyNature/Meshes/Block1.fbx
+  artifactKey: Guid(75a7e79a1743ac646a971f75ffae13fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyNature/Meshes/Block1.fbx using Guid(75a7e79a1743ac646a971f75ffae13fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '939f26cb3db9ecbcdd703296b5d661dc') in 0.019169 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/LowPolyNature/Meshes/Tree1.fbx
+  artifactKey: Guid(5a3ea1a068ad85f46b3333199a1df251) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyNature/Meshes/Tree1.fbx using Guid(5a3ea1a068ad85f46b3333199a1df251) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '607cb3b17b4801a454e15c1c8f50d80c') in 0.015462 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/LowPolyNature/Meshes/stones.fbx
+  artifactKey: Guid(6a5894e10fdd7864199b2094ef2d7064) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyNature/Meshes/stones.fbx using Guid(6a5894e10fdd7864199b2094ef2d7064) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c9e17c5bcad9d3dc0a1d89c4b23f02fc') in 0.021718 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Dominik/Modular Mesh/Wall_Window_8x10_B.fbx
+  artifactKey: Guid(4cdc5cf369d747a4581181efc08b6032) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Dominik/Modular Mesh/Wall_Window_8x10_B.fbx using Guid(4cdc5cf369d747a4581181efc08b6032) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '53128cb3971cbe956b5c67091e9b3c6d') in 0.025518 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/LowPolyNature/Prefabs/Environment/moving_platform_2.prefab
+  artifactKey: Guid(538b0959ff351ca45bffcd2f52341792) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyNature/Prefabs/Environment/moving_platform_2.prefab using Guid(538b0959ff351ca45bffcd2f52341792) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5d3be4ea8850478522593c0b4f183135') in 0.012836 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/LowPolyNature/Scripts/Food.cs
+  artifactKey: Guid(38dc88eecf50e87429e80511295c2e60) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyNature/Scripts/Food.cs using Guid(38dc88eecf50e87429e80511295c2e60) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '00934a6b8291ddb425ffca70b1821a9d') in 0.007753 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/LowPolyNature/Prefabs/Environment/fireplace.prefab
+  artifactKey: Guid(2fe7a9ef6e9f71845a2043158d302b34) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyNature/Prefabs/Environment/fireplace.prefab using Guid(2fe7a9ef6e9f71845a2043158d302b34) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '559de53c2cbb405d227e074dd7c16212') in 0.018015 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/LowPolyNature/Img/Border.psd
+  artifactKey: Guid(cb0c08fb4d9587f4595039bd74aac362) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyNature/Img/Border.psd using Guid(cb0c08fb4d9587f4595039bd74aac362) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dc6eee73d491b9a54ce44542f318a4db') in 0.020182 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Dominik/Modular Mesh/Wall_8x10_B.fbx
+  artifactKey: Guid(246d6e6184cc86446a52b304284db2fc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Dominik/Modular Mesh/Wall_8x10_B.fbx using Guid(246d6e6184cc86446a52b304284db2fc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5881154d1cc6cea6a259e30f5eb599e0') in 0.018178 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/LowPolyNature/Meshes/Stone1.fbx
+  artifactKey: Guid(1772eba6606274642a79e12343139f90) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyNature/Meshes/Stone1.fbx using Guid(1772eba6606274642a79e12343139f90) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '904c370fff24828910691d9ca1d3fb35') in 0.017406 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/LowPolyNature/Scripts/InventorySlot.cs
+  artifactKey: Guid(accb6a1aeec59d44c9439400c71161be) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyNature/Scripts/InventorySlot.cs using Guid(accb6a1aeec59d44c9439400c71161be) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7ff1a6ec5fd27888547c9a1a93b6db4f') in 0.009194 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/LowPolyNature/Scenes/Wizard LLC.unity
+  artifactKey: Guid(3328dd746eaf2eb4987f81a26d6abe50) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyNature/Scenes/Wizard LLC.unity using Guid(3328dd746eaf2eb4987f81a26d6abe50) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '636715031d57342a935de1039b88b905') in 0.008775 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/LowPolyNature/Prefabs/Environment/Bench.prefab
+  artifactKey: Guid(9940890b83599fa419085468d75dcb0d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyNature/Prefabs/Environment/Bench.prefab using Guid(9940890b83599fa419085468d75dcb0d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4210080347231287ec73dbeeeb948de8') in 0.013673 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Dominik/Modular Mesh/Stairs_5x8.fbx
+  artifactKey: Guid(cbe7c8b92b99ad543ac8910b986b4b79) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Dominik/Modular Mesh/Stairs_5x8.fbx using Guid(cbe7c8b92b99ad543ac8910b986b4b79) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b68e69cf327b1145fcde7cd46a2fd670') in 0.015972 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/LowPolyNature/Meshes/aid_box.fbx
+  artifactKey: Guid(7c2cb991e4fea624e9cdc4e37d7fd820) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyNature/Meshes/aid_box.fbx using Guid(7c2cb991e4fea624e9cdc4e37d7fd820) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0883fa443e43c22ec2fe437d6b3e056a') in 0.020207 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/LowPolyNature/Meshes/axe.fbx
+  artifactKey: Guid(9863896103687db44ad5cadee8c9f7d6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyNature/Meshes/axe.fbx using Guid(9863896103687db44ad5cadee8c9f7d6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bed29518ce2b20a3cac328922a59e2ac') in 0.018227 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/LowPolyNature/Scripts/ItemDropHandler.cs
+  artifactKey: Guid(e16260ecd0f8dd442894f73c3f0e3c32) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyNature/Scripts/ItemDropHandler.cs using Guid(e16260ecd0f8dd442894f73c3f0e3c32) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1b921dc0cd535be6ab1c6db6a183cd56') in 0.011123 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/LowPolyNature/Meshes/Plant1.fbx
+  artifactKey: Guid(ba9003367410cc047bdcb941db473a1c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyNature/Meshes/Plant1.fbx using Guid(ba9003367410cc047bdcb941db473a1c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '80d538d1ff9af22a547b998026b3e8d4') in 0.020045 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
   path: Assets/Dominik/Modular Mesh/Wall_Round_Arch_Piece_B.fbx
-  artifactKey: Guid(1d8d26b8da7390841b2eaad0adf85376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Modular Mesh/Wall_Round_Arch_Piece_B.fbx using Guid(1d8d26b8da7390841b2eaad0adf85376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78c50ec889deb465ee76eebd72a527f8') in 0.023748 seconds
+  artifactKey: Guid(1d8d26b8da7390841b2eaad0adf85376) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Dominik/Modular Mesh/Wall_Round_Arch_Piece_B.fbx using Guid(1d8d26b8da7390841b2eaad0adf85376) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3740eab1cf421c2664c0908b927fb3ac') in 0.018117 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/LowPolyNature/Scenes/PPP.asset
+  artifactKey: Guid(5062b5d194cb13240a12589d4c302a35) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyNature/Scenes/PPP.asset using Guid(5062b5d194cb13240a12589d4c302a35) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ccb6c559b30b86aaf3f9197ad32554fc') in 0.009317 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/LowPolyNature/Animation/sheep.controller
+  artifactKey: Guid(bb7cbdac0c291a84f9a002360ed3c6e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyNature/Animation/sheep.controller using Guid(bb7cbdac0c291a84f9a002360ed3c6e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '41c8f9fb5ffd3b47caddadc2ecf48f34') in 0.011680 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 11
 ========================================================================
 Received Import Request.
   Time since last request: 0.000019 seconds.
-  path: Assets/Dominik/Modular Mesh/Wall_Round_Arch_A.fbx
-  artifactKey: Guid(49b20625a656cb9418aaec145fd0ed66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Modular Mesh/Wall_Round_Arch_A.fbx using Guid(49b20625a656cb9418aaec145fd0ed66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6275a38dae3bae113996640a6271893') in 0.025382 seconds
+  path: Assets/LowPolyNature/Scripts/Inventory.cs
+  artifactKey: Guid(be1b6f52a2d824d49b01f8505d9e0ad1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyNature/Scripts/Inventory.cs using Guid(be1b6f52a2d824d49b01f8505d9e0ad1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ea144b563ee842c69c72a3b1ba897011') in 0.012326 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/LowPolyNature/Meshes/terrain_river.fbx
+  artifactKey: Guid(07d5877e5ca894347a896a8cb8ac2927) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyNature/Meshes/terrain_river.fbx using Guid(07d5877e5ca894347a896a8cb8ac2927) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0f7c49e80ab05710552df5f5c5ae9849') in 0.017420 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/LowPolyNature/Meshes/Rock_hole_1.fbx
+  artifactKey: Guid(f3dd3c95e75dad841b719653486d409c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyNature/Meshes/Rock_hole_1.fbx using Guid(f3dd3c95e75dad841b719653486d409c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '788840f35783ef7822a232454946a003') in 0.018091 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/CB/Materials/Stone-Wall.mat
+  artifactKey: Guid(1e22a9d59fbad8a4aadd821421024d28) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CB/Materials/Stone-Wall.mat using Guid(1e22a9d59fbad8a4aadd821421024d28) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '911df3b37127fb2405c97bf19d5d173d') in 0.014424 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.587346 seconds.
+  path: Assets/LowPolyNature/Prefabs/Environment/park_bench.prefab
+  artifactKey: Guid(d19d09978a950894ea0710187968f43f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyNature/Prefabs/Environment/park_bench.prefab using Guid(d19d09978a950894ea0710187968f43f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '09fb8916c158fde6b8ddddcccba4e9eb') in 0.014230 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/LowPolyNature/Prefabs/Environment/Stone5.prefab
+  artifactKey: Guid(fb5931639d95f4a428cb87a509c02445) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyNature/Prefabs/Environment/Stone5.prefab using Guid(fb5931639d95f4a428cb87a509c02445) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '17dd350f7db7b757f982eb8b33754b07') in 0.012167 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/LowPolyNature/Prefabs/Environment/tree3_wind.prefab
+  artifactKey: Guid(14b4563f8671fdc49bbb7f39b47f538a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyNature/Prefabs/Environment/tree3_wind.prefab using Guid(14b4563f8671fdc49bbb7f39b47f538a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'efa1324c5d12cb078ad75e9f72dbdae1') in 0.017540 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 27
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Dominik/Material/Textures/Resize/WizardLLC_WoodFloor_ORM.png
+  artifactKey: Guid(78d301d7126ef3d47b4229e74dcf7e4e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Dominik/Material/Textures/Resize/WizardLLC_WoodFloor_ORM.png using Guid(78d301d7126ef3d47b4229e74dcf7e4e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f8c9a7270ba8faab4389e280a52c0421') in 0.026103 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Dominik/Material/Textures/Resize/WizardLLC_BasementFloor_normal.png
+  artifactKey: Guid(cf2c5e46960d3c542a6ef32787cdcce8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Dominik/Material/Textures/Resize/WizardLLC_BasementFloor_normal.png using Guid(cf2c5e46960d3c542a6ef32787cdcce8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ad41282ddc4cca2dc858171c3e6079ce') in 0.023554 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/LowPolyNature/Prefabs/Interactables/Gem.prefab
+  artifactKey: Guid(9a6e3d3eb38cd984eb5394b35dae4b35) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyNature/Prefabs/Interactables/Gem.prefab using Guid(9a6e3d3eb38cd984eb5394b35dae4b35) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '596bc304fa0050ba0234144cabdf4394') in 0.018684 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 10
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: Der E/A-Vorgang wurde wegen eines Threadendes oder einer Anwendungsanforderung abgebrochen.
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/LowPolyNature/Prefabs/Interactables/chicken_leg.prefab
+  artifactKey: Guid(f6cc23ad0d18cf64fb9386b6a362caee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyNature/Prefabs/Interactables/chicken_leg.prefab using Guid(f6cc23ad0d18cf64fb9386b6a362caee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e4cfa7f7a681ea99093e2f0a0fd0795a') in 0.017885 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/LowPolyNature/Prefabs/UI/InventoryPanel.prefab
+  artifactKey: Guid(13683e2f898fb9f46b7eb9721dd54933) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyNature/Prefabs/UI/InventoryPanel.prefab using Guid(13683e2f898fb9f46b7eb9721dd54933) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3374b324bb34ac2e19f6f342bfb1165e') in 0.037322 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 144
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/LowPolyNature/Prefabs/Environment/terrain_green_hill_part2.prefab
+  artifactKey: Guid(f09be0fcd73b61e46a5449e30e47d13e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyNature/Prefabs/Environment/terrain_green_hill_part2.prefab using Guid(f09be0fcd73b61e46a5449e30e47d13e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5ef054a8db04ea1c60f7aefb25decbc9') in 0.017109 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Dominik/Material/Textures/Resize/WizardLLC_StoneWall1_normal.png
+  artifactKey: Guid(4d04dae031c1285469cacb5cbc2196d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Dominik/Material/Textures/Resize/WizardLLC_StoneWall1_normal.png using Guid(4d04dae031c1285469cacb5cbc2196d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd0a1b308c6b62b642e7b0571f185339e') in 0.026097 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/LowPolyNature/Prefabs/Environment/Stone4.prefab
+  artifactKey: Guid(0a1acd202190eb14e98f2708942d9a25) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyNature/Prefabs/Environment/Stone4.prefab using Guid(0a1acd202190eb14e98f2708942d9a25) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '831a9c75a276c177fd372ce81da39eac') in 0.013414 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/LowPolyNature/Prefabs/UI/Slot.prefab
+  artifactKey: Guid(87d3a854bcdb80541821387af516cc51) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyNature/Prefabs/UI/Slot.prefab using Guid(87d3a854bcdb80541821387af516cc51) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '809a794afd9d2ed90edad90552e13771') in 0.015582 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Dominik/Material/Textures/Resize/WizardLLC_StoneWall1_ORM.png
+  artifactKey: Guid(b16f6f00837e3254bb26e249af3acf57) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Dominik/Material/Textures/Resize/WizardLLC_StoneWall1_ORM.png using Guid(b16f6f00837e3254bb26e249af3acf57) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6b3c41a22241272ce7fd91c7a8d578d1') in 0.028969 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/LowPolyNature/Prefabs/Environment/terrain_green_hill_part.prefab
+  artifactKey: Guid(286912f5c629f1d41801e4534cc52f03) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyNature/Prefabs/Environment/terrain_green_hill_part.prefab using Guid(286912f5c629f1d41801e4534cc52f03) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '387f43199584f9a2e7b5ab18aca648cd') in 0.020229 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/LowPolyNature/Prefabs/Interactables/aid_box.prefab
+  artifactKey: Guid(967bdd4c36bed5642ad08f78f15927db) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyNature/Prefabs/Interactables/aid_box.prefab using Guid(967bdd4c36bed5642ad08f78f15927db) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bf5710757917f2b0de23ca16db59c583') in 0.021630 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Dominik/Material/Textures/Resize/WizardLLC_WoodFloor_basecolor.png
+  artifactKey: Guid(f8bbd2078c5055b45a9272315c8851f8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Dominik/Material/Textures/Resize/WizardLLC_WoodFloor_basecolor.png using Guid(f8bbd2078c5055b45a9272315c8851f8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b8fd1f2195c90f7000fda29e8d5c9805') in 0.033598 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Dominik/Material/Textures/Resize/WizardLLC_BasementFloor_ORM.png
+  artifactKey: Guid(82c4ecb4c644dcb4ea3a3614075f0736) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Dominik/Material/Textures/Resize/WizardLLC_BasementFloor_ORM.png using Guid(82c4ecb4c644dcb4ea3a3614075f0736) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b351a1d95211b5bc9ed3689b88ea0148') in 0.031851 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/LowPolyNature/Scenes/Demo/NavMesh.asset
+  artifactKey: Guid(d6f6ca98ddf0fe446adcbd15f9e054bc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyNature/Scenes/Demo/NavMesh.asset using Guid(d6f6ca98ddf0fe446adcbd15f9e054bc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '06125a3756162f58f8d2e74e7fb62d49') in 0.012933 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/LowPolyNature/Prefabs/Environment/Rock_hole_1.prefab
+  artifactKey: Guid(643bc461c37256d4abfca7ccc3d50dc4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyNature/Prefabs/Environment/Rock_hole_1.prefab using Guid(643bc461c37256d4abfca7ccc3d50dc4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ba3a588db0cc835716b208f49be974a9') in 0.019356 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/LowPolyNature/Prefabs/Environment/Stone_Group.prefab
+  artifactKey: Guid(7427d58673d0cb247949bdea690924cc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyNature/Prefabs/Environment/Stone_Group.prefab using Guid(7427d58673d0cb247949bdea690924cc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '545b5e95f1c96bce41bca8c62e6c49b9') in 0.015651 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/LowPolyNature/Prefabs/Interactables/crate.prefab
+  artifactKey: Guid(2754a1a735285da4597848ca665be218) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyNature/Prefabs/Interactables/crate.prefab using Guid(2754a1a735285da4597848ca665be218) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4299b5db3be6eb85732a88c7a08e3dce') in 0.016687 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Dominik/Material/Textures/Resize/WizardLLC_WoodFloor_normal.png
+  artifactKey: Guid(5a304f0dd58d09f469866d8446e9fcda) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Dominik/Material/Textures/Resize/WizardLLC_WoodFloor_normal.png using Guid(5a304f0dd58d09f469866d8446e9fcda) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c1d4554dfad45ea48c0edfc3131e84ce') in 0.031322 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.461 seconds
+Refreshing native plugins compatible for Editor in 5.77 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+System.Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in .\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Utilities\PackageVersionUtility.cs:31 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Plugin\BoltCoreManifest.cs:11 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:33 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:48 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x00525] in .\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:208 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in .\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:32 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in .\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:76 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in .\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:114 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x0000d] in .\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:33 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:22 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.794 seconds
+Domain Reload Profiling: 2253ms
+	BeginReloadAssembly (174ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (53ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (218ms)
+		LoadAssemblies (284ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (14ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1794ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (975ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (87ms)
+			ProcessInitializeOnLoadAttributes (721ms)
+			ProcessInitializeOnLoadMethodAttributes (146ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 6.21 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5241 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 73 unused Assets / (1.6 MB). Loaded Objects now: 5721.
+Memory consumption went from 173.2 MB to 171.6 MB.
+Total: 15.026600 ms (FindLiveObjects: 0.432400 ms CreateObjectMapping: 0.280900 ms MarkObjects: 13.936800 ms  DeleteObjects: 0.374700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.460 seconds
+Refreshing native plugins compatible for Editor in 5.40 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+System.Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in .\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Utilities\PackageVersionUtility.cs:31 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Plugin\BoltCoreManifest.cs:11 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:33 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:48 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x00525] in .\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:208 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in .\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:32 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in .\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:76 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in .\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:114 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x0000d] in .\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:33 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:22 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.743 seconds
+Domain Reload Profiling: 2201ms
+	BeginReloadAssembly (177ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (51ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (207ms)
+		LoadAssemblies (269ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (14ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (1743ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (969ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (100ms)
+			ProcessInitializeOnLoadAttributes (697ms)
+			ProcessInitializeOnLoadMethodAttributes (155ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 7.04 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5241 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 73 unused Assets / (1.6 MB). Loaded Objects now: 5725.
+Memory consumption went from 173.0 MB to 171.5 MB.
+Total: 13.632100 ms (FindLiveObjects: 0.519100 ms CreateObjectMapping: 0.270800 ms MarkObjects: 12.512700 ms  DeleteObjects: 0.328300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
