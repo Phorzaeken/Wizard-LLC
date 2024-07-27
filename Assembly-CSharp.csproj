@@ -66,6 +66,7 @@
     <Compile Include="Assets\LowPolyNature\Scripts\Gem.cs" />
     <Compile Include="Assets\LowPolyNature\Scripts\GameManager.cs" />
     <Compile Include="Assets\LowPolyNature\Scripts\PlayerFollow.cs" />
+    <Compile Include="Assets\Phorzaeken\FootstepController.cs" />
     <Compile Include="Assets\LowPolyNature\Scripts\InventorySlot.cs" />
     <Compile Include="Assets\LowPolyNature\Scripts\Environment\MovingPlatform.cs" />
     <Compile Include="Assets\Phorzaeken\MouseLook.cs" />
