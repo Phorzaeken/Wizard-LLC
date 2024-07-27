@@ -68,6 +68,7 @@
     <Compile Include="Assets\LowPolyNature\Scripts\PlayerFollow.cs" />
     <Compile Include="Assets\LowPolyNature\Scripts\InventorySlot.cs" />
     <Compile Include="Assets\LowPolyNature\Scripts\Environment\MovingPlatform.cs" />
+    <Compile Include="Assets\Phorzaeken\MouseLook.cs" />
     <Compile Include="Assets\LowPolyNature\Scripts\ItemDragHandler.cs" />
     <Compile Include="Assets\LowPolyNature\Scripts\InventoryItemBase.cs" />
     <Compile Include="Assets\LowPolyNature\Scripts\ItemClickHandler.cs" />

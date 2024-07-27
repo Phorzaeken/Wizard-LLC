@@ -387,7 +387,7 @@ public class PlayerController : MonoBehaviour
     {
         HandleMovement();
 
-        if (Input.GetKeyDown(KeyCode.X))
+        /*if (Input.GetKeyDown(KeyCode.X))
         {
             CameraBool = !CameraBool;
         }
@@ -401,7 +401,7 @@ public class PlayerController : MonoBehaviour
         {
             Camera1.SetActive(true);
             Camera2.SetActive(false);
-        }
+        }*/
 
 
         if (!IsDead && mIsControlEnabled)

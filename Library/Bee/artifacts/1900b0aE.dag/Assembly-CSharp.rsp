@@ -403,6 +403,7 @@
 "Assets/LowPolyNature/Scripts/PlayerController.cs"
 "Assets/LowPolyNature/Scripts/PlayerFollow.cs"
 "Assets/LowPolyNature/Scripts/Sheep.cs"
+"Assets/Phorzaeken/MouseLook.cs"
 -langversion:9.0
 
 /deterministic
