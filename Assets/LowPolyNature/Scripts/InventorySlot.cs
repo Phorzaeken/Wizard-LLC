@@ -43,8 +43,8 @@ public class InventorySlot
 
         InventoryItemBase first = mItemStack.Peek();
 
-        if (first.Name == item.Name)
-            return true;
+        //if (first.Name == item.Name)
+            //return true;
 
         return false;
     }

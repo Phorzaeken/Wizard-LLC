@@ -403,7 +403,10 @@
 "Assets/LowPolyNature/Scripts/PlayerController.cs"
 "Assets/LowPolyNature/Scripts/PlayerFollow.cs"
 "Assets/LowPolyNature/Scripts/Sheep.cs"
+"Assets/Phorzaeken/DoorController.cs"
 "Assets/Phorzaeken/FootstepController.cs"
+"Assets/Phorzaeken/InventoryQ.cs"
+"Assets/Phorzaeken/ItemCollect.cs"
 "Assets/Phorzaeken/MouseLook.cs"
 -langversion:9.0
 
