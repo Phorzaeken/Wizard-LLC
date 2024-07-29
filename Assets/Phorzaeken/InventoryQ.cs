@@ -20,7 +20,10 @@ public class InventoryQ : MonoBehaviour
     public int item12;
 
     public TMP_Text playeritems;
-    
+
+    public DoorController Door;
+    public DoorController Door2;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -37,11 +40,15 @@ public class InventoryQ : MonoBehaviour
     public void i1()
     {
         item1 = 1;
+        Door.Items++;
+        Door2.Items2++;
     }
 
     public void i2()
     {
         item2 = 1;
+        Door.Items++;
+        Door2.Items2++;
     }
 
     public void i3()
