@@ -7,7 +7,7 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Stone
+      name: checker_map_gravity
     second: {fileID: 2100000, guid: 5b248106b07713b448ea9b4d00b38b22, type: 2}
   materials:
     materialImportMode: 2
