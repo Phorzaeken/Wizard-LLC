@@ -64,7 +64,7 @@ public class PlayerController : MonoBehaviour
     {
         _animator = GetComponent<Animator>();
         _characterController = GetComponent<CharacterController>();
-        Inventory.ItemUsed += Inventory_ItemUsed;
+        /*Inventory.ItemUsed += Inventory_ItemUsed;
         Inventory.ItemRemoved += Inventory_ItemRemoved;
 
         mHealthBar = Hud.transform.Find("Bars_Panel/HealthBar").GetComponent<HealthBar>();
@@ -79,7 +79,7 @@ public class PlayerController : MonoBehaviour
         startFood = Food;
         mFoodBar.SetValue(Food);
 
-        InvokeRepeating("IncreaseHunger", 0, HungerRate);
+        InvokeRepeating("IncreaseHunger", 0, HungerRate);*/
     }
 
 
