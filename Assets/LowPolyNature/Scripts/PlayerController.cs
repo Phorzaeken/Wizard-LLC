@@ -372,14 +372,14 @@ public class PlayerController : MonoBehaviour
             player1.transform.Translate(Speed, 0, 0);
         }
 
-        if (Input.GetKey(KeyCode.Q))
+        /*if (Input.GetKey(KeyCode.Q))
         {
             Obj.transform.Rotate(0, RotationSpeed, 0);
         }
         if (Input.GetKey(KeyCode.E))
         {
             Obj.transform.Rotate(0, -RotationSpeed, 0);
-        }
+        }*/
     }
 
     // Update is called once per frame

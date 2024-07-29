@@ -6,8 +6,9 @@ public class MouseLook : MonoBehaviour
 {
     public float mouseSensitivity = 100f;
     public Transform playerBody;
+    public Transform therealplayerturn;
 
-    float xRotation = 45f;
+    float xRotation = 0f;
 
     void Start()
     {
@@ -22,7 +23,11 @@ public class MouseLook : MonoBehaviour
         xRotation -= mouseY;
         xRotation = Mathf.Clamp(xRotation, -45f, 45f);
 
+        // Apply rotation to the camera
         transform.localRotation = Quaternion.Euler(xRotation, 0f, 0f);
+
+        // Rotate the player body and the real player turn
         playerBody.Rotate(Vector3.up * mouseX);
+        therealplayerturn.Rotate(Vector3.up * mouseX);
     }
 }
