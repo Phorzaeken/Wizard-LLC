@@ -7,11 +7,12 @@ public class DoorInteraction : MonoBehaviour
     public Transform leftDoor;
     public Transform rightDoor;
     public float openAngle = 90f;
-    public float openSpeed = 2f;
+    public float openSpeed = 0.05f;
     public float interactionDistance = 3f;
     public Text interactionText;
     private bool isOpen = false;
     private Transform player;
+    public AudioSource DoorOpeningSound;
 
     void Start()
     {
@@ -36,6 +37,7 @@ public class DoorInteraction : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.E))
             {
                 StartCoroutine(OpenDoors());
+                DoorOpeningSound.Play();
                 if (interactionText != null)
                 {
                     interactionText.gameObject.SetActive(false); // Hide text after opening
