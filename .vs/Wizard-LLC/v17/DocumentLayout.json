@@ -1,0 +1,134 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Diogo Castelo Branco\\Desktop\\PirateGameJam\\Github\\Wizard-LLC\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3181C416-51AF-C230-34A0-F4201DAA7288}|Assembly-CSharp.csproj|c:\\users\\diogo castelo branco\\desktop\\pirategamejam\\github\\wizard-llc\\assets\\cb\\scripts\\doorinteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3181C416-51AF-C230-34A0-F4201DAA7288}|Assembly-CSharp.csproj|solutionrelative:assets\\cb\\scripts\\doorinteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3181C416-51AF-C230-34A0-F4201DAA7288}|Assembly-CSharp.csproj|c:\\users\\diogo castelo branco\\desktop\\pirategamejam\\github\\wizard-llc\\assets\\cb\\scripts\\playerinteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3181C416-51AF-C230-34A0-F4201DAA7288}|Assembly-CSharp.csproj|solutionrelative:assets\\cb\\scripts\\playerinteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3181C416-51AF-C230-34A0-F4201DAA7288}|Assembly-CSharp.csproj|C:\\Users\\Diogo Castelo Branco\\Desktop\\PirateGameJam\\Github\\Wizard-LLC\\assets\\lowpolynature\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3181C416-51AF-C230-34A0-F4201DAA7288}|Assembly-CSharp.csproj|solutionrelative:assets\\lowpolynature\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3181C416-51AF-C230-34A0-F4201DAA7288}|Assembly-CSharp.csproj|C:\\Users\\Diogo Castelo Branco\\Desktop\\PirateGameJam\\Github\\Wizard-LLC\\assets\\phorzaeken\\inventoryq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3181C416-51AF-C230-34A0-F4201DAA7288}|Assembly-CSharp.csproj|solutionrelative:assets\\phorzaeken\\inventoryq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3181C416-51AF-C230-34A0-F4201DAA7288}|Assembly-CSharp.csproj|C:\\Users\\Diogo Castelo Branco\\Desktop\\PirateGameJam\\Github\\Wizard-LLC\\assets\\phorzaeken\\doorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3181C416-51AF-C230-34A0-F4201DAA7288}|Assembly-CSharp.csproj|solutionrelative:assets\\phorzaeken\\doorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3181C416-51AF-C230-34A0-F4201DAA7288}|Assembly-CSharp.csproj|C:\\Users\\Diogo Castelo Branco\\Desktop\\PirateGameJam\\Github\\Wizard-LLC\\assets\\phorzaeken\\itemcollect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3181C416-51AF-C230-34A0-F4201DAA7288}|Assembly-CSharp.csproj|solutionrelative:assets\\phorzaeken\\itemcollect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3181C416-51AF-C230-34A0-F4201DAA7288}|Assembly-CSharp.csproj|C:\\Users\\Diogo Castelo Branco\\Desktop\\PirateGameJam\\Github\\Wizard-LLC\\assets\\phorzaeken\\mouselook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3181C416-51AF-C230-34A0-F4201DAA7288}|Assembly-CSharp.csproj|solutionrelative:assets\\phorzaeken\\mouselook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DoorInteraction.cs",
+              "DocumentMoniker": "C:\\Users\\Diogo Castelo Branco\\Desktop\\PirateGameJam\\Github\\Wizard-LLC\\Assets\\CB\\Scripts\\DoorInteraction.cs",
+              "RelativeDocumentMoniker": "Assets\\CB\\Scripts\\DoorInteraction.cs",
+              "ToolTip": "C:\\Users\\Diogo Castelo Branco\\Desktop\\PirateGameJam\\Github\\Wizard-LLC\\Assets\\CB\\Scripts\\DoorInteraction.cs",
+              "RelativeToolTip": "Assets\\CB\\Scripts\\DoorInteraction.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAowA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T14:46:22.909Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PlayerInteraction.cs",
+              "DocumentMoniker": "C:\\Users\\Diogo Castelo Branco\\Desktop\\PirateGameJam\\Github\\Wizard-LLC\\Assets\\CB\\Scripts\\PlayerInteraction.cs",
+              "RelativeDocumentMoniker": "Assets\\CB\\Scripts\\PlayerInteraction.cs",
+              "ToolTip": "C:\\Users\\Diogo Castelo Branco\\Desktop\\PirateGameJam\\Github\\Wizard-LLC\\Assets\\CB\\Scripts\\PlayerInteraction.cs",
+              "RelativeToolTip": "Assets\\CB\\Scripts\\PlayerInteraction.cs",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAqwGAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T12:57:19.746Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MouseLook.cs",
+              "DocumentMoniker": "C:\\Users\\Diogo Castelo Branco\\Desktop\\PirateGameJam\\Github\\Wizard-LLC\\Assets\\Phorzaeken\\MouseLook.cs",
+              "RelativeDocumentMoniker": "Assets\\Phorzaeken\\MouseLook.cs",
+              "ToolTip": "C:\\Users\\Diogo Castelo Branco\\Desktop\\PirateGameJam\\Github\\Wizard-LLC\\Assets\\Phorzaeken\\MouseLook.cs",
+              "RelativeToolTip": "Assets\\Phorzaeken\\MouseLook.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAAAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJUSURBVDhP3ZCxTxNxFIDf79e7lvYKbWkPE81JgoScAwT1IK0SZCAEmWBwFwdwFiPROMDAZMJgGHQRBmLY7UJMF4SUFNAO5IhYe/Wu0Ba49lquvV7p9WwNbv4D\u002Bg1vee8N3wf/Pqgx9s19q3Ao0OvRdeuGuPF7wdBMhWvnMnNDcxA\u002BDF9ZDC9CwB7Ijtwb8c1/nK/xaf6Un\u002BcreHd3l5QPZb\u002BiKMtaVQt5SW\u002BIttMhF7je6bJ\u002BPZ6K3xLz4rKqqSvRcvRB/Cy\u002BpoK6UsKlAEwBSSjNSpuQEWb2jvYGaIq29DP9PxxWh16qlIpMC\u002BMqVAqPt4StO6l8CpJKctoAoztdSF9gwA872zt5CzVE0Ue5oykCE74xdizCtDIvXTbXB0zgTx6b56fH4Tk3kXk/Lsc1xs28H\u002B8e98fkmJItZd\u002BiE8QTO993wNfig95rvQnDNF74O/wRhFC10aGhh1pR0UE4DAu2IKfNqVJWqmYBSw2ZSIu1xgysgw7VWhVqZq1SD5P\u002B89yAZVmvWlafBg\u002BCjJATmLrKzNLnJTqRTTB1lUmWZGmCa\u002BPAtJog5aWmnJa7GfwabCFJEk6UEy0qRY9pL/1msGOQTOaTiCKotYmeiUerX1bLCTmxjC\u002BwTIzeHtUzuYwYkSIDYMJrqSDpdtIOalX9tpnefDbLzm4n5eRzd5Mb\u002Bnx9xz1Xe6Ju3m2UnWUxNhOroIaniMW79ZCvtqXtG6fqKdRdoR7swNnsfLIwuiBdGv0VzHHcRZe1K2yjbJOmYQ5nz7PD\u002BfP8cLFcnCZsROry7v8F4BdIQR4UAijRTwAAAABJRU5ErkJggg==",
+              "WhenOpened": "2024-07-30T12:40:09.785Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "C:\\Users\\Diogo Castelo Branco\\Desktop\\PirateGameJam\\Github\\Wizard-LLC\\Assets\\LowPolyNature\\Scripts\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\LowPolyNature\\Scripts\\PlayerController.cs",
+              "ToolTip": "C:\\Users\\Diogo Castelo Branco\\Desktop\\PirateGameJam\\Github\\Wizard-LLC\\Assets\\LowPolyNature\\Scripts\\PlayerController.cs",
+              "RelativeToolTip": "Assets\\LowPolyNature\\Scripts\\PlayerController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T12:40:09.874Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ItemCollect.cs",
+              "DocumentMoniker": "C:\\Users\\Diogo Castelo Branco\\Desktop\\PirateGameJam\\Github\\Wizard-LLC\\Assets\\Phorzaeken\\ItemCollect.cs",
+              "RelativeDocumentMoniker": "Assets\\Phorzaeken\\ItemCollect.cs",
+              "ToolTip": "C:\\Users\\Diogo Castelo Branco\\Desktop\\PirateGameJam\\Github\\Wizard-LLC\\Assets\\Phorzaeken\\ItemCollect.cs",
+              "RelativeToolTip": "Assets\\Phorzaeken\\ItemCollect.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAAwDwAAAAJAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJUSURBVDhP3ZCxTxNxFIDf79e7lvYKbWkPE81JgoScAwT1IK0SZCAEmWBwFwdwFiPROMDAZMJgGHQRBmLY7UJMF4SUFNAO5IhYe/Wu0Ba49lquvV7p9WwNbv4D\u002Bg1vee8N3wf/Pqgx9s19q3Ao0OvRdeuGuPF7wdBMhWvnMnNDcxA\u002BDF9ZDC9CwB7Ijtwb8c1/nK/xaf6Un\u002BcreHd3l5QPZb\u002BiKMtaVQt5SW\u002BIttMhF7je6bJ\u002BPZ6K3xLz4rKqqSvRcvRB/Cy\u002BpoK6UsKlAEwBSSjNSpuQEWb2jvYGaIq29DP9PxxWh16qlIpMC\u002BMqVAqPt4StO6l8CpJKctoAoztdSF9gwA872zt5CzVE0Ue5oykCE74xdizCtDIvXTbXB0zgTx6b56fH4Tk3kXk/Lsc1xs28H\u002B8e98fkmJItZd\u002BiE8QTO993wNfig95rvQnDNF74O/wRhFC10aGhh1pR0UE4DAu2IKfNqVJWqmYBSw2ZSIu1xgysgw7VWhVqZq1SD5P\u002B89yAZVmvWlafBg\u002BCjJATmLrKzNLnJTqRTTB1lUmWZGmCa\u002BPAtJog5aWmnJa7GfwabCFJEk6UEy0qRY9pL/1msGOQTOaTiCKotYmeiUerX1bLCTmxjC\u002BwTIzeHtUzuYwYkSIDYMJrqSDpdtIOalX9tpnefDbLzm4n5eRzd5Mb\u002Bnx9xz1Xe6Ju3m2UnWUxNhOroIaniMW79ZCvtqXtG6fqKdRdoR7swNnsfLIwuiBdGv0VzHHcRZe1K2yjbJOmYQ5nz7PD\u002BfP8cLFcnCZsROry7v8F4BdIQR4UAijRTwAAAABJRU5ErkJggg==",
+              "WhenOpened": "2024-07-30T12:40:09.875Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "InventoryQ.cs",
+              "DocumentMoniker": "C:\\Users\\Diogo Castelo Branco\\Desktop\\PirateGameJam\\Github\\Wizard-LLC\\Assets\\Phorzaeken\\InventoryQ.cs",
+              "RelativeDocumentMoniker": "Assets\\Phorzaeken\\InventoryQ.cs",
+              "ToolTip": "C:\\Users\\Diogo Castelo Branco\\Desktop\\PirateGameJam\\Github\\Wizard-LLC\\Assets\\Phorzaeken\\InventoryQ.cs",
+              "RelativeToolTip": "Assets\\Phorzaeken\\InventoryQ.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwDEAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T12:40:10.135Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DoorController.cs",
+              "DocumentMoniker": "C:\\Users\\Diogo Castelo Branco\\Desktop\\PirateGameJam\\Github\\Wizard-LLC\\Assets\\Phorzaeken\\DoorController.cs",
+              "RelativeDocumentMoniker": "Assets\\Phorzaeken\\DoorController.cs",
+              "ToolTip": "C:\\Users\\Diogo Castelo Branco\\Desktop\\PirateGameJam\\Github\\Wizard-LLC\\Assets\\Phorzaeken\\DoorController.cs",
+              "RelativeToolTip": "Assets\\Phorzaeken\\DoorController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADgAAAAYAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJUSURBVDhP3ZCxTxNxFIDf79e7lvYKbWkPE81JgoScAwT1IK0SZCAEmWBwFwdwFiPROMDAZMJgGHQRBmLY7UJMF4SUFNAO5IhYe/Wu0Ba49lquvV7p9WwNbv4D\u002Bg1vee8N3wf/Pqgx9s19q3Ao0OvRdeuGuPF7wdBMhWvnMnNDcxA\u002BDF9ZDC9CwB7Ijtwb8c1/nK/xaf6Un\u002BcreHd3l5QPZb\u002BiKMtaVQt5SW\u002BIttMhF7je6bJ\u002BPZ6K3xLz4rKqqSvRcvRB/Cy\u002BpoK6UsKlAEwBSSjNSpuQEWb2jvYGaIq29DP9PxxWh16qlIpMC\u002BMqVAqPt4StO6l8CpJKctoAoztdSF9gwA872zt5CzVE0Ue5oykCE74xdizCtDIvXTbXB0zgTx6b56fH4Tk3kXk/Lsc1xs28H\u002B8e98fkmJItZd\u002BiE8QTO993wNfig95rvQnDNF74O/wRhFC10aGhh1pR0UE4DAu2IKfNqVJWqmYBSw2ZSIu1xgysgw7VWhVqZq1SD5P\u002B89yAZVmvWlafBg\u002BCjJATmLrKzNLnJTqRTTB1lUmWZGmCa\u002BPAtJog5aWmnJa7GfwabCFJEk6UEy0qRY9pL/1msGOQTOaTiCKotYmeiUerX1bLCTmxjC\u002BwTIzeHtUzuYwYkSIDYMJrqSDpdtIOalX9tpnefDbLzm4n5eRzd5Mb\u002Bnx9xz1Xe6Ju3m2UnWUxNhOroIaniMW79ZCvtqXtG6fqKdRdoR7swNnsfLIwuiBdGv0VzHHcRZe1K2yjbJOmYQ5nz7PD\u002BfP8cLFcnCZsROry7v8F4BdIQR4UAijRTwAAAABJRU5ErkJggg==",
+              "WhenOpened": "2024-07-30T12:40:10.366Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
