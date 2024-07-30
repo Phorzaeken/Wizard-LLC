@@ -383,6 +383,8 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/CB/Scripts/DoorInteraction.cs"
+"Assets/CB/Scripts/ItemPickUp.cs"
+"Assets/CB/Scripts/LightController.cs"
 "Assets/CB/Scripts/PlayerInteraction.cs"
 "Assets/LowPolyNature/Scripts/Axe.cs"
 "Assets/LowPolyNature/Scripts/Crate.cs"

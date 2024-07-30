@@ -13,9 +13,9 @@ public class HUD : MonoBehaviour {
 	void Start () {
         Inventory.ItemAdded += InventoryScript_ItemAdded;
         Inventory.ItemRemoved += Inventory_ItemRemoved;
-	}
+    }
 
-    private void InventoryScript_ItemAdded(object sender, InventoryEventArgs e)
+private void InventoryScript_ItemAdded(object sender, InventoryEventArgs e)
     {
         Transform inventoryPanel = transform.Find("InventoryPanel");
         int index = -1;

@@ -28,6 +28,22 @@ public class PlayerController : MonoBehaviour
 
     private bool mCanTakeDamage = true;
 
+    private float originalSpeed;
+
+    public float speedBoostMultiplier = 2f;
+
+    public void ApplySpeedBoost(float duration)
+    {
+        StartCoroutine(SpeedBoostCoroutine(duration));
+    }
+
+    private IEnumerator SpeedBoostCoroutine(float duration)
+    {
+        Speed *= speedBoostMultiplier; // Increase the speed
+        yield return new WaitForSeconds(duration);
+        Speed = originalSpeed; // Reset to original speed
+    }
+
     #endregion
 
     #region Public Members
@@ -80,6 +96,10 @@ public class PlayerController : MonoBehaviour
         mFoodBar.SetValue(Food);
 
         InvokeRepeating("IncreaseHunger", 0, HungerRate);*/
+        {
+            originalSpeed = Speed; // Store the original speed
+        }
+
     }
 
 
