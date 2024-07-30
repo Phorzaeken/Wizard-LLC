@@ -15,7 +15,7 @@ E:/Arbeit/Projekte/GameJam/Wizard-LLC
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-51617
+57234
 Successfully changed project path to: E:/Arbeit/Projekte/GameJam/Wizard-LLC
 E:/Arbeit/Projekte/GameJam/Wizard-LLC
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ E:/Arbeit/Projekte/GameJam/Wizard-LLC
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [2320] Host "[IP] 192.168.0.114 [Port] 0 [Flags] 2 [Guid] 3374914792 [EditorId] 3374914792 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-QOLIB5E) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [26936] Host "[IP] 192.168.0.114 [Port] 0 [Flags] 2 [Guid] 920786106 [EditorId] 920786106 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-QOLIB5E) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [2320] Host "[IP] 192.168.0.114 [Port] 0 [Flags] 2 [Guid] 3374914792 [EditorId] 3374914792 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-QOLIB5E) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [26936] Host "[IP] 192.168.0.114 [Port] 0 [Flags] 2 [Guid] 920786106 [EditorId] 920786106 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-QOLIB5E) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
-Refreshing native plugins compatible for Editor in 18.63 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 19.52 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.10f1 (ff3792e53c62)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Resources/UnitySubsystems
@@ -70,46 +70,46 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56528
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56028
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.024255 seconds.
-- Loaded All Assemblies, in  0.600 seconds
+Registered in 0.020061 seconds.
+- Loaded All Assemblies, in  0.511 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.393 seconds
-Domain Reload Profiling: 987ms
-	BeginReloadAssembly (191ms)
+- Finished resetting the current domain, in  0.358 seconds
+Domain Reload Profiling: 864ms
+	BeginReloadAssembly (168ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (50ms)
-	RebuildNativeTypeToScriptingClass (20ms)
-	initialDomainReloadingComplete (115ms)
-	LoadAllAssembliesAndSetupDomain (217ms)
-		LoadAssemblies (185ms)
+	RebuildCommonClasses (52ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (91ms)
+	LoadAllAssembliesAndSetupDomain (179ms)
+		LoadAssemblies (163ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (213ms)
-			TypeCache.Refresh (211ms)
-				TypeCache.ScanAssembly (191ms)
+		AnalyzeDomain (176ms)
+			TypeCache.Refresh (174ms)
+				TypeCache.ScanAssembly (160ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (394ms)
+	FinalizeReload (358ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (311ms)
+		SetupLoadedEditorAssemblies (280ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (22ms)
+			InitializePlatformSupportModulesInManaged (19ms)
 			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (4ms)
-			ProcessInitializeOnLoadAttributes (199ms)
-			ProcessInitializeOnLoadMethodAttributes (80ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (190ms)
+			ProcessInitializeOnLoadMethodAttributes (60ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -118,8 +118,8 @@ Domain Reload Profiling: 987ms
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.397 seconds
-Refreshing native plugins compatible for Editor in 14.09 ms, found 3 plugins.
+- Loaded All Assemblies, in  1.087 seconds
+Refreshing native plugins compatible for Editor in 11.63 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 System.Exception: Error! Visual Scripting: couldn't find visual scripting package
@@ -144,227 +144,125 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.322 seconds
-Domain Reload Profiling: 3714ms
-	BeginReloadAssembly (259ms)
+- Finished resetting the current domain, in  1.893 seconds
+Domain Reload Profiling: 2973ms
+	BeginReloadAssembly (204ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (8ms)
+		DisableScriptedObjects (7ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (32ms)
-	RebuildCommonClasses (65ms)
-	RebuildNativeTypeToScriptingClass (19ms)
-	initialDomainReloadingComplete (84ms)
-	LoadAllAssembliesAndSetupDomain (966ms)
-		LoadAssemblies (667ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (70ms)
+	LoadAllAssembliesAndSetupDomain (745ms)
+		LoadAssemblies (513ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (454ms)
-			TypeCache.Refresh (375ms)
-				TypeCache.ScanAssembly (337ms)
-			ScanForSourceGeneratedMonoScriptInfo (64ms)
-			ResolveRequiredComponents (12ms)
-	FinalizeReload (2323ms)
+		AnalyzeDomain (355ms)
+			TypeCache.Refresh (302ms)
+				TypeCache.ScanAssembly (277ms)
+			ScanForSourceGeneratedMonoScriptInfo (42ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1894ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2023ms)
+		SetupLoadedEditorAssemblies (1661ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (21ms)
-			SetLoadedEditorAssemblies (7ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (171ms)
-			ProcessInitializeOnLoadAttributes (1587ms)
-			ProcessInitializeOnLoadMethodAttributes (211ms)
-			AfterProcessingInitializeOnLoad (25ms)
+			BeforeProcessingInitializeOnLoad (127ms)
+			ProcessInitializeOnLoadAttributes (1300ms)
+			ProcessInitializeOnLoadMethodAttributes (190ms)
+			AfterProcessingInitializeOnLoad (23ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (11ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 13.26 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (9ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 8.96 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5310 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 86 unused Assets / (1.6 MB). Loaded Objects now: 5735.
-Memory consumption went from 184.3 MB to 182.8 MB.
-Total: 31.131100 ms (FindLiveObjects: 0.890200 ms CreateObjectMapping: 0.388300 ms MarkObjects: 28.096500 ms  DeleteObjects: 1.751700 ms)
+Unloading 5311 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 86 unused Assets / (1.6 MB). Loaded Objects now: 5736.
+Memory consumption went from 185.1 MB to 183.5 MB.
+Total: 24.586600 ms (FindLiveObjects: 0.483500 ms CreateObjectMapping: 0.206000 ms MarkObjects: 23.415800 ms  DeleteObjects: 0.479500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1160828.138365 seconds.
-  path: Assets/Dominik/Modular Mesh/Wall_Beam_Small_A.fbx
-  artifactKey: Guid(67b88130bbabf074eb04257aaa0ff1eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Modular Mesh/Wall_Beam_Small_A.fbx using Guid(67b88130bbabf074eb04257aaa0ff1eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c3feb570a7037d2a20694b8693a8d08') in 0.216850 seconds
+  Time since last request: 1175498.439842 seconds.
+  path: Assets/Dominik/Furniture/FrameVertical.fbx
+  artifactKey: Guid(d3e1fa85dd5b8dd4da4b02f8ce56c0d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dominik/Furniture/FrameVertical.fbx using Guid(d3e1fa85dd5b8dd4da4b02f8ce56c0d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec73770ccdfa4bb0baa6aed7e436cda1') in 0.190802 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
+Number of asset objects unloaded after import = 9
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Dominik/Modular Mesh/Wall_Decoration_A.fbx
-  artifactKey: Guid(413a82a3343d5034b9917a991f0d8693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Modular Mesh/Wall_Decoration_A.fbx using Guid(413a82a3343d5034b9917a991f0d8693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '086452452f5130afe386242b108ab98a') in 0.037011 seconds
+  Time since last request: 64.534548 seconds.
+  path: Assets/Uwoopsies/FrameVertical.fbx
+  artifactKey: Guid(1c44ccdca0dfbc746ae57a6901cf928f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Uwoopsies/FrameVertical.fbx using Guid(1c44ccdca0dfbc746ae57a6901cf928f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e5c9f7c08f384770610a33eacdb644e') in 0.044125 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
+Number of asset objects unloaded after import = 9
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Dominik/Modular Mesh/Stairs_5x8.fbx
-  artifactKey: Guid(cbe7c8b92b99ad543ac8910b986b4b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Modular Mesh/Stairs_5x8.fbx using Guid(cbe7c8b92b99ad543ac8910b986b4b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07cdb831a0024018f43378d64c0ec105') in 0.038956 seconds
+  Time since last request: 26.171172 seconds.
+  path: Assets/Uwoopsies/Materials/Textures/FramesUVd_lambert1_Normal.png
+  artifactKey: Guid(ca78846194f3acd45b228e53aacb73ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Uwoopsies/Materials/Textures/FramesUVd_lambert1_Normal.png using Guid(ca78846194f3acd45b228e53aacb73ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e53642c9247cd421cdfb4be927e582cf') in 0.073518 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Dominik/Modular Mesh/Wall_Round_Arch_B.fbx
-  artifactKey: Guid(bccea4dbe6be5fc41b99b6e00ed285ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Modular Mesh/Wall_Round_Arch_B.fbx using Guid(bccea4dbe6be5fc41b99b6e00ed285ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c35e3c8bdb5f7afc98acd39e588609d') in 0.033188 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Dominik/Modular Mesh/Floor_8x8.fbx
-  artifactKey: Guid(a13d5861e1f7dfa4f86bfae34e1c6ca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Modular Mesh/Floor_8x8.fbx using Guid(a13d5861e1f7dfa4f86bfae34e1c6ca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6a753ec1edcfa1048698902e7c5846e') in 0.028276 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Dominik/Modular Mesh/Wall_Door_B.fbx
-  artifactKey: Guid(87d502515c53d43488c07696ed0c5535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Modular Mesh/Wall_Door_B.fbx using Guid(87d502515c53d43488c07696ed0c5535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20f78a8b1371965fe963f0a9fea946d5') in 0.059955 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Dominik/Modular Mesh/Wall_Round_Arch_Piece_A.fbx
-  artifactKey: Guid(d3bec655bf3f1b848a0e022815b2d7bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Modular Mesh/Wall_Round_Arch_Piece_A.fbx using Guid(d3bec655bf3f1b848a0e022815b2d7bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f83f15412d7d932f5586c298f7c47e94') in 0.030183 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Dominik/Modular Mesh/Stairs_5x8_B.fbx
-  artifactKey: Guid(557511ba67627354184fc1e50f0661b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Modular Mesh/Stairs_5x8_B.fbx using Guid(557511ba67627354184fc1e50f0661b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c93b49e80c1a6e576edf0cf176d4c510') in 0.032449 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Dominik/Modular Mesh/Wall_Door_8x10_A.fbx
-  artifactKey: Guid(f62ee482a0ce6a04980d5054b8fdd055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Modular Mesh/Wall_Door_8x10_A.fbx using Guid(f62ee482a0ce6a04980d5054b8fdd055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d2c6e26c7716d8c26e5895370859b4a') in 0.031865 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Dominik/Modular Mesh/Wall_Doorframe_8x10_A.fbx
-  artifactKey: Guid(284b25983f0d78042a324a4526e8c7b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Modular Mesh/Wall_Doorframe_8x10_A.fbx using Guid(284b25983f0d78042a324a4526e8c7b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3483bbf4ddfd42930955552589811feb') in 0.029383 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Dominik/Stairs_5x8.prefab
-  artifactKey: Guid(5c27ce659e25d9e4aace53d88d7fbf23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Stairs_5x8.prefab using Guid(5c27ce659e25d9e4aace53d88d7fbf23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd01cb54cbba0ae0dd214415959a3921d') in 0.025225 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 23
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Dominik/Modular Mesh/Wall_Doorframe_8x10_B.fbx
-  artifactKey: Guid(63390739c21f3ea46b398cd7bc0dd2b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Modular Mesh/Wall_Doorframe_8x10_B.fbx using Guid(63390739c21f3ea46b398cd7bc0dd2b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5282ac925172c0a2f8b164d885924a9') in 0.028201 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Dominik/Modular Mesh/Wall_Round_Arch_Piece_B.fbx
-  artifactKey: Guid(1d8d26b8da7390841b2eaad0adf85376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Modular Mesh/Wall_Round_Arch_Piece_B.fbx using Guid(1d8d26b8da7390841b2eaad0adf85376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a87716e968281e8f6e4bd35f3a5e2c29') in 0.029931 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Dominik/Modular Mesh/Wall_Round_Arch_A.fbx
-  artifactKey: Guid(49b20625a656cb9418aaec145fd0ed66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Modular Mesh/Wall_Round_Arch_A.fbx using Guid(49b20625a656cb9418aaec145fd0ed66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcbd4ca947fb6ed0ccc128cd9a845304') in 0.029486 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 18.206181 seconds.
-  path: Assets/Dominik/Modular Mesh/Prefabs/RoundedDoors.prefab
-  artifactKey: Guid(e4a881093c8447346bcf2c7498159458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Modular Mesh/Prefabs/RoundedDoors.prefab using Guid(e4a881093c8447346bcf2c7498159458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c21235112ff374f6dbf4b15ef2cd5a99') in 0.034058 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 30
-========================================================================
-Received Import Request.
-  Time since last request: 2.920637 seconds.
-  path: Assets/Dominik/Furniture/Book-Row01.fbx
-  artifactKey: Guid(2f36bd38b3372c04d9f072d3fe8aaac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Furniture/Book-Row01.fbx using Guid(2f36bd38b3372c04d9f072d3fe8aaac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12c2999a7c7c8448c7661528d6da5d01') in 0.029500 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Dominik/Furniture/Bookshelf-01.fbx
-  artifactKey: Guid(c32da6e63c47f1b409906d0508b82014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Furniture/Bookshelf-01.fbx using Guid(c32da6e63c47f1b409906d0508b82014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8eb522de2b771e0fc8331e990417ba89') in 0.047745 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 18
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Dominik/Furniture/Book-Row03.fbx
-  artifactKey: Guid(7ca1b108b76eed34cb83e630e111493c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Furniture/Book-Row03.fbx using Guid(7ca1b108b76eed34cb83e630e111493c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6e8d961b0261458a4db2a884ff340f1') in 0.031037 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Dominik/Furniture/Book03.fbx
-  artifactKey: Guid(86269558f7718ba49ae59cd73f229a5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Furniture/Book03.fbx using Guid(86269558f7718ba49ae59cd73f229a5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ea60518030873fbdf3bb04c93fc1eb5') in 0.033986 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
   Time since last request: 0.000029 seconds.
-  path: Assets/Dominik/Furniture/Chair.fbx
-  artifactKey: Guid(554e229a45fddfe43b4856fd4e0a005e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Furniture/Chair.fbx using Guid(554e229a45fddfe43b4856fd4e0a005e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed3f643dac9e6ec701bca693043d1839') in 0.035140 seconds
+  path: Assets/Uwoopsies/Materials/Textures/FramesUVd_Painting2_Normal.png
+  artifactKey: Guid(83250cfbf0a687b429622bc746514b07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Uwoopsies/Materials/Textures/FramesUVd_Painting2_Normal.png using Guid(83250cfbf0a687b429622bc746514b07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '606c06d65ca2fa295883e774c3413499') in 0.044439 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.345713 seconds.
-  path: Assets/Dominik/Furniture/Prefab/Bookshelf 2.prefab
-  artifactKey: Guid(c869ee7cc0043aa468cf58937de57017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Furniture/Prefab/Bookshelf 2.prefab using Guid(c869ee7cc0043aa468cf58937de57017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30144766e8dbecfe88b387e62becf672') in 0.040114 seconds
+  Time since last request: 0.000028 seconds.
+  path: Assets/Uwoopsies/Materials/Textures/FramesUVd_Painting1_Normal.png
+  artifactKey: Guid(977774ea4dd81a24f80a3d22c74a3efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Uwoopsies/Materials/Textures/FramesUVd_Painting1_Normal.png using Guid(977774ea4dd81a24f80a3d22c74a3efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4bb4837f91b219c7ba0b8a8553d00d1') in 0.035912 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 218
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Uwoopsies/Materials/Textures/FramesUVd_Painting1_OcclusionRoughnessMetallic.png
+  artifactKey: Guid(84a2e4160ab62fc4ead0978389b1e12c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Uwoopsies/Materials/Textures/FramesUVd_Painting1_OcclusionRoughnessMetallic.png using Guid(84a2e4160ab62fc4ead0978389b1e12c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb3e5b243c6978b688aed0646f6e2582') in 0.036920 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 32.529183 seconds.
+  path: Assets/CB/Assets/Lantern/Lantern_Emissive.png
+  artifactKey: Guid(faf5a322618e9c2479a8209dd29cce02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CB/Assets/Lantern/Lantern_Emissive.png using Guid(faf5a322618e9c2479a8209dd29cce02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0602cacb88b3be38f023b950dfcc635') in 0.044717 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 22.246695 seconds.
+  path: Assets/CB/Assets/Props/Batch1/Textures/Props_low_Props_OcclusionRoughnessMetallic.png
+  artifactKey: Guid(0cdcc2d23380dcc4bb7ce4f6d39299c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CB/Assets/Props/Batch1/Textures/Props_low_Props_OcclusionRoughnessMetallic.png using Guid(0cdcc2d23380dcc4bb7ce4f6d39299c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9950a86b003c495a88b71db27c57e3af') in 0.056031 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: Der E/A-Vorgang wurde wegen eines Threadendes oder einer Anwendungsanforderung abgebrochen.
 AssetImportWorker is now disconnected from the server

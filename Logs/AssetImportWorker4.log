@@ -15,7 +15,7 @@ E:/Arbeit/Projekte/GameJam/Wizard-LLC
 -logFile
 Logs/AssetImportWorker4.log
 -srvPort
-51617
+57234
 Successfully changed project path to: E:/Arbeit/Projekte/GameJam/Wizard-LLC
 E:/Arbeit/Projekte/GameJam/Wizard-LLC
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ E:/Arbeit/Projekte/GameJam/Wizard-LLC
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [21836] Host "[IP] 192.168.0.114 [Port] 0 [Flags] 2 [Guid] 2498230336 [EditorId] 2498230336 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-QOLIB5E) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [23824] Host "[IP] 192.168.0.114 [Port] 0 [Flags] 2 [Guid] 2344648951 [EditorId] 2344648951 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-QOLIB5E) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [21836] Host "[IP] 192.168.0.114 [Port] 0 [Flags] 2 [Guid] 2498230336 [EditorId] 2498230336 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-QOLIB5E) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [23824] Host "[IP] 192.168.0.114 [Port] 0 [Flags] 2 [Guid] 2344648951 [EditorId] 2344648951 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-QOLIB5E) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
-Refreshing native plugins compatible for Editor in 17.62 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 16.98 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.10f1 (ff3792e53c62)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Resources/UnitySubsystems
@@ -70,46 +70,46 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56184
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56352
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.025157 seconds.
-- Loaded All Assemblies, in  0.538 seconds
+Registered in 0.025501 seconds.
+- Loaded All Assemblies, in  0.509 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.344 seconds
-Domain Reload Profiling: 878ms
-	BeginReloadAssembly (162ms)
+- Finished resetting the current domain, in  0.329 seconds
+Domain Reload Profiling: 834ms
+	BeginReloadAssembly (155ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (52ms)
-	RebuildNativeTypeToScriptingClass (16ms)
-	initialDomainReloadingComplete (108ms)
-	LoadAllAssembliesAndSetupDomain (195ms)
-		LoadAssemblies (158ms)
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (104ms)
+	LoadAllAssembliesAndSetupDomain (188ms)
+		LoadAssemblies (152ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (192ms)
-			TypeCache.Refresh (191ms)
-				TypeCache.ScanAssembly (174ms)
+		AnalyzeDomain (184ms)
+			TypeCache.Refresh (183ms)
+				TypeCache.ScanAssembly (168ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (344ms)
+	FinalizeReload (329ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (265ms)
+		SetupLoadedEditorAssemblies (257ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (15ms)
-			SetLoadedEditorAssemblies (7ms)
+			InitializePlatformSupportModulesInManaged (19ms)
+			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (174ms)
-			ProcessInitializeOnLoadMethodAttributes (65ms)
+			ProcessInitializeOnLoadAttributes (170ms)
+			ProcessInitializeOnLoadMethodAttributes (59ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -118,10 +118,59 @@ Domain Reload Profiling: 878ms
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.084 seconds
-Refreshing native plugins compatible for Editor in 8.38 ms, found 3 plugins.
+- Loaded All Assemblies, in  1.143 seconds
+Refreshing native plugins compatible for Editor in 10.15 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
+
+=================================================================
+	Native Crash Reporting
+=================================================================
+Got a UNKNOWN while executing native code. This usually indicates
+a fatal error in the mono runtime or one of the native libraries 
+used by your application.
+=================================================================
+
+=================================================================
+	Managed Stacktrace:
+=================================================================
+	  at <unknown> <0xffffffff>
+	  at System.Reflection.Assembly:GetTypes <0x00085>
+	  at System.Reflection.Assembly:GetTypes <0x00019>
+	  at <GetTypesSafely>d__35:MoveNext <0x0008f>
+	  at Unity.VisualScripting.RuntimeCodebase:.cctor <0x005f6>
+	  at System.Object:runtime_invoke_void <0x00084>
+	  at <unknown> <0xffffffff>
+	  at Unity.VisualScripting.FullSerializer.fsSerializer:.cctor <0x0037a>
+	  at System.Object:runtime_invoke_void <0x00084>
+	  at <unknown> <0xffffffff>
+	  at System.Object:__icall_wrapper_mono_generic_class_init <0x0006a>
+	  at Unity.VisualScripting.SerializationOperation:.ctor <0x000a2>
+	  at Unity.VisualScripting.Serialization:StartOperation <0x000d2>
+	  at Unity.VisualScripting.Serialization:DeserializeInto <0x0009a>
+	  at Unity.VisualScripting.Serialization:Deserialize <0x0005a>
+	  at Unity.VisualScripting.EditorPrefMetadata:Load <0x00102>
+	  at Unity.VisualScripting.PluginConfigurationItemMetadata:.ctor <0x004e2>
+	  at Unity.VisualScripting.EditorPrefMetadata:.ctor <0x0002a>
+	  at <>c__DisplayClass244_0:<EditorPref>b__0 <0x0005a>
+	  at Unity.VisualScripting.Metadata:Dig <0x0034a>
+	  at Unity.VisualScripting.Metadata:EditorPref <0x00142>
+	  at Unity.VisualScripting.PluginConfiguration:LoadEditorPrefs <0x0036a>
+	  at Unity.VisualScripting.PluginConfiguration:Load <0x00022>
+	  at Unity.VisualScripting.PluginConfiguration:Initialize <0x00052>
+	  at Unity.VisualScripting.PluginContainer:Initialize <0x022ce>
+	  at Unity.VisualScripting.PluginContainer:InitializeOnLoad <0x00032>
+	  at Unity.VisualScripting.VSUsageUtility:DoInitializeOnLoadCalls <0x00102>
+	  at Unity.VisualScripting.VSUsageUtility:set_isVisualScriptingUsed <0x000da>
+	  at Unity.VisualScripting.VSUsageUtility:CheckAndSetIsVisualScriptingUsed <0x000b2>
+	  at Unity.VisualScripting.VSUsageUtility:.cctor <0x00032>
+	  at System.Object:runtime_invoke_void <0x00084>
+	  at <unknown> <0xffffffff>
+	  at System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor <0x00069>
+	  at System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor <0x0003a>
+	  at UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes <0x008da>
+	  at <Module>:runtime_invoke_void_object <0x00087>
+=================================================================
 System.Exception: Error! Visual Scripting: couldn't find visual scripting package
   at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in .\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Utilities\PackageVersionUtility.cs:31 
   at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Plugin\BoltCoreManifest.cs:11 
@@ -144,47 +193,47 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.787 seconds
-Domain Reload Profiling: 2866ms
-	BeginReloadAssembly (219ms)
+- Finished resetting the current domain, in  1.773 seconds
+Domain Reload Profiling: 2911ms
+	BeginReloadAssembly (211ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (7ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (29ms)
-	RebuildCommonClasses (46ms)
-	RebuildNativeTypeToScriptingClass (19ms)
-	initialDomainReloadingComplete (70ms)
-	LoadAllAssembliesAndSetupDomain (724ms)
-		LoadAssemblies (522ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (59ms)
+	LoadAllAssembliesAndSetupDomain (808ms)
+		LoadAssemblies (586ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (334ms)
-			TypeCache.Refresh (288ms)
-				TypeCache.ScanAssembly (262ms)
-			ScanForSourceGeneratedMonoScriptInfo (37ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (1787ms)
+		AnalyzeDomain (352ms)
+			TypeCache.Refresh (304ms)
+				TypeCache.ScanAssembly (276ms)
+			ScanForSourceGeneratedMonoScriptInfo (39ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1774ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1552ms)
+		SetupLoadedEditorAssemblies (1544ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (15ms)
-			SetLoadedEditorAssemblies (4ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (136ms)
-			ProcessInitializeOnLoadAttributes (1193ms)
-			ProcessInitializeOnLoadMethodAttributes (183ms)
-			AfterProcessingInitializeOnLoad (20ms)
+			BeforeProcessingInitializeOnLoad (127ms)
+			ProcessInitializeOnLoadAttributes (1223ms)
+			ProcessInitializeOnLoadMethodAttributes (155ms)
+			AfterProcessingInitializeOnLoad (19ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
-Refreshing native plugins compatible for Editor in 9.08 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 8.12 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5310 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 86 unused Assets / (1.6 MB). Loaded Objects now: 5735.
-Memory consumption went from 184.6 MB to 183.0 MB.
-Total: 25.559800 ms (FindLiveObjects: 0.508400 ms CreateObjectMapping: 0.154200 ms MarkObjects: 24.231700 ms  DeleteObjects: 0.663900 ms)
+Unloading 5311 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 86 unused Assets / (1.6 MB). Loaded Objects now: 5736.
+Memory consumption went from 185.0 MB to 183.5 MB.
+Total: 19.846500 ms (FindLiveObjects: 0.607500 ms CreateObjectMapping: 0.221500 ms MarkObjects: 18.421600 ms  DeleteObjects: 0.594600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -201,438 +250,977 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1161940.946880 seconds.
-  path: Assets/CB/Scripts
-  artifactKey: Guid(2d986ed0320880445b49270adbf4c2d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CB/Scripts using Guid(2d986ed0320880445b49270adbf4c2d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0f4e6e78f8a22e3d10f64cd15fb5983') in 0.003140 seconds
+  Time since last request: 1178394.417963 seconds.
+  path: Assets/Dominik/Furniture/Prefab/Barrel.prefab
+  artifactKey: Guid(e0896fb02f0822d4faaa90c89b7e1f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dominik/Furniture/Prefab/Barrel.prefab using Guid(e0896fb02f0822d4faaa90c89b7e1f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cd610ce6799899584f3626f267d3351') in 0.031393 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 4
 ========================================================================
 Received Import Request.
-  Time since last request: 9.124389 seconds.
-  path: Assets/CB
-  artifactKey: Guid(4e3e65772400d9e43a1a5ea790c1465b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CB using Guid(4e3e65772400d9e43a1a5ea790c1465b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed3de7841f644c0f2e344cf4fef03cb1') in 0.000613 seconds
+  Time since last request: 7.983225 seconds.
+  path: Packages/com.unity.render-pipelines.core/Runtime/RenderPipelineResources/Mesh/UnityMaterialBall.fbx
+  artifactKey: Guid(39857cfad1651644682ff5b772e6e697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Runtime/RenderPipelineResources/Mesh/UnityMaterialBall.fbx using Guid(39857cfad1651644682ff5b772e6e697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7143401c058642cf2c14cedc59a2442') in 0.205611 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 63
 ========================================================================
 Received Import Request.
-  Time since last request: 2.907149 seconds.
-  path: Assets/CB/Assets/Props
-  artifactKey: Guid(3072716d79271584e9ab238f347e82c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CB/Assets/Props using Guid(3072716d79271584e9ab238f347e82c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6759becf69ede28ddf042178b5974f01') in 0.000488 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 1.523667 seconds.
-  path: Assets/CB/Assets/Props/Batch2
-  artifactKey: Guid(b972bf252d5a18b46be9607c897e5ba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CB/Assets/Props/Batch2 using Guid(b972bf252d5a18b46be9607c897e5ba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ef215fbc2fc31fab2f3042548787408') in 0.000499 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 1.294531 seconds.
-  path: Assets/CB/Assets/Props/Batch2/Meshes
-  artifactKey: Guid(7179da4d5536d37479d12f034e425b0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CB/Assets/Props/Batch2/Meshes using Guid(7179da4d5536d37479d12f034e425b0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bd505ef1a59c4bf89c262e5c6bed0aa') in 0.000607 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.959760 seconds.
-  path: Assets/CB/Assets/Props/Batch2/Meshes/Carpet.fbx
-  artifactKey: Guid(25a894e80c4a600439d954f62b152b8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CB/Assets/Props/Batch2/Meshes/Carpet.fbx using Guid(25a894e80c4a600439d954f62b152b8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b8aebaa7379657225039f88d96b9b01') in 0.219153 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 3.728210 seconds.
-  path: Assets/CB/Assets/Props/Batch1
-  artifactKey: Guid(a80186fd0c134134db434ebdf651cf91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CB/Assets/Props/Batch1 using Guid(a80186fd0c134134db434ebdf651cf91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '574432f9b2155714d6fdf1bd5ec85dbe') in 0.000792 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 1.338820 seconds.
-  path: Assets/CB/Assets/Props/Batch1/Meshes
-  artifactKey: Guid(89c3d1813f3c08647bdcb06aebbacbd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CB/Assets/Props/Batch1/Meshes using Guid(89c3d1813f3c08647bdcb06aebbacbd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ebaa8cacca5adb6a36e8e2619c66dbe') in 0.000537 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.117562 seconds.
-  path: Assets/CB/Assets/Props/Batch1/Meshes/BigCandle.fbx
-  artifactKey: Guid(013a2bfb1fc69f5499751ba7164668e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CB/Assets/Props/Batch1/Meshes/BigCandle.fbx using Guid(013a2bfb1fc69f5499751ba7164668e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d701e720bd001054fcebce31e005dd5') in 0.091460 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 20
-========================================================================
-Received Import Request.
-  Time since last request: 0.000125 seconds.
-  path: Assets/CB/Assets/Props/Batch1/Meshes/FeatherPen.fbx
-  artifactKey: Guid(5c5c735e35b1aaf41a429f7c87dea4be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CB/Assets/Props/Batch1/Meshes/FeatherPen.fbx using Guid(5c5c735e35b1aaf41a429f7c87dea4be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c3a84e590ffe1d75b082b0d9f6d6519') in 0.089974 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 30
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/CB/Assets/Props/Batch1/Meshes/Plunger.fbx
-  artifactKey: Guid(99dec0b2929614b4b9f6cf7ede98e09c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CB/Assets/Props/Batch1/Meshes/Plunger.fbx using Guid(99dec0b2929614b4b9f6cf7ede98e09c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b1ab25fe98b500c6adbb5d7f65bd672') in 0.074188 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 20
-========================================================================
-Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Assets/CB/Assets/Props/Batch1/Meshes/SmokeDetector.fbx
-  artifactKey: Guid(b9cef9a1d376d514590e42ae8dfe8dfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CB/Assets/Props/Batch1/Meshes/SmokeDetector.fbx using Guid(b9cef9a1d376d514590e42ae8dfe8dfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff649a2c31db888960c7325a66a6e780') in 0.044718 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/CB/Assets/Props/Batch1/Meshes/OilCan.fbx
-  artifactKey: Guid(21b361e5da9d7d74d8479446be6edbf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CB/Assets/Props/Batch1/Meshes/OilCan.fbx using Guid(21b361e5da9d7d74d8479446be6edbf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1e3d6316be83ad00cbc7befa95e99be') in 0.097205 seconds
+  Time since last request: 3.446516 seconds.
+  path: Assets/Dominik/Furniture/Prefab/Barrel.prefab
+  artifactKey: Guid(e0896fb02f0822d4faaa90c89b7e1f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dominik/Furniture/Prefab/Barrel.prefab using Guid(e0896fb02f0822d4faaa90c89b7e1f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b37b86859857950439c77071cd2bb9a6') in 0.060187 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 28
 ========================================================================
 Received Import Request.
-  Time since last request: 2.288812 seconds.
-  path: Assets/CB/Assets/Props/Batch1/Meshes/Prefabs/BigCandleHolder.prefab
-  artifactKey: Guid(d8ef7d3ad29711844a662f7cd92de226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CB/Assets/Props/Batch1/Meshes/Prefabs/BigCandleHolder.prefab using Guid(d8ef7d3ad29711844a662f7cd92de226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd99a7c2ac5196f3b19d9c70daa638a1c') in 0.027184 seconds
+  Time since last request: 3.759751 seconds.
+  path: Assets/Dominik/Furniture/Prefab/Barrel.prefab
+  artifactKey: Guid(e0896fb02f0822d4faaa90c89b7e1f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dominik/Furniture/Prefab/Barrel.prefab using Guid(e0896fb02f0822d4faaa90c89b7e1f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6330ef008af11b633d57d10dccc8386a') in 0.019172 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 45
+Number of asset objects unloaded after import = 28
 ========================================================================
 Received Import Request.
-  Time since last request: 0.004717 seconds.
-  path: Assets/CB/Assets/Props/Batch1/Meshes/Prefabs/InkBottle_I.prefab
-  artifactKey: Guid(18fc19b519937fa4f8f16e6b7485ead8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CB/Assets/Props/Batch1/Meshes/Prefabs/InkBottle_I.prefab using Guid(18fc19b519937fa4f8f16e6b7485ead8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47b8288dc2309a7c67d1935badd2c91a') in 0.035426 seconds
+  Time since last request: 0.781186 seconds.
+  path: Assets/Dominik/Furniture/Prefab/Barrel.prefab
+  artifactKey: Guid(e0896fb02f0822d4faaa90c89b7e1f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dominik/Furniture/Prefab/Barrel.prefab using Guid(e0896fb02f0822d4faaa90c89b7e1f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e047d51c0c9c2d91d95f56307f24f42') in 0.020264 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 0.985289 seconds.
+  path: Assets/Dominik/Furniture/Prefab/Barrel.prefab
+  artifactKey: Guid(e0896fb02f0822d4faaa90c89b7e1f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dominik/Furniture/Prefab/Barrel.prefab using Guid(e0896fb02f0822d4faaa90c89b7e1f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c10203179f495ec846e75cf6fdade59c') in 0.018588 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 7.650355 seconds.
+  path: Assets/Dominik/Furniture/Prefab/Barrel.prefab
+  artifactKey: Guid(e0896fb02f0822d4faaa90c89b7e1f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dominik/Furniture/Prefab/Barrel.prefab using Guid(e0896fb02f0822d4faaa90c89b7e1f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ce3ae005830dfd6e3181fc35cb43985') in 0.018680 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 2.392725 seconds.
+  path: Assets/Dominik/Furniture/Prefab/Barrel.prefab
+  artifactKey: Guid(e0896fb02f0822d4faaa90c89b7e1f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dominik/Furniture/Prefab/Barrel.prefab using Guid(e0896fb02f0822d4faaa90c89b7e1f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd941e48fc98186149b1d57afadf4fea8') in 0.018118 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 1.388249 seconds.
+  path: Assets/Dominik/Furniture/Prefab/Barrel.prefab
+  artifactKey: Guid(e0896fb02f0822d4faaa90c89b7e1f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dominik/Furniture/Prefab/Barrel.prefab using Guid(e0896fb02f0822d4faaa90c89b7e1f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '133e80eb7670b8cf51dda285cacc8329') in 0.018489 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 2.201604 seconds.
+  path: Assets/Dominik/Furniture/Prefab/Barrel.prefab
+  artifactKey: Guid(e0896fb02f0822d4faaa90c89b7e1f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dominik/Furniture/Prefab/Barrel.prefab using Guid(e0896fb02f0822d4faaa90c89b7e1f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bebfbdcad9fd29cd8ddbd0215117718') in 0.029612 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 2.393510 seconds.
+  path: Assets/Dominik/Furniture/Prefab/Barrel.prefab
+  artifactKey: Guid(e0896fb02f0822d4faaa90c89b7e1f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dominik/Furniture/Prefab/Barrel.prefab using Guid(e0896fb02f0822d4faaa90c89b7e1f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '965e8bda851a7c23b5c079e635faa32b') in 0.018508 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 2.210631 seconds.
+  path: Assets/Dominik/Furniture/Prefab/Barrel.prefab
+  artifactKey: Guid(e0896fb02f0822d4faaa90c89b7e1f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dominik/Furniture/Prefab/Barrel.prefab using Guid(e0896fb02f0822d4faaa90c89b7e1f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cff5c1390ad90dec8b48beccbe5e8634') in 0.019552 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 2.595468 seconds.
+  path: Assets/Dominik/Furniture/Prefab/Barrel.prefab
+  artifactKey: Guid(e0896fb02f0822d4faaa90c89b7e1f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dominik/Furniture/Prefab/Barrel.prefab using Guid(e0896fb02f0822d4faaa90c89b7e1f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52c5f48cb11853696c6e16f422fe213f') in 0.023731 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 1.788097 seconds.
+  path: Assets/Dominik/Furniture/Prefab/Barrel.prefab
+  artifactKey: Guid(e0896fb02f0822d4faaa90c89b7e1f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dominik/Furniture/Prefab/Barrel.prefab using Guid(e0896fb02f0822d4faaa90c89b7e1f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '039250a07c7ab2bde552e80575f6908a') in 0.018607 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 1.796435 seconds.
+  path: Assets/Dominik/Furniture/Prefab/Barrel.prefab
+  artifactKey: Guid(e0896fb02f0822d4faaa90c89b7e1f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dominik/Furniture/Prefab/Barrel.prefab using Guid(e0896fb02f0822d4faaa90c89b7e1f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51ca040b8aabeab1b603e6e57055ea1b') in 0.019437 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 3.813197 seconds.
+  path: Assets/Dominik/Furniture/Prefab/Barrel.prefab
+  artifactKey: Guid(e0896fb02f0822d4faaa90c89b7e1f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dominik/Furniture/Prefab/Barrel.prefab using Guid(e0896fb02f0822d4faaa90c89b7e1f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4667230bf8058a75a94e717d273658e2') in 0.018648 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 2.186483 seconds.
+  path: Assets/Dominik/Furniture/Prefab/Barrel.prefab
+  artifactKey: Guid(e0896fb02f0822d4faaa90c89b7e1f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dominik/Furniture/Prefab/Barrel.prefab using Guid(e0896fb02f0822d4faaa90c89b7e1f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9960b6fa66063571096f34a5c959cb7b') in 0.017057 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 2.205410 seconds.
+  path: Assets/Dominik/Furniture/Prefab/Barrel.prefab
+  artifactKey: Guid(e0896fb02f0822d4faaa90c89b7e1f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dominik/Furniture/Prefab/Barrel.prefab using Guid(e0896fb02f0822d4faaa90c89b7e1f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc5f785a0864476e45fb7d7b5800d0b6') in 0.017630 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 3.608933 seconds.
+  path: Assets/Dominik/Furniture/Prefab/Barrel.prefab
+  artifactKey: Guid(e0896fb02f0822d4faaa90c89b7e1f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dominik/Furniture/Prefab/Barrel.prefab using Guid(e0896fb02f0822d4faaa90c89b7e1f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52315e9e87fcc8e27d967aaf62803f89') in 0.017266 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 6.834687 seconds.
+  path: Assets/Dominik/Furniture/Prefab/Barrel.prefab
+  artifactKey: Guid(e0896fb02f0822d4faaa90c89b7e1f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dominik/Furniture/Prefab/Barrel.prefab using Guid(e0896fb02f0822d4faaa90c89b7e1f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b187e6141bd9ff1029bfb81d8f883a5e') in 0.018039 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 2.597264 seconds.
+  path: Assets/Dominik/Furniture/Prefab/Barrel.prefab
+  artifactKey: Guid(e0896fb02f0822d4faaa90c89b7e1f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dominik/Furniture/Prefab/Barrel.prefab using Guid(e0896fb02f0822d4faaa90c89b7e1f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88ad05f249b45b0aaed435bc113e2306') in 0.017786 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 3.828101 seconds.
+  path: Assets/Dominik/Furniture/Prefab/Barrel.prefab
+  artifactKey: Guid(e0896fb02f0822d4faaa90c89b7e1f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dominik/Furniture/Prefab/Barrel.prefab using Guid(e0896fb02f0822d4faaa90c89b7e1f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1d3caafb847fbddad9178e93f2a9601') in 0.017345 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 718.422418 seconds.
+  path: Assets/Dominik/Furniture/Prefab/Bookshelf 5.prefab
+  artifactKey: Guid(6fe59319ca8053e4da0b8cf3e069c395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dominik/Furniture/Prefab/Bookshelf 5.prefab using Guid(6fe59319ca8053e4da0b8cf3e069c395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6510d4a5888f74cbc0c70b2e981539c8') in 0.061669 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 169
+========================================================================
+Received Import Request.
+  Time since last request: 7.818877 seconds.
+  path: Assets/Dominik/Furniture/Prefab/Bookshelf02.prefab
+  artifactKey: Guid(c06788d27a0b531448ab39e2f4b506d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dominik/Furniture/Prefab/Bookshelf02.prefab using Guid(c06788d27a0b531448ab39e2f4b506d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64a7720d0aa2105e19f358e5e9dd097d') in 0.023450 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 79
+========================================================================
+Received Import Request.
+  Time since last request: 247.668619 seconds.
+  path: Assets/Dominik/Furniture/Prefab/Barrel 1.prefab
+  artifactKey: Guid(3e7cb0ad5e73c18429cdb7e4b91934f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dominik/Furniture/Prefab/Barrel 1.prefab using Guid(3e7cb0ad5e73c18429cdb7e4b91934f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65be4935e96c825721d3abd060218b79') in 0.020204 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 9.410283 seconds.
+  path: Assets/Dominik/Furniture/Prefab/Barrel 1.prefab
+  artifactKey: Guid(3e7cb0ad5e73c18429cdb7e4b91934f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dominik/Furniture/Prefab/Barrel 1.prefab using Guid(3e7cb0ad5e73c18429cdb7e4b91934f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fba7bfb815d84e4e020705bfd71c71c0') in 0.002214 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 6.672206 seconds.
+  path: Assets/Dominik/Furniture/Prefab/Barrel 1.prefab
+  artifactKey: Guid(3e7cb0ad5e73c18429cdb7e4b91934f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dominik/Furniture/Prefab/Barrel 1.prefab using Guid(3e7cb0ad5e73c18429cdb7e4b91934f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd04467a0a2a785d44d49af2de63b5017') in 0.025607 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 4.215220 seconds.
+  path: Assets/Dominik/Furniture/Prefab/Barrel 1.prefab
+  artifactKey: Guid(3e7cb0ad5e73c18429cdb7e4b91934f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dominik/Furniture/Prefab/Barrel 1.prefab using Guid(3e7cb0ad5e73c18429cdb7e4b91934f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b4c3879ba2b6093540cb506b7e1e471') in 0.018993 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 1.997454 seconds.
+  path: Assets/Dominik/Furniture/Prefab/Barrel 1.prefab
+  artifactKey: Guid(3e7cb0ad5e73c18429cdb7e4b91934f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dominik/Furniture/Prefab/Barrel 1.prefab using Guid(3e7cb0ad5e73c18429cdb7e4b91934f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aecb16d5e69f9a322e9b307025990a48') in 0.017476 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 4.221560 seconds.
+  path: Assets/Dominik/Furniture/Prefab/Barrel 1.prefab
+  artifactKey: Guid(3e7cb0ad5e73c18429cdb7e4b91934f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dominik/Furniture/Prefab/Barrel 1.prefab using Guid(3e7cb0ad5e73c18429cdb7e4b91934f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63914b8421ec7cbefa88ccb0ecc16565') in 0.019252 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 3.415900 seconds.
+  path: Assets/Dominik/Furniture/Prefab/Barrel 1.prefab
+  artifactKey: Guid(3e7cb0ad5e73c18429cdb7e4b91934f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dominik/Furniture/Prefab/Barrel 1.prefab using Guid(3e7cb0ad5e73c18429cdb7e4b91934f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f6623eb4d9706afa4f65d8264775974') in 0.026971 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 4.432862 seconds.
+  path: Assets/Dominik/Furniture/Prefab/Barrel 1.prefab
+  artifactKey: Guid(3e7cb0ad5e73c18429cdb7e4b91934f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dominik/Furniture/Prefab/Barrel 1.prefab using Guid(3e7cb0ad5e73c18429cdb7e4b91934f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fdc93fa67a2283394b1c9d5c0177666') in 0.019759 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 5.003312 seconds.
+  path: Assets/Dominik/Furniture/Prefab/Barrel 1.prefab
+  artifactKey: Guid(3e7cb0ad5e73c18429cdb7e4b91934f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dominik/Furniture/Prefab/Barrel 1.prefab using Guid(3e7cb0ad5e73c18429cdb7e4b91934f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5a10d55119ffb2bb569e24c14d06ab0') in 0.017901 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 37
+========================================================================
+Received Import Request.
+  Time since last request: 1.999652 seconds.
+  path: Assets/Dominik/Furniture/Prefab/Barrel 1.prefab
+  artifactKey: Guid(3e7cb0ad5e73c18429cdb7e4b91934f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dominik/Furniture/Prefab/Barrel 1.prefab using Guid(3e7cb0ad5e73c18429cdb7e4b91934f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '376ecaa0e4c281c703969d36f52e634b') in 0.017285 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 37
+========================================================================
+Received Import Request.
+  Time since last request: 4.827390 seconds.
+  path: Assets/Dominik/Furniture/Prefab/Barrel 1.prefab
+  artifactKey: Guid(3e7cb0ad5e73c18429cdb7e4b91934f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dominik/Furniture/Prefab/Barrel 1.prefab using Guid(3e7cb0ad5e73c18429cdb7e4b91934f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8afded6b995d4338fb44c6721171cec') in 0.019194 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 37
+========================================================================
+Received Import Request.
+  Time since last request: 2.203480 seconds.
+  path: Assets/Dominik/Furniture/Prefab/Barrel 1.prefab
+  artifactKey: Guid(3e7cb0ad5e73c18429cdb7e4b91934f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dominik/Furniture/Prefab/Barrel 1.prefab using Guid(3e7cb0ad5e73c18429cdb7e4b91934f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e52f8f577fe0e982bea0c279ffa916a') in 0.029587 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 46
 ========================================================================
 Received Import Request.
-  Time since last request: 0.016710 seconds.
-  path: Assets/CB/Assets/Props/Batch1/Meshes/Prefabs/Lattekasam.prefab
-  artifactKey: Guid(3520e9f16721ae74e98b16585b7e98c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CB/Assets/Props/Batch1/Meshes/Prefabs/Lattekasam.prefab using Guid(3520e9f16721ae74e98b16585b7e98c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '386c1b00111e110082f34ca95a2ea6a4') in 0.045698 seconds
+  Time since last request: 2.989814 seconds.
+  path: Assets/Dominik/Furniture/Prefab/Barrel 1.prefab
+  artifactKey: Guid(3e7cb0ad5e73c18429cdb7e4b91934f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dominik/Furniture/Prefab/Barrel 1.prefab using Guid(3e7cb0ad5e73c18429cdb7e4b91934f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5806a5361e6fb34f8c72a78440ed4231') in 0.017493 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 38
+Number of asset objects unloaded after import = 46
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/CB/Assets/Props/Batch1/Meshes/Prefabs/Receipts.prefab
-  artifactKey: Guid(8f15ba38189555947aa695f6b215808d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CB/Assets/Props/Batch1/Meshes/Prefabs/Receipts.prefab using Guid(8f15ba38189555947aa695f6b215808d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc03a9dc88a1c00cba2fa1c13a819252') in 0.054654 seconds
+  Time since last request: 3.202332 seconds.
+  path: Assets/Dominik/Furniture/Prefab/Barrel 1.prefab
+  artifactKey: Guid(3e7cb0ad5e73c18429cdb7e4b91934f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dominik/Furniture/Prefab/Barrel 1.prefab using Guid(3e7cb0ad5e73c18429cdb7e4b91934f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91bd90cb629fa30f77e94c483463408b') in 0.017590 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 46
+========================================================================
+Received Import Request.
+  Time since last request: 5.830249 seconds.
+  path: Assets/Dominik/Furniture/Prefab/Barrel 1.prefab
+  artifactKey: Guid(3e7cb0ad5e73c18429cdb7e4b91934f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dominik/Furniture/Prefab/Barrel 1.prefab using Guid(3e7cb0ad5e73c18429cdb7e4b91934f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9601e25b56acf29d569d657862399ff1') in 0.017660 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 46
+========================================================================
+Received Import Request.
+  Time since last request: 15.789310 seconds.
+  path: Assets/Barrel 1.prefab
+  artifactKey: Guid(3044f2b1b6a0ee94e9f827b1b4a4258a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Barrel 1.prefab using Guid(3044f2b1b6a0ee94e9f827b1b4a4258a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97efbb64504bc836f6c465362d361939') in 0.018374 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 46
+========================================================================
+Received Import Request.
+  Time since last request: 5.675627 seconds.
+  path: Assets/Dominik/Furniture/Prefab/Barrel 1.prefab
+  artifactKey: Guid(3e7cb0ad5e73c18429cdb7e4b91934f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dominik/Furniture/Prefab/Barrel 1.prefab using Guid(3e7cb0ad5e73c18429cdb7e4b91934f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40cab63898906bb4640cace0d0912608') in 0.023808 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 46
+========================================================================
+Received Import Request.
+  Time since last request: 1.781938 seconds.
+  path: Assets/Dominik/Furniture/Prefab/Barrel 1.prefab
+  artifactKey: Guid(3e7cb0ad5e73c18429cdb7e4b91934f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dominik/Furniture/Prefab/Barrel 1.prefab using Guid(3e7cb0ad5e73c18429cdb7e4b91934f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e31b4d1c0a9d85c0001841234848966d') in 0.018311 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 46
+========================================================================
+Received Import Request.
+  Time since last request: 3.618710 seconds.
+  path: Assets/Dominik/Furniture/Prefab/Barrel 1.prefab
+  artifactKey: Guid(3e7cb0ad5e73c18429cdb7e4b91934f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dominik/Furniture/Prefab/Barrel 1.prefab using Guid(3e7cb0ad5e73c18429cdb7e4b91934f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30ac85acc9f980a0d5d8b8b406f97bbd') in 0.019353 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 46
+========================================================================
+Received Import Request.
+  Time since last request: 10.715971 seconds.
+  path: Assets/Dominik/Furniture/Prefab/Barrel 1.prefab
+  artifactKey: Guid(3e7cb0ad5e73c18429cdb7e4b91934f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dominik/Furniture/Prefab/Barrel 1.prefab using Guid(3e7cb0ad5e73c18429cdb7e4b91934f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f93f77cd121468a2357ec224f39aeaa') in 0.017282 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 46
+========================================================================
+Received Import Request.
+  Time since last request: 2.209585 seconds.
+  path: Assets/Dominik/Furniture/Prefab/Barrel 1.prefab
+  artifactKey: Guid(3e7cb0ad5e73c18429cdb7e4b91934f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dominik/Furniture/Prefab/Barrel 1.prefab using Guid(3e7cb0ad5e73c18429cdb7e4b91934f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a45d775eb42d0918175123a8df4f2c0a') in 0.019095 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 46
+========================================================================
+Received Import Request.
+  Time since last request: 5.831309 seconds.
+  path: Assets/Dominik/Furniture/Prefab/Barrel 1.prefab
+  artifactKey: Guid(3e7cb0ad5e73c18429cdb7e4b91934f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dominik/Furniture/Prefab/Barrel 1.prefab using Guid(3e7cb0ad5e73c18429cdb7e4b91934f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '513f51127613bd648f020acb5f5a46f6') in 0.018884 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 46
+========================================================================
+Received Import Request.
+  Time since last request: 1.595512 seconds.
+  path: Assets/Dominik/Furniture/Prefab/Barrel 1.prefab
+  artifactKey: Guid(3e7cb0ad5e73c18429cdb7e4b91934f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dominik/Furniture/Prefab/Barrel 1.prefab using Guid(3e7cb0ad5e73c18429cdb7e4b91934f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '120b3271dae1945e16b2a43236f6423a') in 0.017830 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 46
+========================================================================
+Received Import Request.
+  Time since last request: 2.609326 seconds.
+  path: Assets/Dominik/Furniture/Prefab/Barrel 1.prefab
+  artifactKey: Guid(3e7cb0ad5e73c18429cdb7e4b91934f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dominik/Furniture/Prefab/Barrel 1.prefab using Guid(3e7cb0ad5e73c18429cdb7e4b91934f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58ef4c99ea9a9bc8522acce5c2cb85d5') in 0.018447 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 46
+========================================================================
+Received Import Request.
+  Time since last request: 1.590390 seconds.
+  path: Assets/Dominik/Furniture/Prefab/Barrel 1.prefab
+  artifactKey: Guid(3e7cb0ad5e73c18429cdb7e4b91934f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dominik/Furniture/Prefab/Barrel 1.prefab using Guid(3e7cb0ad5e73c18429cdb7e4b91934f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da13c5e5c4fed372cf7405a4a93645fd') in 0.017596 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 46
+========================================================================
+Received Import Request.
+  Time since last request: 10.688656 seconds.
+  path: Assets/Dominik/Furniture/Prefab/Barrel 1.prefab
+  artifactKey: Guid(3e7cb0ad5e73c18429cdb7e4b91934f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dominik/Furniture/Prefab/Barrel 1.prefab using Guid(3e7cb0ad5e73c18429cdb7e4b91934f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee17d6252eaf66da52b8df569742c1cb') in 0.019769 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 46
+========================================================================
+Received Import Request.
+  Time since last request: 2.594343 seconds.
+  path: Assets/Dominik/Furniture/Prefab/Barrel 1.prefab
+  artifactKey: Guid(3e7cb0ad5e73c18429cdb7e4b91934f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dominik/Furniture/Prefab/Barrel 1.prefab using Guid(3e7cb0ad5e73c18429cdb7e4b91934f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b84c6f6f1260db671ebc3c4579714775') in 0.017923 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 46
+========================================================================
+Received Import Request.
+  Time since last request: 10.487473 seconds.
+  path: Assets/Dominik/Furniture/Prefab/Barrel 1.prefab
+  artifactKey: Guid(3e7cb0ad5e73c18429cdb7e4b91934f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dominik/Furniture/Prefab/Barrel 1.prefab using Guid(3e7cb0ad5e73c18429cdb7e4b91934f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad0273d26fb7f3355d73cebd7306dac0') in 0.017859 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 46
+========================================================================
+Received Import Request.
+  Time since last request: 3.016711 seconds.
+  path: Assets/Dominik/Furniture/Prefab/Barrel 1.prefab
+  artifactKey: Guid(3e7cb0ad5e73c18429cdb7e4b91934f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dominik/Furniture/Prefab/Barrel 1.prefab using Guid(3e7cb0ad5e73c18429cdb7e4b91934f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a5600398e316e3df6d5a3e2b1ee97f6') in 0.017154 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 50
+========================================================================
+Received Import Request.
+  Time since last request: 1.584849 seconds.
+  path: Assets/Dominik/Furniture/Prefab/Barrel 1.prefab
+  artifactKey: Guid(3e7cb0ad5e73c18429cdb7e4b91934f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dominik/Furniture/Prefab/Barrel 1.prefab using Guid(3e7cb0ad5e73c18429cdb7e4b91934f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7af09aa43c9fe4ae02380daec9aa716') in 0.018705 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 50
+========================================================================
+Received Import Request.
+  Time since last request: 3.801378 seconds.
+  path: Assets/Dominik/Furniture/Prefab/Barrel 1.prefab
+  artifactKey: Guid(3e7cb0ad5e73c18429cdb7e4b91934f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dominik/Furniture/Prefab/Barrel 1.prefab using Guid(3e7cb0ad5e73c18429cdb7e4b91934f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9126de5e75b53bec82b5222f9f15f5a8') in 0.021610 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 50
+========================================================================
+Received Import Request.
+  Time since last request: 1.188716 seconds.
+  path: Assets/Dominik/Furniture/Prefab/Barrel 1.prefab
+  artifactKey: Guid(3e7cb0ad5e73c18429cdb7e4b91934f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dominik/Furniture/Prefab/Barrel 1.prefab using Guid(3e7cb0ad5e73c18429cdb7e4b91934f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab9ddedec769cb347741c684a95c04c1') in 0.021313 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 50
+========================================================================
+Received Import Request.
+  Time since last request: 2.402792 seconds.
+  path: Assets/Dominik/Furniture/Prefab/Barrel 1.prefab
+  artifactKey: Guid(3e7cb0ad5e73c18429cdb7e4b91934f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dominik/Furniture/Prefab/Barrel 1.prefab using Guid(3e7cb0ad5e73c18429cdb7e4b91934f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdd2425d51a128532d2bc0f1ade9fa5c') in 0.019665 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 50
+========================================================================
+Received Import Request.
+  Time since last request: 1.819836 seconds.
+  path: Assets/Dominik/Furniture/Prefab/Barrel 1.prefab
+  artifactKey: Guid(3e7cb0ad5e73c18429cdb7e4b91934f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dominik/Furniture/Prefab/Barrel 1.prefab using Guid(3e7cb0ad5e73c18429cdb7e4b91934f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eac63560a66a5f04ebfdb742a390e743') in 0.018828 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 50
+========================================================================
+Received Import Request.
+  Time since last request: 10.224711 seconds.
+  path: Assets/Dominik/Furniture/Prefab/Barrel 1.prefab
+  artifactKey: Guid(3e7cb0ad5e73c18429cdb7e4b91934f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dominik/Furniture/Prefab/Barrel 1.prefab using Guid(3e7cb0ad5e73c18429cdb7e4b91934f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eca5b5bc1cf46935bc6c04f1acf4a4b3') in 0.029455 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 46
+========================================================================
+Received Import Request.
+  Time since last request: 0.970186 seconds.
+  path: Assets/Dominik/Furniture/Prefab/Barrel 1.prefab
+  artifactKey: Guid(3e7cb0ad5e73c18429cdb7e4b91934f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dominik/Furniture/Prefab/Barrel 1.prefab using Guid(3e7cb0ad5e73c18429cdb7e4b91934f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef25c6705cbd0c042e5c704b494c157e') in 0.018548 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 46
+========================================================================
+Received Import Request.
+  Time since last request: 1.594522 seconds.
+  path: Assets/Dominik/Furniture/Prefab/Barrel 1.prefab
+  artifactKey: Guid(3e7cb0ad5e73c18429cdb7e4b91934f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dominik/Furniture/Prefab/Barrel 1.prefab using Guid(3e7cb0ad5e73c18429cdb7e4b91934f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1699a80b6424837e275c1e1b55b4bea') in 0.019788 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 46
+========================================================================
+Received Import Request.
+  Time since last request: 2.800139 seconds.
+  path: Assets/Dominik/Furniture/Prefab/Barrel 1.prefab
+  artifactKey: Guid(3e7cb0ad5e73c18429cdb7e4b91934f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dominik/Furniture/Prefab/Barrel 1.prefab using Guid(3e7cb0ad5e73c18429cdb7e4b91934f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '074ff05e8d921250091645231a85c8f2') in 0.017560 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 46
+========================================================================
+Received Import Request.
+  Time since last request: 1.391611 seconds.
+  path: Assets/Dominik/Furniture/Prefab/Barrel 1.prefab
+  artifactKey: Guid(3e7cb0ad5e73c18429cdb7e4b91934f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dominik/Furniture/Prefab/Barrel 1.prefab using Guid(3e7cb0ad5e73c18429cdb7e4b91934f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bde83c74d81feb26bd437d487deac69d') in 0.019313 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 46
+========================================================================
+Received Import Request.
+  Time since last request: 1.401941 seconds.
+  path: Assets/Dominik/Furniture/Prefab/Barrel 1.prefab
+  artifactKey: Guid(3e7cb0ad5e73c18429cdb7e4b91934f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dominik/Furniture/Prefab/Barrel 1.prefab using Guid(3e7cb0ad5e73c18429cdb7e4b91934f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdad5ce78168c5ad720228f9bf42bfad') in 0.018933 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 46
+========================================================================
+Received Import Request.
+  Time since last request: 4.414436 seconds.
+  path: Assets/Dominik/Furniture/Prefab/Barrel 1.prefab
+  artifactKey: Guid(3e7cb0ad5e73c18429cdb7e4b91934f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dominik/Furniture/Prefab/Barrel 1.prefab using Guid(3e7cb0ad5e73c18429cdb7e4b91934f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7e7ef6789d858e97a23c0bae3a0cd52') in 0.019395 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 46
+========================================================================
+Received Import Request.
+  Time since last request: 1.604458 seconds.
+  path: Assets/Dominik/Furniture/Prefab/Barrel 1.prefab
+  artifactKey: Guid(3e7cb0ad5e73c18429cdb7e4b91934f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dominik/Furniture/Prefab/Barrel 1.prefab using Guid(3e7cb0ad5e73c18429cdb7e4b91934f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6fea59be65fa19e12c4548c03de61a9') in 0.017138 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 46
+========================================================================
+Received Import Request.
+  Time since last request: 2.811879 seconds.
+  path: Assets/Dominik/Furniture/Prefab/Barrel 1.prefab
+  artifactKey: Guid(3e7cb0ad5e73c18429cdb7e4b91934f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dominik/Furniture/Prefab/Barrel 1.prefab using Guid(3e7cb0ad5e73c18429cdb7e4b91934f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e001ffbe549f6cf7f16562d12ac06ed') in 0.018990 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 46
+========================================================================
+Received Import Request.
+  Time since last request: 8.546641 seconds.
+  path: Assets/Barrel 2.prefab
+  artifactKey: Guid(ad4ff2a53d25ccb4990b362bf3b7b8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Barrel 2.prefab using Guid(ad4ff2a53d25ccb4990b362bf3b7b8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e6a1b5b4ea615894af524a00862cc05') in 0.010088 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 46
+========================================================================
+Received Import Request.
+  Time since last request: 6.198677 seconds.
+  path: Assets/Barrel 2.prefab
+  artifactKey: Guid(ad4ff2a53d25ccb4990b362bf3b7b8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Barrel 2.prefab using Guid(ad4ff2a53d25ccb4990b362bf3b7b8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '768e9722f9d5360c85b9b70c7914f334') in 0.021504 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 6.030569 seconds.
+  path: Assets/Barrel 2.prefab
+  artifactKey: Guid(ad4ff2a53d25ccb4990b362bf3b7b8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Barrel 2.prefab using Guid(ad4ff2a53d25ccb4990b362bf3b7b8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f868079109eae0c9e052760ae92d0320') in 0.010825 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 2.204872 seconds.
+  path: Assets/Barrel 2.prefab
+  artifactKey: Guid(ad4ff2a53d25ccb4990b362bf3b7b8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Barrel 2.prefab using Guid(ad4ff2a53d25ccb4990b362bf3b7b8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cbdad08b754c7dc3f8cebb9a524805d') in 0.017294 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 4.835943 seconds.
+  path: Assets/Barrel 2.prefab
+  artifactKey: Guid(ad4ff2a53d25ccb4990b362bf3b7b8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Barrel 2.prefab using Guid(ad4ff2a53d25ccb4990b362bf3b7b8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ec2cfd57a6d64e85069c84369215fce') in 0.019145 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 3.003272 seconds.
+  path: Assets/Barrel 2.prefab
+  artifactKey: Guid(ad4ff2a53d25ccb4990b362bf3b7b8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Barrel 2.prefab using Guid(ad4ff2a53d25ccb4990b362bf3b7b8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efe7bcd653574709c14c9c158d4b5916') in 0.018054 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 1.791967 seconds.
+  path: Assets/Barrel 2.prefab
+  artifactKey: Guid(ad4ff2a53d25ccb4990b362bf3b7b8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Barrel 2.prefab using Guid(ad4ff2a53d25ccb4990b362bf3b7b8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23d4567a4598ab69af94f308ee782885') in 0.018388 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 3.017225 seconds.
+  path: Assets/Barrel 2.prefab
+  artifactKey: Guid(ad4ff2a53d25ccb4990b362bf3b7b8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Barrel 2.prefab using Guid(ad4ff2a53d25ccb4990b362bf3b7b8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e83ae1009b1b52980d47ca198dc2a6d1') in 0.018618 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 1.592697 seconds.
+  path: Assets/Barrel 2.prefab
+  artifactKey: Guid(ad4ff2a53d25ccb4990b362bf3b7b8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Barrel 2.prefab using Guid(ad4ff2a53d25ccb4990b362bf3b7b8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2e05e80dbdca698798fdf7289cb3e67') in 0.016408 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 2.815927 seconds.
+  path: Assets/Barrel 2.prefab
+  artifactKey: Guid(ad4ff2a53d25ccb4990b362bf3b7b8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Barrel 2.prefab using Guid(ad4ff2a53d25ccb4990b362bf3b7b8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49d0bc65ca9a302c244368306dea9bfe') in 0.010328 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 3.414409 seconds.
+  path: Assets/Barrel 2.prefab
+  artifactKey: Guid(ad4ff2a53d25ccb4990b362bf3b7b8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Barrel 2.prefab using Guid(ad4ff2a53d25ccb4990b362bf3b7b8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99d0c984548b6f4549e27858dba4f6fb') in 0.017703 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 5.418341 seconds.
+  path: Assets/Barrel 2.prefab
+  artifactKey: Guid(ad4ff2a53d25ccb4990b362bf3b7b8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Barrel 2.prefab using Guid(ad4ff2a53d25ccb4990b362bf3b7b8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efb930208ecd47b2de4e4bcc97446026') in 0.017872 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 2.197253 seconds.
+  path: Assets/Barrel 2.prefab
+  artifactKey: Guid(ad4ff2a53d25ccb4990b362bf3b7b8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Barrel 2.prefab using Guid(ad4ff2a53d25ccb4990b362bf3b7b8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0d1d64be00882acecc79b52784e5901') in 0.018544 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 0.780738 seconds.
+  path: Assets/Barrel 2.prefab
+  artifactKey: Guid(ad4ff2a53d25ccb4990b362bf3b7b8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Barrel 2.prefab using Guid(ad4ff2a53d25ccb4990b362bf3b7b8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b51f27256763b940229aa7b03bdaeab6') in 0.030067 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 1.171005 seconds.
+  path: Assets/Barrel 2.prefab
+  artifactKey: Guid(ad4ff2a53d25ccb4990b362bf3b7b8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Barrel 2.prefab using Guid(ad4ff2a53d25ccb4990b362bf3b7b8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a524ce8f74c7a5620f09304374d92d8a') in 0.022903 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 1.593247 seconds.
+  path: Assets/Barrel 2.prefab
+  artifactKey: Guid(ad4ff2a53d25ccb4990b362bf3b7b8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Barrel 2.prefab using Guid(ad4ff2a53d25ccb4990b362bf3b7b8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3d70324f8afed7c20ad36c39df9f05a') in 0.018280 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 1.614727 seconds.
+  path: Assets/Barrel 2.prefab
+  artifactKey: Guid(ad4ff2a53d25ccb4990b362bf3b7b8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Barrel 2.prefab using Guid(ad4ff2a53d25ccb4990b362bf3b7b8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d9f98474c88d1807c68599d159c55d6') in 0.017311 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 0.981137 seconds.
+  path: Assets/Barrel 2.prefab
+  artifactKey: Guid(ad4ff2a53d25ccb4990b362bf3b7b8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Barrel 2.prefab using Guid(ad4ff2a53d25ccb4990b362bf3b7b8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '911907daec11a10c84266979137804d6') in 0.019028 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 2.004625 seconds.
+  path: Assets/Barrel 2.prefab
+  artifactKey: Guid(ad4ff2a53d25ccb4990b362bf3b7b8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Barrel 2.prefab using Guid(ad4ff2a53d25ccb4990b362bf3b7b8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b600c7d460d5aa28c3b91c710971f7f4') in 0.017338 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 1.189491 seconds.
+  path: Assets/Barrel 2.prefab
+  artifactKey: Guid(ad4ff2a53d25ccb4990b362bf3b7b8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Barrel 2.prefab using Guid(ad4ff2a53d25ccb4990b362bf3b7b8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fafa62b2a6a805586485e36c96810e6') in 0.018167 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 6.840530 seconds.
+  path: Assets/Barrel 2.prefab
+  artifactKey: Guid(ad4ff2a53d25ccb4990b362bf3b7b8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Barrel 2.prefab using Guid(ad4ff2a53d25ccb4990b362bf3b7b8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9be166196fc0d23bcc081501f13d2c7') in 0.018686 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 5.616361 seconds.
+  path: Assets/Barrel 2.prefab
+  artifactKey: Guid(ad4ff2a53d25ccb4990b362bf3b7b8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Barrel 2.prefab using Guid(ad4ff2a53d25ccb4990b362bf3b7b8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a9fdea3109b5fbc77b1913718710909') in 0.022259 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 4.198417 seconds.
+  path: Assets/Barrel 2.prefab
+  artifactKey: Guid(ad4ff2a53d25ccb4990b362bf3b7b8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Barrel 2.prefab using Guid(ad4ff2a53d25ccb4990b362bf3b7b8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19af9948b6ea62e45f82ca8c608e3ef9') in 0.019368 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 5.436013 seconds.
+  path: Assets/Barrel 2.prefab
+  artifactKey: Guid(ad4ff2a53d25ccb4990b362bf3b7b8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Barrel 2.prefab using Guid(ad4ff2a53d25ccb4990b362bf3b7b8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31a4ea0c6c7de28492c724cb4816ca30') in 0.020938 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 2.991600 seconds.
+  path: Assets/Barrel 2.prefab
+  artifactKey: Guid(ad4ff2a53d25ccb4990b362bf3b7b8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Barrel 2.prefab using Guid(ad4ff2a53d25ccb4990b362bf3b7b8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8510e2b81e5e206fb05f1e4138f5d25b') in 0.018445 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 0.987589 seconds.
+  path: Assets/Barrel 2.prefab
+  artifactKey: Guid(ad4ff2a53d25ccb4990b362bf3b7b8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Barrel 2.prefab using Guid(ad4ff2a53d25ccb4990b362bf3b7b8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '002bb92ecdc29438722f6c43a737615d') in 0.018058 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 1.182572 seconds.
+  path: Assets/Barrel 2.prefab
+  artifactKey: Guid(ad4ff2a53d25ccb4990b362bf3b7b8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Barrel 2.prefab using Guid(ad4ff2a53d25ccb4990b362bf3b7b8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae4946ed378b293438bd75d22d08ac15') in 0.017581 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 66.494567 seconds.
+  path: Assets/Dominik/Furniture/Prefab/Barrel 1.prefab
+  artifactKey: Guid(3e7cb0ad5e73c18429cdb7e4b91934f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dominik/Furniture/Prefab/Barrel 1.prefab using Guid(3e7cb0ad5e73c18429cdb7e4b91934f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc55d94d76d9907583b043b96d3705f6') in 0.019819 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 46
+========================================================================
+Received Import Request.
+  Time since last request: 1100.664031 seconds.
+  path: Assets/CB/Assets/Lantern
+  artifactKey: Guid(2b14623cb5fbd164a8b64372f6a881b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CB/Assets/Lantern using Guid(2b14623cb5fbd164a8b64372f6a881b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '562c65a5d7b114298b3a5a9aac98401e') in 0.000854 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 338.487171 seconds.
+  path: Assets/Dominik/Furniture/Bedside-Table.fbx
+  artifactKey: Guid(12c731c6350e03f4c9534822da48e24a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dominik/Furniture/Bedside-Table.fbx using Guid(12c731c6350e03f4c9534822da48e24a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edd497dd60c681741511ba8eef6126f5') in 0.121245 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 8.044545 seconds.
+  path: Assets/Dominik/Furniture/Chair.fbx
+  artifactKey: Guid(554e229a45fddfe43b4856fd4e0a005e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dominik/Furniture/Chair.fbx using Guid(554e229a45fddfe43b4856fd4e0a005e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77e22cc85e440c78f88e369bd093def3') in 0.028783 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 7.837703 seconds.
+  path: Assets/Dominik/Furniture/Chair.fbx
+  artifactKey: Guid(554e229a45fddfe43b4856fd4e0a005e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dominik/Furniture/Chair.fbx using Guid(554e229a45fddfe43b4856fd4e0a005e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4df61012fb938e0ace6965dd2716c8ba') in 0.029245 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 16.040199 seconds.
+  path: Assets/Dominik/Furniture/Bedside-Table.fbx
+  artifactKey: Guid(12c731c6350e03f4c9534822da48e24a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dominik/Furniture/Bedside-Table.fbx using Guid(12c731c6350e03f4c9534822da48e24a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ae510079c27693ae016b2e497fb73f0') in 0.041983 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 3.521892 seconds.
+  path: Assets/Dominik/Furniture/Bedside-Table.fbx
+  artifactKey: Guid(12c731c6350e03f4c9534822da48e24a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dominik/Furniture/Bedside-Table.fbx using Guid(12c731c6350e03f4c9534822da48e24a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e31e1fbc0fefa41877d41897120a0ddd') in 0.039295 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 105.485081 seconds.
+  path: Assets/Dominik/Furniture/Prefab/Bedsite-Table.prefab
+  artifactKey: Guid(38685d5216b991f40960642b58711263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dominik/Furniture/Prefab/Bedsite-Table.prefab using Guid(38685d5216b991f40960642b58711263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9244be482585f9b8cf053a1d9432629d') in 0.054152 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 230
+========================================================================
+Received Import Request.
+  Time since last request: 62.343965 seconds.
+  path: Assets/Dominik/Furniture/Prefab/Bedsite-Table.prefab
+  artifactKey: Guid(38685d5216b991f40960642b58711263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dominik/Furniture/Prefab/Bedsite-Table.prefab using Guid(38685d5216b991f40960642b58711263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3532750b447d82a15729d0661fdfd0fb') in 0.036063 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 230
+========================================================================
+Received Import Request.
+  Time since last request: 3.984291 seconds.
+  path: Assets/Dominik/Furniture/Prefab/Bedsite-Table.prefab
+  artifactKey: Guid(38685d5216b991f40960642b58711263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dominik/Furniture/Prefab/Bedsite-Table.prefab using Guid(38685d5216b991f40960642b58711263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9630a60dc9e1c8f8186950c32562c61') in 0.034146 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 230
+========================================================================
+Received Import Request.
+  Time since last request: 2.776071 seconds.
+  path: Assets/Dominik/Furniture/Prefab/Bedsite-Table.prefab
+  artifactKey: Guid(38685d5216b991f40960642b58711263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dominik/Furniture/Prefab/Bedsite-Table.prefab using Guid(38685d5216b991f40960642b58711263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f647703f30ef911006f65863ac47bf10') in 0.036868 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 230
+========================================================================
+Received Import Request.
+  Time since last request: 1.370393 seconds.
+  path: Assets/Dominik/Furniture/Prefab/Bedsite-Table.prefab
+  artifactKey: Guid(38685d5216b991f40960642b58711263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dominik/Furniture/Prefab/Bedsite-Table.prefab using Guid(38685d5216b991f40960642b58711263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b3f2b411333cf10a5e50db7627afd55') in 0.032882 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 230
+========================================================================
+Received Import Request.
+  Time since last request: 7.011234 seconds.
+  path: Assets/Dominik/Furniture/Prefab/Bedsite-Table.prefab
+  artifactKey: Guid(38685d5216b991f40960642b58711263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dominik/Furniture/Prefab/Bedsite-Table.prefab using Guid(38685d5216b991f40960642b58711263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a214bbf80453124424138abcfab5d23e') in 0.032321 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 230
+========================================================================
+Received Import Request.
+  Time since last request: 3.392565 seconds.
+  path: Assets/Dominik/Furniture/Prefab/Bedsite-Table.prefab
+  artifactKey: Guid(38685d5216b991f40960642b58711263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dominik/Furniture/Prefab/Bedsite-Table.prefab using Guid(38685d5216b991f40960642b58711263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ab5dbbc1afb13d1b2f554253facf78d') in 0.034201 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 230
+========================================================================
+Received Import Request.
+  Time since last request: 4.595194 seconds.
+  path: Assets/Dominik/Furniture/Prefab/Bedsite-Table.prefab
+  artifactKey: Guid(38685d5216b991f40960642b58711263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dominik/Furniture/Prefab/Bedsite-Table.prefab using Guid(38685d5216b991f40960642b58711263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fb572870a488891d58bbcc8d0cff9f9') in 0.035356 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 230
+========================================================================
+Received Import Request.
+  Time since last request: 982.664227 seconds.
+  path: Assets/Dominik/Furniture/Prefab/Bedsite-Table.prefab
+  artifactKey: Guid(38685d5216b991f40960642b58711263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dominik/Furniture/Prefab/Bedsite-Table.prefab using Guid(38685d5216b991f40960642b58711263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77b7b28c2b82ef77c5af4307e65b870f') in 0.050867 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 231
+========================================================================
+Received Import Request.
+  Time since last request: 7.202439 seconds.
+  path: Assets/Dominik/Furniture/Prefab/Bookshelf02.prefab
+  artifactKey: Guid(c06788d27a0b531448ab39e2f4b506d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dominik/Furniture/Prefab/Bookshelf02.prefab using Guid(c06788d27a0b531448ab39e2f4b506d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4f9bbff19d2ecefda4c7c4c3d1b4c1a') in 0.022113 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 79
+========================================================================
+Received Import Request.
+  Time since last request: 49.847173 seconds.
+  path: Assets/Dominik/Furniture/Prefab/Barrel 1.prefab
+  artifactKey: Guid(3e7cb0ad5e73c18429cdb7e4b91934f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dominik/Furniture/Prefab/Barrel 1.prefab using Guid(3e7cb0ad5e73c18429cdb7e4b91934f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5df48b31a13681785c804e7e31f788ec') in 0.020677 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 47
+========================================================================
+Received Import Request.
+  Time since last request: 4.265081 seconds.
+  path: Assets/Dominik/Furniture/Prefab/Barrel 1.prefab
+  artifactKey: Guid(3e7cb0ad5e73c18429cdb7e4b91934f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dominik/Furniture/Prefab/Barrel 1.prefab using Guid(3e7cb0ad5e73c18429cdb7e4b91934f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b69a0cddad716a02292e9e76532221ea') in 0.018863 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 48
 ========================================================================
 Received Import Request.
-  Time since last request: 36.218895 seconds.
-  path: Assets/Dominik/Furniture/Prefab/Bedsite-Table.prefab
-  artifactKey: Guid(38685d5216b991f40960642b58711263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Furniture/Prefab/Bedsite-Table.prefab using Guid(38685d5216b991f40960642b58711263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a38a80b186455b284ae0c6bb32d6f38') in 0.035038 seconds
+  Time since last request: 2.795839 seconds.
+  path: Assets/Dominik/Furniture/Prefab/Barrel 1.prefab
+  artifactKey: Guid(3e7cb0ad5e73c18429cdb7e4b91934f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dominik/Furniture/Prefab/Barrel 1.prefab using Guid(3e7cb0ad5e73c18429cdb7e4b91934f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53a0e3983e7e5a7de9637ff7fa0fa245') in 0.017891 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 213
+Number of asset objects unloaded after import = 49
 ========================================================================
 Received Import Request.
-  Time since last request: 31.069951 seconds.
-  path: Assets/Dominik/Furniture/Prefab/Bedsite-Table.prefab
-  artifactKey: Guid(38685d5216b991f40960642b58711263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Furniture/Prefab/Bedsite-Table.prefab using Guid(38685d5216b991f40960642b58711263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a0f92b24c9eb15bfb06e380208655d8') in 0.041938 seconds
+  Time since last request: 3.228255 seconds.
+  path: Assets/Dominik/Furniture/Prefab/Barrel 1.prefab
+  artifactKey: Guid(3e7cb0ad5e73c18429cdb7e4b91934f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dominik/Furniture/Prefab/Barrel 1.prefab using Guid(3e7cb0ad5e73c18429cdb7e4b91934f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d9379914b03efaed93d78c753a3c114') in 0.017752 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 213
+Number of asset objects unloaded after import = 50
 ========================================================================
 Received Import Request.
-  Time since last request: 0.951535 seconds.
-  path: Assets/Dominik/Furniture/Prefab/Bedsite-Table.prefab
-  artifactKey: Guid(38685d5216b991f40960642b58711263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Furniture/Prefab/Bedsite-Table.prefab using Guid(38685d5216b991f40960642b58711263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '104b3c5e186af0fb072cea9eab2c9f33') in 0.032983 seconds
+  Time since last request: 5.657788 seconds.
+  path: Assets/Dominik/Furniture/Prefab/Barrel.prefab
+  artifactKey: Guid(e0896fb02f0822d4faaa90c89b7e1f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dominik/Furniture/Prefab/Barrel.prefab using Guid(e0896fb02f0822d4faaa90c89b7e1f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3866365aa6f671c2bc67041362953252') in 0.017010 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 213
+Number of asset objects unloaded after import = 33
 ========================================================================
 Received Import Request.
-  Time since last request: 2.997027 seconds.
-  path: Assets/Dominik/Furniture/Prefab/Bedsite-Table.prefab
-  artifactKey: Guid(38685d5216b991f40960642b58711263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Furniture/Prefab/Bedsite-Table.prefab using Guid(38685d5216b991f40960642b58711263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1860c4360a6421398ced3acbd1d7a427') in 0.033952 seconds
+  Time since last request: 2.609968 seconds.
+  path: Assets/Dominik/Furniture/Prefab/Barrel.prefab
+  artifactKey: Guid(e0896fb02f0822d4faaa90c89b7e1f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dominik/Furniture/Prefab/Barrel.prefab using Guid(e0896fb02f0822d4faaa90c89b7e1f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b781c671bcbab665ae9c2593846c028d') in 0.017700 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 213
+Number of asset objects unloaded after import = 34
 ========================================================================
 Received Import Request.
-  Time since last request: 2.583827 seconds.
-  path: Assets/Dominik/Furniture/Prefab/Bedsite-Table.prefab
-  artifactKey: Guid(38685d5216b991f40960642b58711263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Furniture/Prefab/Bedsite-Table.prefab using Guid(38685d5216b991f40960642b58711263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b416f0837d39f21ec2ed10db03d08c99') in 0.033416 seconds
+  Time since last request: 135.376319 seconds.
+  path: Assets/Barrel 1.prefab
+  artifactKey: Guid(3044f2b1b6a0ee94e9f827b1b4a4258a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Barrel 1.prefab using Guid(3044f2b1b6a0ee94e9f827b1b4a4258a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cd4ee634681bb0f975306354b5c3b59') in 0.017956 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 213
+Number of asset objects unloaded after import = 47
 ========================================================================
 Received Import Request.
-  Time since last request: 2.992679 seconds.
-  path: Assets/Dominik/Furniture/Prefab/Bedsite-Table.prefab
-  artifactKey: Guid(38685d5216b991f40960642b58711263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Furniture/Prefab/Bedsite-Table.prefab using Guid(38685d5216b991f40960642b58711263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13993aecfba0c347e9f2afe1f4d43057') in 0.033498 seconds
+  Time since last request: 3.060224 seconds.
+  path: Assets/Barrel 1.prefab
+  artifactKey: Guid(3044f2b1b6a0ee94e9f827b1b4a4258a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Barrel 1.prefab using Guid(3044f2b1b6a0ee94e9f827b1b4a4258a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55db2d6673bf3be320b8cc4c970c9272') in 0.019362 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 213
+Number of asset objects unloaded after import = 48
 ========================================================================
 Received Import Request.
-  Time since last request: 5.033218 seconds.
-  path: Assets/Dominik/Furniture/Prefab/Bedsite-Table.prefab
-  artifactKey: Guid(38685d5216b991f40960642b58711263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Furniture/Prefab/Bedsite-Table.prefab using Guid(38685d5216b991f40960642b58711263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '249cc14d2b7b44a832198898793d7bc8') in 0.034001 seconds
+  Time since last request: 2.445329 seconds.
+  path: Assets/Barrel 1.prefab
+  artifactKey: Guid(3044f2b1b6a0ee94e9f827b1b4a4258a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Barrel 1.prefab using Guid(3044f2b1b6a0ee94e9f827b1b4a4258a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '083ac255c31c0fe89663a98b541f9496') in 0.018711 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 213
+Number of asset objects unloaded after import = 49
 ========================================================================
 Received Import Request.
-  Time since last request: 4.787452 seconds.
-  path: Assets/Dominik/Furniture/Prefab/Bedsite-Table.prefab
-  artifactKey: Guid(38685d5216b991f40960642b58711263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Furniture/Prefab/Bedsite-Table.prefab using Guid(38685d5216b991f40960642b58711263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '265c53ce56bf9cac72e8ca676f1dd41a') in 0.030877 seconds
+  Time since last request: 5.439293 seconds.
+  path: Assets/Barrel 2.prefab
+  artifactKey: Guid(ad4ff2a53d25ccb4990b362bf3b7b8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Barrel 2.prefab using Guid(ad4ff2a53d25ccb4990b362bf3b7b8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba685c5f23cc3031fb9ae15871526c6d') in 0.019684 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 213
+Number of asset objects unloaded after import = 33
 ========================================================================
 Received Import Request.
-  Time since last request: 1.779955 seconds.
-  path: Assets/Dominik/Furniture/Prefab/Bedsite-Table.prefab
-  artifactKey: Guid(38685d5216b991f40960642b58711263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Furniture/Prefab/Bedsite-Table.prefab using Guid(38685d5216b991f40960642b58711263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '527992387f42e4d011e0df54652436f4') in 0.033227 seconds
+  Time since last request: 5.809452 seconds.
+  path: Assets/Barrel 2.prefab
+  artifactKey: Guid(ad4ff2a53d25ccb4990b362bf3b7b8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Barrel 2.prefab using Guid(ad4ff2a53d25ccb4990b362bf3b7b8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de95e44c22c662a8a7fc523d33a3a142') in 0.020559 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 213
-========================================================================
-Received Import Request.
-  Time since last request: 1.377326 seconds.
-  path: Assets/Dominik/Furniture/Prefab/Bedsite-Table.prefab
-  artifactKey: Guid(38685d5216b991f40960642b58711263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Furniture/Prefab/Bedsite-Table.prefab using Guid(38685d5216b991f40960642b58711263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b7ed8ebffde024dcf2801fe3ee32cba') in 0.033321 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 213
-========================================================================
-Received Import Request.
-  Time since last request: 1.575144 seconds.
-  path: Assets/Dominik/Furniture/Prefab/Bedsite-Table.prefab
-  artifactKey: Guid(38685d5216b991f40960642b58711263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Furniture/Prefab/Bedsite-Table.prefab using Guid(38685d5216b991f40960642b58711263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0ea8e5598c705c7e83e8af73c8721f3') in 0.032253 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 213
-========================================================================
-Received Import Request.
-  Time since last request: 6.835721 seconds.
-  path: Assets/Dominik/Furniture/Prefab/Bedsite-Table.prefab
-  artifactKey: Guid(38685d5216b991f40960642b58711263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Furniture/Prefab/Bedsite-Table.prefab using Guid(38685d5216b991f40960642b58711263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e771a68292c64f05ce4cb0cbfa982ec2') in 0.034043 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 213
-========================================================================
-Received Import Request.
-  Time since last request: 2.178777 seconds.
-  path: Assets/Dominik/Furniture/Prefab/Bedsite-Table.prefab
-  artifactKey: Guid(38685d5216b991f40960642b58711263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Furniture/Prefab/Bedsite-Table.prefab using Guid(38685d5216b991f40960642b58711263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e51cd1f5c27fcb8ba9022791d8b9f7d') in 0.032318 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 213
-========================================================================
-Received Import Request.
-  Time since last request: 2.187224 seconds.
-  path: Assets/Dominik/Furniture/Prefab/Bedsite-Table.prefab
-  artifactKey: Guid(38685d5216b991f40960642b58711263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Furniture/Prefab/Bedsite-Table.prefab using Guid(38685d5216b991f40960642b58711263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a8101156fea8774a9424764d3ab5a23') in 0.029792 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 213
-========================================================================
-Received Import Request.
-  Time since last request: 44.782294 seconds.
-  path: Assets/Dominik/Material/Dirty Glass.mat
-  artifactKey: Guid(5226450e7f5e2114583c3e09eae4f863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Material/Dirty Glass.mat using Guid(5226450e7f5e2114583c3e09eae4f863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaa69fd675989205ff174319a7ecc6cc') in 0.029366 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Dominik/Material/M_Medieval-Metal.mat
-  artifactKey: Guid(2f7a1329cd927f145aa6fc1a43faeb50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Material/M_Medieval-Metal.mat using Guid(2f7a1329cd927f145aa6fc1a43faeb50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56a2eb42da966a593960517275418f0c') in 0.029508 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Dominik/Material/M_Bedside-Table.mat
-  artifactKey: Guid(0b4a824800f55d14ab7258e2e302baa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Material/M_Bedside-Table.mat using Guid(0b4a824800f55d14ab7258e2e302baa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb3d76a10611a9cf41a7dc09761e3cf5') in 0.037041 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Dominik/Material/M_Closed01.mat
-  artifactKey: Guid(829a19acd019f4c4a9537b7814dccae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Material/M_Closed01.mat using Guid(829a19acd019f4c4a9537b7814dccae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9db201e90d4a94db89fb3d624ad24d06') in 0.034664 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Dominik/Material/M_Chair.mat
-  artifactKey: Guid(c26dd53220265084686618343deeade9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Material/M_Chair.mat using Guid(c26dd53220265084686618343deeade9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '735791277bc51cd3f2ed1a39706fa818') in 0.032415 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Dominik/Material/M_Bookshelf02.mat
-  artifactKey: Guid(ac23327950ca810468ef653632a666f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Material/M_Bookshelf02.mat using Guid(ac23327950ca810468ef653632a666f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30ec743f26e5beaa65a6a2a1e9151e39') in 0.025226 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Dominik/Material/M_Wardrobe.mat
-  artifactKey: Guid(1e050a3b45ea1444f99e7782daa41e87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Material/M_Wardrobe.mat using Guid(1e050a3b45ea1444f99e7782daa41e87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43d87a48e77c3e16d0bd131fcf6fb67a') in 0.030381 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Dominik/Material/M_Book03.mat
-  artifactKey: Guid(ef049940a0f55fa45982671705a1ab38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Material/M_Book03.mat using Guid(ef049940a0f55fa45982671705a1ab38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a093a6ec7a2e09afdfcf6ec03135fbe8') in 0.030817 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 2.351949 seconds.
-  path: Assets/Dominik/Material/Textures/Bed
-  artifactKey: Guid(efbec4b6c2892ab4f9bd452f56037551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Material/Textures/Bed using Guid(efbec4b6c2892ab4f9bd452f56037551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5641d8da2c5a6238514828e44e98986') in 0.000853 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.098891 seconds.
-  path: Assets/Dominik/Material/Textures/Bed/Furniture-Pack_Bed_BaseColor.png
-  artifactKey: Guid(df13dba8a9b8cee47979b79d2d5fa205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Material/Textures/Bed/Furniture-Pack_Bed_BaseColor.png using Guid(df13dba8a9b8cee47979b79d2d5fa205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2e2b6e634c74872aa1f02227e865c4c') in 0.052199 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Dominik/Material/Textures/Bed/Furniture-Pack_Bed_ORM.png
-  artifactKey: Guid(b683e55d4608a9b479c3dcbbc00da89e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Material/Textures/Bed/Furniture-Pack_Bed_ORM.png using Guid(b683e55d4608a9b479c3dcbbc00da89e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '307b931576d5a643abcdc26ac0fbb811') in 0.035984 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 3.700383 seconds.
-  path: Assets/Dominik/GameJa_Environment
-  artifactKey: Guid(6c7061367b42e2a4cb14631da30ba778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/GameJa_Environment using Guid(6c7061367b42e2a4cb14631da30ba778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9b5253966adf1fe82fe4efc5c1ea7fe') in 0.000595 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.083005 seconds.
-  path: Assets/Dominik/GameJa_Environment/Global Volume Profile.asset
-  artifactKey: Guid(cf0b102a2e57c7c4cbf56b19bf602962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/GameJa_Environment/Global Volume Profile.asset using Guid(cf0b102a2e57c7c4cbf56b19bf602962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a09f9260d363c88ba765c25fa7176f8') in 0.002785 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.011803 seconds.
-  path: Assets/Dominik/GameJa_Environment/LightingData.asset
-  artifactKey: Guid(ae0de13b1b9fd254590242f9a8c19238) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/GameJa_Environment/LightingData.asset using Guid(ae0de13b1b9fd254590242f9a8c19238) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a89e43175a2a508e37e36234f1c82b41') in 0.002175 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 61.454617 seconds.
-  path: Assets/FantasyCastleDemo/Materials/barrel 1.mat
-  artifactKey: Guid(24b6ec02ba331d14f96878afb6d1d48f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyCastleDemo/Materials/barrel 1.mat using Guid(24b6ec02ba331d14f96878afb6d1d48f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d2fd4f530a8abec5fd133e4e1d2f826') in 0.241444 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/CB/Assets/Materials/M_Viagraccino.mat
-  artifactKey: Guid(1201d9683608d3d43b256382d916bb4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CB/Assets/Materials/M_Viagraccino.mat using Guid(1201d9683608d3d43b256382d916bb4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81c3e4432592ac44758ed12b44abb9b1') in 0.030824 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
-  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '025c4b354585c18e90e1659460530dc1') in 0.081509 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/CB/Assets/Materials/M_Lattekasam.mat
-  artifactKey: Guid(64868d63f2ecb4149b5c05068fcc8e42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CB/Assets/Materials/M_Lattekasam.mat using Guid(64868d63f2ecb4149b5c05068fcc8e42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33c4b584c9ead95eaef9b0f7d4a3472a') in 0.030167 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/CB/Assets/Props/Batch2/Textures/M_OldClock.mat
-  artifactKey: Guid(55676d38d7e035f48b36ca14b5403c0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CB/Assets/Props/Batch2/Textures/M_OldClock.mat using Guid(55676d38d7e035f48b36ca14b5403c0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '023b809791766a6b58f7c278b2a235d9') in 0.024455 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/CB/Assets/Materials/M_Oilohomora.mat
-  artifactKey: Guid(b62f6fbfe113fdf4ba12e1a03b75342e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CB/Assets/Materials/M_Oilohomora.mat using Guid(b62f6fbfe113fdf4ba12e1a03b75342e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d2fd2b66ca254ed23dff28ca4e0d605') in 0.034149 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Uwoopsies/Wizard.mat
-  artifactKey: Guid(2c2142dcbf25cd34990fa339bb7c2a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Uwoopsies/Wizard.mat using Guid(2c2142dcbf25cd34990fa339bb7c2a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99e17726a60c0daf6bfaf217f7824437') in 0.032240 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/CB/Assets/Props/Batch2/Textures/M_SmallTable.mat
-  artifactKey: Guid(7aaf07aacc180234bb83e4ebbd3b1f63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CB/Assets/Props/Batch2/Textures/M_SmallTable.mat using Guid(7aaf07aacc180234bb83e4ebbd3b1f63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd771f459259bb0269a5bbd24bf038dc7') in 0.024369 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/CB/Assets/Props/Batch2/Textures/M_Toilet.mat
-  artifactKey: Guid(616a41bb6c43b084ebf68d350b9bd76a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CB/Assets/Props/Batch2/Textures/M_Toilet.mat using Guid(616a41bb6c43b084ebf68d350b9bd76a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90d17dda8fe5bac142a78c0eb99aab4b') in 0.041196 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: Der E/A-Vorgang wurde wegen eines Threadendes oder einer Anwendungsanforderung abgebrochen.
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+Number of asset objects unloaded after import = 34
