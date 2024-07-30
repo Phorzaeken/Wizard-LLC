@@ -353,22 +353,22 @@ public class PlayerController : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.W))
         {
-            animator.SetTrigger("Back Walk");
+            //animator.SetTrigger("Back Walk");
             player1.transform.Translate(0, 0, Speed);
         }
         if (Input.GetKey(KeyCode.A))
         {
-            animator.SetTrigger("Side Walk");
+            //animator.SetTrigger("Side Walk");
             player1.transform.Translate(-Speed, 0, 0);
         }
         if (Input.GetKey(KeyCode.S))
         {
-            animator.SetTrigger("Front Walk");
+            //animator.SetTrigger("Front Walk");
             player1.transform.Translate(0, 0, -Speed);
         }
         if (Input.GetKey(KeyCode.D))
         {
-            animator.SetTrigger("Front Walk");
+            //animator.SetTrigger("Front Walk");
             player1.transform.Translate(Speed, 0, 0);
         }
 
