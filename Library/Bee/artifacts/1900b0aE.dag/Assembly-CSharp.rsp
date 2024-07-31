@@ -385,6 +385,7 @@
 "Assets/CB/Scripts/DoorInteraction.cs"
 "Assets/CB/Scripts/ItemPickUp.cs"
 "Assets/CB/Scripts/LightController.cs"
+"Assets/CB/Scripts/MainMenu.cs"
 "Assets/CB/Scripts/PlayerInteraction.cs"
 "Assets/LowPolyNature/Scripts/Axe.cs"
 "Assets/LowPolyNature/Scripts/Crate.cs"

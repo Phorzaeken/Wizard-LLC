@@ -45679,8 +45679,13 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.rsp",
       "DisplayName": "Writing Assembly-CSharp.rsp",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 3500444,
       "PayloadLength": 36454,
+=======
+      "PayloadOffset": 3504956,
+      "PayloadLength": 36487,
+>>>>>>> Stashed changes
       "PayloadDebugContentSnippet": "-target:library\r\n-out:\"Library",
       "Inputs": [],
       "Outputs": [
@@ -45692,7 +45697,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.rsp2",
       "DisplayName": "Writing Assembly-CSharp.rsp2",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 3536985,
+=======
+      "PayloadOffset": 3541530,
+>>>>>>> Stashed changes
       "PayloadLength": 0,
       "PayloadDebugContentSnippet": "",
       "Inputs": [],
@@ -45967,6 +45976,7 @@
         "Assets/CB/Scripts/DoorInteraction.cs",
         "Assets/CB/Scripts/ItemPickUp.cs",
         "Assets/CB/Scripts/LightController.cs",
+        "Assets/CB/Scripts/MainMenu.cs",
         "Assets/CB/Scripts/PlayerInteraction.cs",
         "Assets/LowPolyNature/Scripts/Axe.cs",
         "Assets/LowPolyNature/Scripts/Crate.cs",
@@ -46437,7 +46447,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll.mvfrm.rsp",
       "DisplayName": "Writing Assembly-CSharp.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 3537081,
+=======
+      "PayloadOffset": 3541626,
+>>>>>>> Stashed changes
       "PayloadLength": 11633,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
@@ -48859,6 +48873,22 @@
       "DebugActionIndex": 730
     },
     {
+<<<<<<< Updated upstream
+=======
+      "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/6097564273297756792.rsp",
+      "DisplayName": "Writing 6097564273297756792.rsp",
+      "ActionType": "WriteFile",
+      "PayloadOffset": 3553348,
+      "PayloadLength": 7786,
+      "PayloadDebugContentSnippet": "-a=\"C:\\Users\\Diogo Castelo Bra",
+      "Inputs": [],
+      "Outputs": [
+        "Library/Bee/artifacts/rsp/6097564273297756792.rsp"
+      ],
+      "DebugActionIndex": 731
+    },
+    {
+>>>>>>> Stashed changes
       "Annotation": "BuildPlayerDataGenerator Library/BuildPlayerData/Editor/TypeDb-All.json",
       "DisplayName": "BuildPlayerDataGenerator TypeDb-All",
       "Action": "\"C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe\" -a=\"E:\\Arbeit\\Projekte\\GameJam\\Wizard-LLC\\Library\\ScriptAssemblies\\Assembly-CSharp.dll\" -a=\"E:\\Arbeit\\Projekte\\GameJam\\Wizard-LLC\\Library\\ScriptAssemblies\\Purchasing.Common.dll\" -a=\"E:\\Arbeit\\Projekte\\GameJam\\Wizard-LLC\\Library\\ScriptAssemblies\\Unity.Analytics.DataPrivacy.dll\" -a=\"E:\\Arbeit\\Projekte\\GameJam\\Wizard-LLC\\Library\\ScriptAssemblies\\Unity.Postprocessing.Runtime.dll\" -a=\"E:\\Arbeit\\Projekte\\GameJam\\Wizard-LLC\\Library\\ScriptAssemblies\\Unity.RenderPipelines.Core.Runtime.dll\" -a=\"E:\\Arbeit\\Projekte\\GameJam\\Wizard-LLC\\Library\\ScriptAssemblies\\Unity.RenderPipelines.Core.ShaderLibrary.dll\" -a=\"E:\\Arbeit\\Projekte\\GameJam\\Wizard-LLC\\Library\\ScriptAssemblies\\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll\" -a=\"E:\\Arbeit\\Projekte\\GameJam\\Wizard-LLC\\Library\\ScriptAssemblies\\Unity.Services.Analytics.dll\" -a=\"E:\\Arbeit\\Projekte\\GameJam\\Wizard-LLC\\Library\\ScriptAssemblies\\Unity.Services.Core.Analytics.dll\" -a=\"E:\\Arbeit\\Projekte\\GameJam\\Wizard-LLC\\Library\\ScriptAssemblies\\Unity.Services.Core.Configuration.dll\" -a=\"E:\\Arbeit\\Projekte\\GameJam\\Wizard-LLC\\Library\\ScriptAssemblies\\Unity.Services.Core.Device.dll\" -a=\"E:\\Arbeit\\Projekte\\GameJam\\Wizard-LLC\\Library\\ScriptAssemblies\\Unity.Services.Core.dll\" -a=\"E:\\Arbeit\\Projekte\\GameJam\\Wizard-LLC\\Library\\ScriptAssemblies\\Unity.Services.Core.Environments.dll\" -a=\"E:\\Arbeit\\Projekte\\GameJam\\Wizard-LLC\\Library\\ScriptAssemblies\\Unity.Services.Core.Environments.Internal.dll\" -a=\"E:\\Arbeit\\Projekte\\GameJam\\Wizard-LLC\\Library\\ScriptAssemblies\\Unity.Services.Core.Internal.dll\" -a=\"E:\\Arbeit\\Projekte\\GameJam\\Wizard-LLC\\Library\\ScriptAssemblies\\Unity.Services.Core.Networking.dll\" -a=\"E:\\Arbeit\\Projekte\\GameJam\\Wizard-LLC\\Library\\ScriptAssemblies\\Unity.Services.Core.Registration.dll\" -a=\"E:\\Arbeit\\Projekte\\GameJam\\Wizard-LLC\\Library\\ScriptAssemblies\\Unity.Services.Core.Scheduler.dll\" -a=\"E:\\Arbeit\\Projekte\\GameJam\\Wizard-LLC\\Library\\ScriptAssemblies\\Unity.Services.Core.Telemetry.dll\" -a=\"E:\\Arbeit\\Projekte\\GameJam\\Wizard-LLC\\Library\\ScriptAssemblies\\Unity.Services.Core.Threading.dll\" -a=\"E:\\Arbeit\\Projekte\\GameJam\\Wizard-LLC\\Library\\ScriptAssemblies\\Unity.TextMeshPro.dll\" -a=\"E:\\Arbeit\\Projekte\\GameJam\\Wizard-LLC\\Library\\ScriptAssemblies\\Unity.Timeline.dll\" -a=\"E:\\Arbeit\\Projekte\\GameJam\\Wizard-LLC\\Library\\ScriptAssemblies\\Unity.VisualScripting.Core.dll\" -a=\"E:\\Arbeit\\Projekte\\GameJam\\Wizard-LLC\\Library\\ScriptAssemblies\\Unity.VisualScripting.Flow.dll\" -a=\"E:\\Arbeit\\Projekte\\GameJam\\Wizard-LLC\\Library\\ScriptAssemblies\\Unity.VisualScripting.State.dll\" -a=\"E:\\Arbeit\\Projekte\\GameJam\\Wizard-LLC\\Library\\ScriptAssemblies\\UnityEngine.Advertisements.dll\" -a=\"E:\\Arbeit\\Projekte\\GameJam\\Wizard-LLC\\Library\\ScriptAssemblies\\UnityEngine.Purchasing.AppleCore.dll\" -a=\"E:\\Arbeit\\Projekte\\GameJam\\Wizard-LLC\\Library\\ScriptAssemblies\\UnityEngine.Purchasing.AppleMacosStub.dll\" -a=\"E:\\Arbeit\\Projekte\\GameJam\\Wizard-LLC\\Library\\ScriptAssemblies\\UnityEngine.Purchasing.AppleStub.dll\" -a=\"E:\\Arbeit\\Projekte\\GameJam\\Wizard-LLC\\Library\\ScriptAssemblies\\UnityEngine.Purchasing.Codeless.dll\" -a=\"E:\\Arbeit\\Projekte\\GameJam\\Wizard-LLC\\Library\\ScriptAssemblies\\UnityEngine.Purchasing.dll\" -a=\"E:\\Arbeit\\Projekte\\GameJam\\Wizard-LLC\\Library\\ScriptAssemblies\\UnityEngine.Purchasing.SecurityCore.dll\" -a=\"E:\\Arbeit\\Projekte\\GameJam\\Wizard-LLC\\Library\\ScriptAssemblies\\UnityEngine.Purchasing.SecurityStub.dll\" -a=\"E:\\Arbeit\\Projekte\\GameJam\\Wizard-LLC\\Library\\ScriptAssemblies\\UnityEngine.Purchasing.Stores.dll\" -a=\"E:\\Arbeit\\Projekte\\GameJam\\Wizard-LLC\\Library\\ScriptAssemblies\\UnityEngine.Purchasing.WinRTCore.dll\" -a=\"E:\\Arbeit\\Projekte\\GameJam\\Wizard-LLC\\Library\\ScriptAssemblies\\UnityEngine.Purchasing.WinRTStub.dll\" -a=\"E:\\Arbeit\\Projekte\\GameJam\\Wizard-LLC\\Library\\ScriptAssemblies\\UnityEngine.TestRunner.dll\" -a=\"E:\\Arbeit\\Projekte\\GameJam\\Wizard-LLC\\Library\\ScriptAssemblies\\UnityEngine.UI.dll\" -a=\"E:\\Arbeit\\Projekte\\GameJam\\Wizard-LLC\\Library\\PackageCache\\com.unity.analytics@3.8.1\\AnalyticsStandardEvents\\Unity.Analytics.StandardEvents.dll\" -a=\"E:\\Arbeit\\Projekte\\GameJam\\Wizard-LLC\\Library\\PackageCache\\com.unity.analytics@3.8.1\\Unity.Analytics.Editor.dll\" -a=\"E:\\Arbeit\\Projekte\\GameJam\\Wizard-LLC\\Library\\PackageCache\\com.unity.analytics@3.8.1\\Unity.Analytics.Tracker.dll\" -a=\"E:\\Arbeit\\Projekte\\GameJam\\Wizard-LLC\\Library\\PackageCache\\com.unity.ext.nunit@1.0.6\\net35\\unity-custom\\nunit.framework.dll\" -a=\"E:\\Arbeit\\Projekte\\GameJam\\Wizard-LLC\\Library\\PackageCache\\com.unity.nuget.newtonsoft-json@3.2.1\\Runtime\\Newtonsoft.Json.dll\" -a=\"E:\\Arbeit\\Projekte\\GameJam\\Wizard-LLC\\Library\\PackageCache\\com.unity.testtools.codecoverage@1.2.4\\lib\\ReportGenerator\\ReportGeneratorMerged.dll\" -a=\"E:\\Arbeit\\Projekte\\GameJam\\Wizard-LLC\\Library\\PackageCache\\com.unity.visualscripting@1.9.0\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\\Unity.VisualScripting.Antlr3.Runtime.dll\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.10f1\\Editor\\Data\\Managed\\UnityEngine\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.10f1\\Editor\\Data\\NetStandard\\compat\\2.1.0\\shims\\netfx\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.10f1\\Editor\\Data\\NetStandard\\compat\\2.1.0\\shims\\netstandard\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.10f1\\Editor\\Data\\NetStandard\\Extensions\\2.0.0\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.10f1\\Editor\\Data\\NetStandard\\ref\\2.1.0\" -s=\"E:\\Arbeit\\Projekte\\GameJam\\Wizard-LLC\\Library\\ScriptAssemblies\" -s=\"E:\\Arbeit\\Projekte\\GameJam\\Wizard-LLC\\Library\\PackageCache\\com.unity.analytics@3.8.1\" -s=\"E:\\Arbeit\\Projekte\\GameJam\\Wizard-LLC\\Library\\PackageCache\\com.unity.analytics@3.8.1\\AnalyticsStandardEvents\" -s=\"E:\\Arbeit\\Projekte\\GameJam\\Wizard-LLC\\Library\\PackageCache\\com.unity.ext.nunit@1.0.6\\net35\\unity-custom\" -s=\"E:\\Arbeit\\Projekte\\GameJam\\Wizard-LLC\\Library\\PackageCache\\com.unity.nuget.newtonsoft-json@3.2.1\\Runtime\" -s=\"E:\\Arbeit\\Projekte\\GameJam\\Wizard-LLC\\Library\\PackageCache\\com.unity.testtools.codecoverage@1.2.4\\lib\\ReportGenerator\" -s=\"E:\\Arbeit\\Projekte\\GameJam\\Wizard-LLC\\Library\\PackageCache\\com.unity.visualscripting@1.9.0\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\" -o=\"Library/BuildPlayerData/Editor\" -rn=\"\" -tn=\"TypeDb-All.json\"",

@@ -85,6 +85,7 @@
     <Compile Include="Assets\LowPolyNature\Scripts\FirstAid.cs" />
     <Compile Include="Assets\Phorzaeken\InventoryQ.cs" />
     <Compile Include="Assets\LowPolyNature\Scripts\HUD.cs" />
+    <Compile Include="Assets\CB\Scripts\MainMenu.cs" />
     <Compile Include="Assets\LowPolyNature\Scripts\Food.cs" />
     <Compile Include="Assets\CB\Scripts\DoorInteraction.cs" />
     <Compile Include="Assets\LowPolyNature\Scripts\InventoryItem.cs" />
