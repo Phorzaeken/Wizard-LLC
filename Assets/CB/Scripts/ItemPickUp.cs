@@ -9,6 +9,7 @@ public class ItemPickup : MonoBehaviour
     public ItemType itemType;
     public float effectDuration = 2f; // Duration of the effect
     public float lightIntensityChange = 1f;
+    public float speedBoostAmount = 1.5f; // Speed boost amount
 
     private PlayerController playerController;
     private LightController lightController;
@@ -63,16 +64,16 @@ public class ItemPickup : MonoBehaviour
         switch (itemType)
         {
             case ItemType.Lattekasam:
-                playerController.ApplySpeedBoost(effectDuration);
+                playerController.ApplySpeedBoost(effectDuration, speedBoostAmount);
                 break;
             case ItemType.Viagraccino:
-                playerController.ApplySpeedBoost(effectDuration);
+                playerController.ApplySpeedBoost(effectDuration, speedBoostAmount);
                 break;
             case ItemType.OiliveGarden:
                 lightController.IncreaseLightIntensity(effectDuration, lightIntensityChange);
                 break;
             case ItemType.Oilohomora:
-                lightController.DecreaseLightIntensity(effectDuration, lightIntensityChange);
+                lightController.IncreaseLightIntensity(effectDuration, lightIntensityChange);
                 break;
         }
     }

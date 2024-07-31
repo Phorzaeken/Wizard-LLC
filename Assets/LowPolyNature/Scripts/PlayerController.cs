@@ -30,18 +30,18 @@ public class PlayerController : MonoBehaviour
 
     private float originalSpeed;
 
-    public float speedBoostMultiplier = 2f;
+    private float currentSpeed;
 
-    public void ApplySpeedBoost(float duration)
+    public void ApplySpeedBoost(float duration, float speedBoostAmount)
     {
-        StartCoroutine(SpeedBoostCoroutine(duration));
+        StartCoroutine(SpeedBoostCoroutine(duration, speedBoostAmount));
     }
 
-    private IEnumerator SpeedBoostCoroutine(float duration)
+    private IEnumerator SpeedBoostCoroutine(float duration, float speedBoostAmount)
     {
-        Speed *= speedBoostMultiplier; // Increase the speed
+        currentSpeed = originalSpeed * speedBoostAmount;
         yield return new WaitForSeconds(duration);
-        Speed = originalSpeed; // Reset to original speed
+        currentSpeed = originalSpeed;
     }
 
     #endregion
@@ -96,9 +96,12 @@ public class PlayerController : MonoBehaviour
         mFoodBar.SetValue(Food);
 
         InvokeRepeating("IncreaseHunger", 0, HungerRate);*/
-        {
-            originalSpeed = Speed; // Store the original speed
-        }
+        
+          {
+                originalSpeed = // Set to your player's normal speed;
+                currentSpeed = originalSpeed;
+          }
+    
 
     }
 

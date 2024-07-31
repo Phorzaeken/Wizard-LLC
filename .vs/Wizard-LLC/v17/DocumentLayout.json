@@ -3,19 +3,19 @@
   "WorkspaceRootPath": "C:\\Users\\Diogo Castelo Branco\\Desktop\\PirateGameJam\\Github\\Wizard-LLC\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3181C416-51AF-C230-34A0-F4201DAA7288}|Assembly-CSharp.csproj|C:\\Users\\Diogo Castelo Branco\\Desktop\\PirateGameJam\\Github\\Wizard-LLC\\assets\\cb\\scripts\\itempickup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3181C416-51AF-C230-34A0-F4201DAA7288}|Assembly-CSharp.csproj|c:\\users\\diogo castelo branco\\desktop\\pirategamejam\\github\\wizard-llc\\assets\\cb\\scripts\\itempickup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3181C416-51AF-C230-34A0-F4201DAA7288}|Assembly-CSharp.csproj|solutionrelative:assets\\cb\\scripts\\itempickup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3181C416-51AF-C230-34A0-F4201DAA7288}|Assembly-CSharp.csproj|C:\\Users\\Diogo Castelo Branco\\Desktop\\PirateGameJam\\Github\\Wizard-LLC\\assets\\cb\\scripts\\playerinteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3181C416-51AF-C230-34A0-F4201DAA7288}|Assembly-CSharp.csproj|solutionrelative:assets\\cb\\scripts\\playerinteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3181C416-51AF-C230-34A0-F4201DAA7288}|Assembly-CSharp.csproj|C:\\Users\\Diogo Castelo Branco\\Desktop\\PirateGameJam\\Github\\Wizard-LLC\\assets\\lowpolynature\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3181C416-51AF-C230-34A0-F4201DAA7288}|Assembly-CSharp.csproj|solutionrelative:assets\\lowpolynature\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3181C416-51AF-C230-34A0-F4201DAA7288}|Assembly-CSharp.csproj|c:\\users\\diogo castelo branco\\desktop\\pirategamejam\\github\\wizard-llc\\assets\\cb\\scripts\\lightcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3181C416-51AF-C230-34A0-F4201DAA7288}|Assembly-CSharp.csproj|C:\\Users\\Diogo Castelo Branco\\Desktop\\PirateGameJam\\Github\\Wizard-LLC\\assets\\cb\\scripts\\playerinteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3181C416-51AF-C230-34A0-F4201DAA7288}|Assembly-CSharp.csproj|solutionrelative:assets\\cb\\scripts\\playerinteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3181C416-51AF-C230-34A0-F4201DAA7288}|Assembly-CSharp.csproj|C:\\Users\\Diogo Castelo Branco\\Desktop\\PirateGameJam\\Github\\Wizard-LLC\\assets\\cb\\scripts\\lightcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3181C416-51AF-C230-34A0-F4201DAA7288}|Assembly-CSharp.csproj|solutionrelative:assets\\cb\\scripts\\lightcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -58,8 +58,7 @@
               "RelativeToolTip": "Assets\\CB\\Scripts\\LightController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-30T20:56:47.201Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-30T20:56:47.201Z"
             },
             {
               "$type": "Document",
@@ -69,7 +68,7 @@
               "RelativeDocumentMoniker": "Assets\\CB\\Scripts\\ItemPickUp.cs",
               "ToolTip": "C:\\Users\\Diogo Castelo Branco\\Desktop\\PirateGameJam\\Github\\Wizard-LLC\\Assets\\CB\\Scripts\\ItemPickUp.cs",
               "RelativeToolTip": "Assets\\CB\\Scripts\\ItemPickUp.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAgwBsAAAAAAAAA",
+              "ViewState": "AQIAADQAAAAAAAAAAAAowE0AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-30T20:48:22.807Z",
               "EditorCaption": ""
@@ -88,7 +87,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "PlayerInteraction.cs",
               "DocumentMoniker": "C:\\Users\\Diogo Castelo Branco\\Desktop\\PirateGameJam\\Github\\Wizard-LLC\\Assets\\CB\\Scripts\\PlayerInteraction.cs",
               "RelativeDocumentMoniker": "Assets\\CB\\Scripts\\PlayerInteraction.cs",
@@ -96,8 +95,7 @@
               "RelativeToolTip": "Assets\\CB\\Scripts\\PlayerInteraction.cs",
               "ViewState": "AQIAABAAAAAAAAAAAAAgwAEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-30T12:57:19.746Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-30T12:57:19.746Z"
             },
             {
               "$type": "Document",
@@ -113,13 +111,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "PlayerController.cs",
               "DocumentMoniker": "C:\\Users\\Diogo Castelo Branco\\Desktop\\PirateGameJam\\Github\\Wizard-LLC\\Assets\\LowPolyNature\\Scripts\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\LowPolyNature\\Scripts\\PlayerController.cs",
               "ToolTip": "C:\\Users\\Diogo Castelo Branco\\Desktop\\PirateGameJam\\Github\\Wizard-LLC\\Assets\\LowPolyNature\\Scripts\\PlayerController.cs",
               "RelativeToolTip": "Assets\\LowPolyNature\\Scripts\\PlayerController.cs",
-              "ViewState": "AQIAACoAAAAAAAAAAAAowGMAAAA+AAAA",
+              "ViewState": "AQIAABYAAAAAAAAAAAAgwCwAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-30T12:40:09.874Z",
               "EditorCaption": ""
