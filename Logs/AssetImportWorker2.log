@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2022.3/staging' branch; Version is '2022.3.10f1 (ff3792e53c62) revision 16725906'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 16246 MB
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'de' Physical Memory: 16315 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2022.3.10f1\Editor\Unity.exe
 -name
 AssetImportWorker2
 -projectPath
-C:/Users/Diogo Castelo Branco/Desktop/PirateGameJam/Github/Wizard-LLC
+E:/Arbeit/Projekte/GameJam/Wizard-LLC
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-60887
-Successfully changed project path to: C:/Users/Diogo Castelo Branco/Desktop/PirateGameJam/Github/Wizard-LLC
-C:/Users/Diogo Castelo Branco/Desktop/PirateGameJam/Github/Wizard-LLC
+53199
+Successfully changed project path to: E:/Arbeit/Projekte/GameJam/Wizard-LLC
+E:/Arbeit/Projekte/GameJam/Wizard-LLC
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,67 +49,67 @@ C:/Users/Diogo Castelo Branco/Desktop/PirateGameJam/Github/Wizard-LLC
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [62340] Host "[IP] 192.168.1.70 [Port] 0 [Flags] 2 [Guid] 743649556 [EditorId] 743649556 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-R82JVO4) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [7724] Host "[IP] 192.168.0.114 [Port] 0 [Flags] 2 [Guid] 956077688 [EditorId] 956077688 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-QOLIB5E) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [62340] Host "[IP] 192.168.1.70 [Port] 0 [Flags] 2 [Guid] 743649556 [EditorId] 743649556 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-R82JVO4) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [7724] Host "[IP] 192.168.0.114 [Port] 0 [Flags] 2 [Guid] 956077688 [EditorId] 956077688 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-QOLIB5E) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
-Refreshing native plugins compatible for Editor in 22.92 ms, found 3 plugins.
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 17.95 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.10f1 (ff3792e53c62)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/Diogo Castelo Branco/Desktop/PirateGameJam/Github/Wizard-LLC/Assets
+[Subsystems] Discovering subsystems at path E:/Arbeit/Projekte/GameJam/Wizard-LLC/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 2070 SUPER (ID=0x1e84)
+    Renderer: NVIDIA GeForce GTX 1070 (ID=0x1b81)
     Vendor:   NVIDIA
-    VRAM:     7989 MB
-    Driver:   31.0.15.5222
+    VRAM:     8067 MB
+    Driver:   31.0.15.5186
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56984
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56128
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.014858 seconds.
-- Loaded All Assemblies, in  0.408 seconds
+Registered in 0.021705 seconds.
+- Loaded All Assemblies, in  0.554 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.255 seconds
-Domain Reload Profiling: 661ms
-	BeginReloadAssembly (132ms)
+- Finished resetting the current domain, in  0.472 seconds
+Domain Reload Profiling: 1022ms
+	BeginReloadAssembly (156ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (41ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (70ms)
-	LoadAllAssembliesAndSetupDomain (151ms)
-		LoadAssemblies (128ms)
+	RebuildCommonClasses (54ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (99ms)
+	LoadAllAssembliesAndSetupDomain (226ms)
+		LoadAssemblies (152ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (148ms)
-			TypeCache.Refresh (147ms)
-				TypeCache.ScanAssembly (133ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (256ms)
+		AnalyzeDomain (223ms)
+			TypeCache.Refresh (220ms)
+				TypeCache.ScanAssembly (199ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (472ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (195ms)
+		SetupLoadedEditorAssemblies (355ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (12ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (24ms)
+			SetLoadedEditorAssemblies (8ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (128ms)
-			ProcessInitializeOnLoadMethodAttributes (48ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (233ms)
+			ProcessInitializeOnLoadMethodAttributes (85ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -118,8 +118,8 @@ Domain Reload Profiling: 661ms
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.849 seconds
-Refreshing native plugins compatible for Editor in 11.65 ms, found 3 plugins.
+- Loaded All Assemblies, in  1.050 seconds
+Refreshing native plugins compatible for Editor in 8.54 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 System.Exception: Error! Visual Scripting: couldn't find visual scripting package
@@ -144,52 +144,53 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.247 seconds
-Domain Reload Profiling: 2090ms
-	BeginReloadAssembly (156ms)
+- Finished resetting the current domain, in  1.606 seconds
+Domain Reload Profiling: 2651ms
+	BeginReloadAssembly (214ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (8ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (24ms)
-	RebuildCommonClasses (32ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (46ms)
-	LoadAllAssembliesAndSetupDomain (598ms)
-		LoadAssemblies (451ms)
+		CreateAndSetChildDomain (27ms)
+	RebuildCommonClasses (49ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (69ms)
+	LoadAllAssembliesAndSetupDomain (692ms)
+		LoadAssemblies (492ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (239ms)
-			TypeCache.Refresh (206ms)
-				TypeCache.ScanAssembly (185ms)
-			ScanForSourceGeneratedMonoScriptInfo (26ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (1247ms)
+		AnalyzeDomain (324ms)
+			TypeCache.Refresh (280ms)
+				TypeCache.ScanAssembly (255ms)
+			ScanForSourceGeneratedMonoScriptInfo (34ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1607ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1085ms)
+		SetupLoadedEditorAssemblies (1408ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (10ms)
-			SetLoadedEditorAssemblies (4ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (102ms)
-			ProcessInitializeOnLoadAttributes (836ms)
-			ProcessInitializeOnLoadMethodAttributes (123ms)
-			AfterProcessingInitializeOnLoad (10ms)
+			BeforeProcessingInitializeOnLoad (114ms)
+			ProcessInitializeOnLoadAttributes (1085ms)
+			ProcessInitializeOnLoadMethodAttributes (172ms)
+			AfterProcessingInitializeOnLoad (17ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (7ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 14.24 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 12.85 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5314 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 86 unused Assets / (1.6 MB). Loaded Objects now: 5740.
-Memory consumption went from 185.4 MB to 183.9 MB.
-Total: 15.145500 ms (FindLiveObjects: 0.498900 ms CreateObjectMapping: 0.556000 ms MarkObjects: 13.643900 ms  DeleteObjects: 0.445400 ms)
+Unloading 5315 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 86 unused Assets / (1.6 MB). Loaded Objects now: 5741.
+Memory consumption went from 185.5 MB to 183.9 MB.
+Total: 25.009300 ms (FindLiveObjects: 0.566600 ms CreateObjectMapping: 0.217900 ms MarkObjects: 23.456900 ms  DeleteObjects: 0.766900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Raycas.cs: fc3c81e7f2c9b04d0c993db42e4be6bf -> 
   custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
@@ -201,70 +202,118 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1593378.731987 seconds.
-  path: Assets/NoizeProxy/Wood/Footsteps_Wood_Light_Heavy_Creaks_005.wav
-  artifactKey: Guid(b8fb53030f35a8743b1f57a8440dec1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NoizeProxy/Wood/Footsteps_Wood_Light_Heavy_Creaks_005.wav using Guid(b8fb53030f35a8743b1f57a8440dec1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '670caaa0da67050f223b8d39958e324c') in 0.076700 seconds
+  Time since last request: 1202228.240993 seconds.
+  path: Assets/CB/Materials/BasementFloor.mat
+  artifactKey: Guid(c1b779a6668e48d46921d149a064ddfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CB/Materials/BasementFloor.mat using Guid(c1b779a6668e48d46921d149a064ddfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3e4412d02cb3c1528fa56a68af403d3') in 0.207798 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/NoizeProxy/Wood/Footsteps_Wood_Light_Heavy_Creaks_007.wav
-  artifactKey: Guid(e42b10475402d0945882d383d6137f61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NoizeProxy/Wood/Footsteps_Wood_Light_Heavy_Creaks_007.wav using Guid(e42b10475402d0945882d383d6137f61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdfcbd1c9040fedd69e3883342146bd7') in 0.006630 seconds
+  Time since last request: 0.000030 seconds.
+  path: Assets/Uwoopsies/Materials/Portraits/Materials/Painting1.mat
+  artifactKey: Guid(118401fc2d43ad24489619cbe331db64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Uwoopsies/Materials/Portraits/Materials/Painting1.mat using Guid(118401fc2d43ad24489619cbe331db64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4cdf63866a56735a9dad869e34dd559') in 0.014873 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Uwoopsies/Materials/Portraits/Materials/Painting1 2.mat
+  artifactKey: Guid(1d363a2a3d96461489bb853628c2ce2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Uwoopsies/Materials/Portraits/Materials/Painting1 2.mat using Guid(1d363a2a3d96461489bb853628c2ce2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af1b1b46a5f546ce2fa83b44585ae3d6') in 0.078511 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/NoizeProxy/Wood/Footsteps_Wood_Light_Heavy_Creaks_001.wav
-  artifactKey: Guid(dbacfc1ea41f07440996983d772071fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NoizeProxy/Wood/Footsteps_Wood_Light_Heavy_Creaks_001.wav using Guid(dbacfc1ea41f07440996983d772071fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fbdbeb38552460b3048bb56565d38bc') in 0.005328 seconds
+  Time since last request: 0.000020 seconds.
+  path: Assets/Uwoopsies/Materials/Portraits/Materials/Painting2 1.mat
+  artifactKey: Guid(e41d66cb58052074bbb45f8cab5d548a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Uwoopsies/Materials/Portraits/Materials/Painting2 1.mat using Guid(e41d66cb58052074bbb45f8cab5d548a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b941d9dac5dad67e7a4185eec4e2ae9') in 0.050684 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/NoizeProxy/Wood/Footsteps_Wood_Light_Heavy_Creaks_012.wav
-  artifactKey: Guid(93ae73326396db242818333531a408e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NoizeProxy/Wood/Footsteps_Wood_Light_Heavy_Creaks_012.wav using Guid(93ae73326396db242818333531a408e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59cd494ba17e8f47278789fe5e6908f5') in 0.011953 seconds
+  Time since last request: 0.000020 seconds.
+  path: Assets/Uwoopsies/Materials/Rug_Texture/Materials/Rug3.mat
+  artifactKey: Guid(a1d613ad834dd2a4f9388f63033ef0de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Uwoopsies/Materials/Rug_Texture/Materials/Rug3.mat using Guid(a1d613ad834dd2a4f9388f63033ef0de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f48f369e6430bb29ced364066588b886') in 0.076045 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
   Time since last request: 0.000016 seconds.
-  path: Assets/NoizeProxy/Wood/Footsteps_Wood_Light_Heavy_Creaks_014.wav
-  artifactKey: Guid(2fe51adae2dfda24faaf7db054418ee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NoizeProxy/Wood/Footsteps_Wood_Light_Heavy_Creaks_014.wav using Guid(2fe51adae2dfda24faaf7db054418ee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a055e74aa94694f854db6f7d7319855e') in 0.006024 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/NoizeProxy/Wood/Footsteps_Wood_Light_Heavy_Creaks_006.wav
-  artifactKey: Guid(5def184556903ff41894bc70f8319e65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NoizeProxy/Wood/Footsteps_Wood_Light_Heavy_Creaks_006.wav using Guid(5def184556903ff41894bc70f8319e65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dbc2a7b7ab44f093429c44d2c854543') in 0.015025 seconds
+  path: Assets/Uwoopsies/Materials/Portraits/Materials/Painting3.mat
+  artifactKey: Guid(7e65d9dc677c2ef40a8e98f364176aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Uwoopsies/Materials/Portraits/Materials/Painting3.mat using Guid(7e65d9dc677c2ef40a8e98f364176aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b487938a07b4b0b6f49e13814b863550') in 0.069547 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
   Time since last request: 0.000017 seconds.
-  path: Assets/NoizeProxy/Wood/Footsteps_Wood_Light_Heavy_Creaks_004.wav
-  artifactKey: Guid(ddf3ac2347b35e44ab102940d3c1f36b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NoizeProxy/Wood/Footsteps_Wood_Light_Heavy_Creaks_004.wav using Guid(ddf3ac2347b35e44ab102940d3c1f36b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a47dd4711dbc62cf5be374f3e669c69e') in 0.013907 seconds
+  path: Assets/Uwoopsies/Materials/Rug_Texture/Materials/Rug1.mat
+  artifactKey: Guid(71be0f551f3067746a2f671a470e63a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Uwoopsies/Materials/Rug_Texture/Materials/Rug1.mat using Guid(71be0f551f3067746a2f671a470e63a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4239b30d9254162efe638d8890972aa') in 0.069988 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/NoizeProxy/Wood/Footsteps_Wood_Light_Heavy_Creaks_009.wav
-  artifactKey: Guid(9da1deb351f2b204b98e1683d7a3d228) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NoizeProxy/Wood/Footsteps_Wood_Light_Heavy_Creaks_009.wav using Guid(9da1deb351f2b204b98e1683d7a3d228) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b340bdb1d24db8ec38d66e87d91ebba') in 0.006974 seconds
+  Time since last request: 0.000035 seconds.
+  path: Assets/Uwoopsies/Materials/Portraits/Materials/Painting2 7.mat
+  artifactKey: Guid(fc707342cae20024287257585bdd92a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Uwoopsies/Materials/Portraits/Materials/Painting2 7.mat using Guid(fc707342cae20024287257585bdd92a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e33c6571b9bc7da263184ce7881add6') in 0.075375 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Uwoopsies/Materials/M_Portrait 1.mat
+  artifactKey: Guid(60e179f4a398f6242b3acdc0f117e5b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Uwoopsies/Materials/M_Portrait 1.mat using Guid(60e179f4a398f6242b3acdc0f117e5b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc035a68f30c7ac04b6bea07dfa6dd32') in 0.191765 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Uwoopsies/Materials/Portraits/Materials/Painting2 2.mat
+  artifactKey: Guid(3c85ae554ef0f99418c0dad5c90d8b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Uwoopsies/Materials/Portraits/Materials/Painting2 2.mat using Guid(3c85ae554ef0f99418c0dad5c90d8b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f867c43aa1265bcf8201affbfea5490') in 0.119968 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/CB/Environment Materials/M_EnvironmentStoneWall.mat
+  artifactKey: Guid(ddf1031b677e84941b1456a4a01f3aa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CB/Environment Materials/M_EnvironmentStoneWall.mat using Guid(ddf1031b677e84941b1456a4a01f3aa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f140436985fac3af8821130f74327198') in 0.021744 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/CB/Assets/Props/Batch2/Textures/M_SmallTable.mat
+  artifactKey: Guid(7aaf07aacc180234bb83e4ebbd3b1f63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CB/Assets/Props/Batch2/Textures/M_SmallTable.mat using Guid(7aaf07aacc180234bb83e4ebbd3b1f63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd771f459259bb0269a5bbd24bf038dc7') in 0.180005 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Uwoopsies/Materials/Portraits/Materials/Painting1 1.mat
+  artifactKey: Guid(f85471e74dd53584fbb6a0e33940c98c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Uwoopsies/Materials/Portraits/Materials/Painting1 1.mat using Guid(f85471e74dd53584fbb6a0e33940c98c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea58cb34c55e6dbe9d35c44df1f0c533') in 0.027626 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/CB/Assets/Props/Batch2/Textures/M_Toilet.mat
+  artifactKey: Guid(616a41bb6c43b084ebf68d350b9bd76a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CB/Assets/Props/Batch2/Textures/M_Toilet.mat using Guid(616a41bb6c43b084ebf68d350b9bd76a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90d17dda8fe5bac142a78c0eb99aab4b') in 0.222008 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: Der E/A-Vorgang wurde wegen eines Threadendes oder einer Anwendungsanforderung abgebrochen.
 AssetImportWorker is now disconnected from the server
 Process exiting
 Exiting without the bug reporter. Application will terminate with return code 0

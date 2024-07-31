@@ -387,6 +387,7 @@
 "Assets/CB/Scripts/LightController.cs"
 "Assets/CB/Scripts/MainMenu.cs"
 "Assets/CB/Scripts/PlayerInteraction.cs"
+"Assets/CB/Scripts/RaycastDebugger.cs"
 "Assets/LowPolyNature/Scripts/Axe.cs"
 "Assets/LowPolyNature/Scripts/Crate.cs"
 "Assets/LowPolyNature/Scripts/DamageSource.cs"

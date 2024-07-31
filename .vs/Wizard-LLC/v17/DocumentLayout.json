@@ -1,50 +1,54 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Diogo Castelo Branco\\Desktop\\PirateGameJam\\Github\\Wizard-LLC\\",
+  "WorkspaceRootPath": "E:\\Arbeit\\Projekte\\GameJam\\Wizard-LLC\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3181C416-51AF-C230-34A0-F4201DAA7288}|Assembly-CSharp.csproj|c:\\users\\diogo castelo branco\\desktop\\pirategamejam\\github\\wizard-llc\\assets\\phorzaeken\\footstepcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3181C416-51AF-C230-34A0-F4201DAA7288}|Assembly-CSharp.csproj|solutionrelative:assets\\phorzaeken\\footstepcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Arbeit\\Projekte\\GameJam\\Wizard-LLC\\Assets\\CB\\Scripts\\RaycastDebugger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\CB\\Scripts\\RaycastDebugger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3181C416-51AF-C230-34A0-F4201DAA7288}|Assembly-CSharp.csproj|C:\\Users\\Diogo Castelo Branco\\Desktop\\PirateGameJam\\Github\\Wizard-LLC\\assets\\lowpolynature\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3181C416-51AF-C230-34A0-F4201DAA7288}|Assembly-CSharp.csproj|solutionrelative:assets\\lowpolynature\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Arbeit\\Projekte\\GameJam\\Wizard-LLC\\Assets\\CB\\Scripts\\MainMenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\CB\\Scripts\\MainMenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3181C416-51AF-C230-34A0-F4201DAA7288}|Assembly-CSharp.csproj|C:\\Users\\Diogo Castelo Branco\\Desktop\\PirateGameJam\\Github\\Wizard-LLC\\assets\\cb\\scripts\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3181C416-51AF-C230-34A0-F4201DAA7288}|Assembly-CSharp.csproj|solutionrelative:assets\\cb\\scripts\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Arbeit\\Projekte\\GameJam\\Wizard-LLC\\Assets\\Phorzaeken\\FootstepController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Phorzaeken\\FootstepController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3181C416-51AF-C230-34A0-F4201DAA7288}|Assembly-CSharp.csproj|C:\\Users\\Diogo Castelo Branco\\Desktop\\PirateGameJam\\Github\\Wizard-LLC\\assets\\phorzaeken\\inventoryq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3181C416-51AF-C230-34A0-F4201DAA7288}|Assembly-CSharp.csproj|solutionrelative:assets\\phorzaeken\\inventoryq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Arbeit\\Projekte\\GameJam\\Wizard-LLC\\Assets\\CB\\Scripts\\LightController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\CB\\Scripts\\LightController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3181C416-51AF-C230-34A0-F4201DAA7288}|Assembly-CSharp.csproj|C:\\Users\\Diogo Castelo Branco\\Desktop\\PirateGameJam\\Github\\Wizard-LLC\\assets\\cb\\scripts\\itempickup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3181C416-51AF-C230-34A0-F4201DAA7288}|Assembly-CSharp.csproj|solutionrelative:assets\\cb\\scripts\\itempickup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Arbeit\\Projekte\\GameJam\\Wizard-LLC\\Assets\\CB\\Scripts\\ItemPickUp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\CB\\Scripts\\ItemPickUp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3181C416-51AF-C230-34A0-F4201DAA7288}|Assembly-CSharp.csproj|C:\\Users\\Diogo Castelo Branco\\Desktop\\PirateGameJam\\Github\\Wizard-LLC\\assets\\cb\\scripts\\playerinteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3181C416-51AF-C230-34A0-F4201DAA7288}|Assembly-CSharp.csproj|solutionrelative:assets\\cb\\scripts\\playerinteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Arbeit\\Projekte\\GameJam\\Wizard-LLC\\Assets\\CB\\Scripts\\DoorInteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\CB\\Scripts\\DoorInteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3181C416-51AF-C230-34A0-F4201DAA7288}|Assembly-CSharp.csproj|C:\\Users\\Diogo Castelo Branco\\Desktop\\PirateGameJam\\Github\\Wizard-LLC\\assets\\cb\\scripts\\lightcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3181C416-51AF-C230-34A0-F4201DAA7288}|Assembly-CSharp.csproj|solutionrelative:assets\\cb\\scripts\\lightcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Arbeit\\Projekte\\GameJam\\Wizard-LLC\\Assets\\CB\\Scripts\\PlayerInteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\CB\\Scripts\\PlayerInteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3181C416-51AF-C230-34A0-F4201DAA7288}|Assembly-CSharp.csproj|C:\\Users\\Diogo Castelo Branco\\Desktop\\PirateGameJam\\Github\\Wizard-LLC\\assets\\cb\\scripts\\doorinteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3181C416-51AF-C230-34A0-F4201DAA7288}|Assembly-CSharp.csproj|solutionrelative:assets\\cb\\scripts\\doorinteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Arbeit\\Projekte\\GameJam\\Wizard-LLC\\Assets\\Phorzaeken\\MouseLook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Phorzaeken\\MouseLook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3181C416-51AF-C230-34A0-F4201DAA7288}|Assembly-CSharp.csproj|C:\\Users\\Diogo Castelo Branco\\Desktop\\PirateGameJam\\Github\\Wizard-LLC\\assets\\phorzaeken\\doorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3181C416-51AF-C230-34A0-F4201DAA7288}|Assembly-CSharp.csproj|solutionrelative:assets\\phorzaeken\\doorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Arbeit\\Projekte\\GameJam\\Wizard-LLC\\Assets\\LowPolyNature\\Scripts\\PlayerController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\LowPolyNature\\Scripts\\PlayerController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3181C416-51AF-C230-34A0-F4201DAA7288}|Assembly-CSharp.csproj|C:\\Users\\Diogo Castelo Branco\\Desktop\\PirateGameJam\\Github\\Wizard-LLC\\assets\\phorzaeken\\itemcollect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3181C416-51AF-C230-34A0-F4201DAA7288}|Assembly-CSharp.csproj|solutionrelative:assets\\phorzaeken\\itemcollect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Arbeit\\Projekte\\GameJam\\Wizard-LLC\\Assets\\Phorzaeken\\ItemCollect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Phorzaeken\\ItemCollect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3181C416-51AF-C230-34A0-F4201DAA7288}|Assembly-CSharp.csproj|C:\\Users\\Diogo Castelo Branco\\Desktop\\PirateGameJam\\Github\\Wizard-LLC\\assets\\phorzaeken\\mouselook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3181C416-51AF-C230-34A0-F4201DAA7288}|Assembly-CSharp.csproj|solutionrelative:assets\\phorzaeken\\mouselook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Arbeit\\Projekte\\GameJam\\Wizard-LLC\\Assets\\Phorzaeken\\InventoryQ.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Phorzaeken\\InventoryQ.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Arbeit\\Projekte\\GameJam\\Wizard-LLC\\Assets\\Phorzaeken\\DoorController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Phorzaeken\\DoorController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -59,35 +63,48 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "FootstepController.cs",
-              "DocumentMoniker": "C:\\Users\\Diogo Castelo Branco\\Desktop\\PirateGameJam\\Github\\Wizard-LLC\\Assets\\Phorzaeken\\FootstepController.cs",
-              "RelativeDocumentMoniker": "Assets\\Phorzaeken\\FootstepController.cs",
-              "ToolTip": "C:\\Users\\Diogo Castelo Branco\\Desktop\\PirateGameJam\\Github\\Wizard-LLC\\Assets\\Phorzaeken\\FootstepController.cs",
-              "RelativeToolTip": "Assets\\Phorzaeken\\FootstepController.cs",
-              "ViewState": "AQIAAFUAAAAAAAAAAAAcwAUAAABXAAAA",
+              "Title": "RaycastDebugger.cs",
+              "DocumentMoniker": "E:\\Arbeit\\Projekte\\GameJam\\Wizard-LLC\\Assets\\CB\\Scripts\\RaycastDebugger.cs",
+              "RelativeDocumentMoniker": "Assets\\CB\\Scripts\\RaycastDebugger.cs",
+              "ToolTip": "E:\\Arbeit\\Projekte\\GameJam\\Wizard-LLC\\Assets\\CB\\Scripts\\RaycastDebugger.cs",
+              "RelativeToolTip": "Assets\\CB\\Scripts\\RaycastDebugger.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-31T02:22:35.259Z",
+              "WhenOpened": "2024-07-31T04:42:38.684Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "MainMenu.cs",
-              "DocumentMoniker": "C:\\Users\\Diogo Castelo Branco\\Desktop\\PirateGameJam\\Github\\Wizard-LLC\\Assets\\CB\\Scripts\\MainMenu.cs",
-              "RelativeDocumentMoniker": "Assets\\CB\\Scripts\\MainMenu.cs",
-              "ToolTip": "C:\\Users\\Diogo Castelo Branco\\Desktop\\PirateGameJam\\Github\\Wizard-LLC\\Assets\\CB\\Scripts\\MainMenu.cs",
-              "RelativeToolTip": "Assets\\CB\\Scripts\\MainMenu.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAxAAAA",
+              "Title": "FootstepController.cs",
+              "DocumentMoniker": "E:\\Arbeit\\Projekte\\GameJam\\Wizard-LLC\\Assets\\Phorzaeken\\FootstepController.cs",
+              "RelativeDocumentMoniker": "Assets\\Phorzaeken\\FootstepController.cs",
+              "ToolTip": "E:\\Arbeit\\Projekte\\GameJam\\Wizard-LLC\\Assets\\Phorzaeken\\FootstepController.cs",
+              "RelativeToolTip": "Assets\\Phorzaeken\\FootstepController.cs",
+              "ViewState": "AQIAAFUAAAAAAAAAAAAcwAUAAABXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-31T01:23:48.637Z"
+              "WhenOpened": "2024-07-31T02:22:35.259Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
+              "Title": "MainMenu.cs",
+              "DocumentMoniker": "E:\\Arbeit\\Projekte\\GameJam\\Wizard-LLC\\Assets\\CB\\Scripts\\MainMenu.cs",
+              "RelativeDocumentMoniker": "Assets\\CB\\Scripts\\MainMenu.cs",
+              "ToolTip": "E:\\Arbeit\\Projekte\\GameJam\\Wizard-LLC\\Assets\\CB\\Scripts\\MainMenu.cs",
+              "RelativeToolTip": "Assets\\CB\\Scripts\\MainMenu.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T01:23:48.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "LightController.cs",
-              "DocumentMoniker": "C:\\Users\\Diogo Castelo Branco\\Desktop\\PirateGameJam\\Github\\Wizard-LLC\\Assets\\CB\\Scripts\\LightController.cs",
+              "DocumentMoniker": "E:\\Arbeit\\Projekte\\GameJam\\Wizard-LLC\\Assets\\CB\\Scripts\\LightController.cs",
               "RelativeDocumentMoniker": "Assets\\CB\\Scripts\\LightController.cs",
-              "ToolTip": "C:\\Users\\Diogo Castelo Branco\\Desktop\\PirateGameJam\\Github\\Wizard-LLC\\Assets\\CB\\Scripts\\LightController.cs",
+              "ToolTip": "E:\\Arbeit\\Projekte\\GameJam\\Wizard-LLC\\Assets\\CB\\Scripts\\LightController.cs",
               "RelativeToolTip": "Assets\\CB\\Scripts\\LightController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -97,9 +114,9 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "ItemPickUp.cs",
-              "DocumentMoniker": "C:\\Users\\Diogo Castelo Branco\\Desktop\\PirateGameJam\\Github\\Wizard-LLC\\Assets\\CB\\Scripts\\ItemPickUp.cs",
+              "DocumentMoniker": "E:\\Arbeit\\Projekte\\GameJam\\Wizard-LLC\\Assets\\CB\\Scripts\\ItemPickUp.cs",
               "RelativeDocumentMoniker": "Assets\\CB\\Scripts\\ItemPickUp.cs",
-              "ToolTip": "C:\\Users\\Diogo Castelo Branco\\Desktop\\PirateGameJam\\Github\\Wizard-LLC\\Assets\\CB\\Scripts\\ItemPickUp.cs",
+              "ToolTip": "E:\\Arbeit\\Projekte\\GameJam\\Wizard-LLC\\Assets\\CB\\Scripts\\ItemPickUp.cs",
               "RelativeToolTip": "Assets\\CB\\Scripts\\ItemPickUp.cs",
               "ViewState": "AQIAADQAAAAAAAAAAAAowE0AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -107,11 +124,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
               "Title": "DoorInteraction.cs",
-              "DocumentMoniker": "C:\\Users\\Diogo Castelo Branco\\Desktop\\PirateGameJam\\Github\\Wizard-LLC\\Assets\\CB\\Scripts\\DoorInteraction.cs",
+              "DocumentMoniker": "E:\\Arbeit\\Projekte\\GameJam\\Wizard-LLC\\Assets\\CB\\Scripts\\DoorInteraction.cs",
               "RelativeDocumentMoniker": "Assets\\CB\\Scripts\\DoorInteraction.cs",
-              "ToolTip": "C:\\Users\\Diogo Castelo Branco\\Desktop\\PirateGameJam\\Github\\Wizard-LLC\\Assets\\CB\\Scripts\\DoorInteraction.cs",
+              "ToolTip": "E:\\Arbeit\\Projekte\\GameJam\\Wizard-LLC\\Assets\\CB\\Scripts\\DoorInteraction.cs",
               "RelativeToolTip": "Assets\\CB\\Scripts\\DoorInteraction.cs",
               "ViewState": "AQIAAAUAAAAAAAAAAAAQwCcAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -119,11 +136,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "PlayerInteraction.cs",
-              "DocumentMoniker": "C:\\Users\\Diogo Castelo Branco\\Desktop\\PirateGameJam\\Github\\Wizard-LLC\\Assets\\CB\\Scripts\\PlayerInteraction.cs",
+              "DocumentMoniker": "E:\\Arbeit\\Projekte\\GameJam\\Wizard-LLC\\Assets\\CB\\Scripts\\PlayerInteraction.cs",
               "RelativeDocumentMoniker": "Assets\\CB\\Scripts\\PlayerInteraction.cs",
-              "ToolTip": "C:\\Users\\Diogo Castelo Branco\\Desktop\\PirateGameJam\\Github\\Wizard-LLC\\Assets\\CB\\Scripts\\PlayerInteraction.cs",
+              "ToolTip": "E:\\Arbeit\\Projekte\\GameJam\\Wizard-LLC\\Assets\\CB\\Scripts\\PlayerInteraction.cs",
               "RelativeToolTip": "Assets\\CB\\Scripts\\PlayerInteraction.cs",
               "ViewState": "AQIAABAAAAAAAAAAAAAgwAEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -131,23 +148,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 7,
               "Title": "MouseLook.cs",
-              "DocumentMoniker": "C:\\Users\\Diogo Castelo Branco\\Desktop\\PirateGameJam\\Github\\Wizard-LLC\\Assets\\Phorzaeken\\MouseLook.cs",
+              "DocumentMoniker": "E:\\Arbeit\\Projekte\\GameJam\\Wizard-LLC\\Assets\\Phorzaeken\\MouseLook.cs",
               "RelativeDocumentMoniker": "Assets\\Phorzaeken\\MouseLook.cs",
-              "ToolTip": "C:\\Users\\Diogo Castelo Branco\\Desktop\\PirateGameJam\\Github\\Wizard-LLC\\Assets\\Phorzaeken\\MouseLook.cs",
+              "ToolTip": "E:\\Arbeit\\Projekte\\GameJam\\Wizard-LLC\\Assets\\Phorzaeken\\MouseLook.cs",
               "RelativeToolTip": "Assets\\Phorzaeken\\MouseLook.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAAAAAA",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJUSURBVDhP3ZCxTxNxFIDf79e7lvYKbWkPE81JgoScAwT1IK0SZCAEmWBwFwdwFiPROMDAZMJgGHQRBmLY7UJMF4SUFNAO5IhYe/Wu0Ba49lquvV7p9WwNbv4D\u002Bg1vee8N3wf/Pqgx9s19q3Ao0OvRdeuGuPF7wdBMhWvnMnNDcxA\u002BDF9ZDC9CwB7Ijtwb8c1/nK/xaf6Un\u002BcreHd3l5QPZb\u002BiKMtaVQt5SW\u002BIttMhF7je6bJ\u002BPZ6K3xLz4rKqqSvRcvRB/Cy\u002BpoK6UsKlAEwBSSjNSpuQEWb2jvYGaIq29DP9PxxWh16qlIpMC\u002BMqVAqPt4StO6l8CpJKctoAoztdSF9gwA872zt5CzVE0Ue5oykCE74xdizCtDIvXTbXB0zgTx6b56fH4Tk3kXk/Lsc1xs28H\u002B8e98fkmJItZd\u002BiE8QTO993wNfig95rvQnDNF74O/wRhFC10aGhh1pR0UE4DAu2IKfNqVJWqmYBSw2ZSIu1xgysgw7VWhVqZq1SD5P\u002B89yAZVmvWlafBg\u002BCjJATmLrKzNLnJTqRTTB1lUmWZGmCa\u002BPAtJog5aWmnJa7GfwabCFJEk6UEy0qRY9pL/1msGOQTOaTiCKotYmeiUerX1bLCTmxjC\u002BwTIzeHtUzuYwYkSIDYMJrqSDpdtIOalX9tpnefDbLzm4n5eRzd5Mb\u002Bnx9xz1Xe6Ju3m2UnWUxNhOroIaniMW79ZCvtqXtG6fqKdRdoR7swNnsfLIwuiBdGv0VzHHcRZe1K2yjbJOmYQ5nz7PD\u002BfP8cLFcnCZsROry7v8F4BdIQR4UAijRTwAAAABJRU5ErkJggg==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-30T12:40:09.785Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "PlayerController.cs",
-              "DocumentMoniker": "C:\\Users\\Diogo Castelo Branco\\Desktop\\PirateGameJam\\Github\\Wizard-LLC\\Assets\\LowPolyNature\\Scripts\\PlayerController.cs",
+              "DocumentMoniker": "E:\\Arbeit\\Projekte\\GameJam\\Wizard-LLC\\Assets\\LowPolyNature\\Scripts\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\LowPolyNature\\Scripts\\PlayerController.cs",
-              "ToolTip": "C:\\Users\\Diogo Castelo Branco\\Desktop\\PirateGameJam\\Github\\Wizard-LLC\\Assets\\LowPolyNature\\Scripts\\PlayerController.cs",
+              "ToolTip": "E:\\Arbeit\\Projekte\\GameJam\\Wizard-LLC\\Assets\\LowPolyNature\\Scripts\\PlayerController.cs",
               "RelativeToolTip": "Assets\\LowPolyNature\\Scripts\\PlayerController.cs",
               "ViewState": "AQIAACoAAAAAAAAAAAAowCwAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -157,21 +174,21 @@
               "$type": "Document",
               "DocumentIndex": 9,
               "Title": "ItemCollect.cs",
-              "DocumentMoniker": "C:\\Users\\Diogo Castelo Branco\\Desktop\\PirateGameJam\\Github\\Wizard-LLC\\Assets\\Phorzaeken\\ItemCollect.cs",
+              "DocumentMoniker": "E:\\Arbeit\\Projekte\\GameJam\\Wizard-LLC\\Assets\\Phorzaeken\\ItemCollect.cs",
               "RelativeDocumentMoniker": "Assets\\Phorzaeken\\ItemCollect.cs",
-              "ToolTip": "C:\\Users\\Diogo Castelo Branco\\Desktop\\PirateGameJam\\Github\\Wizard-LLC\\Assets\\Phorzaeken\\ItemCollect.cs",
+              "ToolTip": "E:\\Arbeit\\Projekte\\GameJam\\Wizard-LLC\\Assets\\Phorzaeken\\ItemCollect.cs",
               "RelativeToolTip": "Assets\\Phorzaeken\\ItemCollect.cs",
               "ViewState": "AQIAACMAAAAAAAAAAAAAwDwAAAAJAAAA",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJUSURBVDhP3ZCxTxNxFIDf79e7lvYKbWkPE81JgoScAwT1IK0SZCAEmWBwFwdwFiPROMDAZMJgGHQRBmLY7UJMF4SUFNAO5IhYe/Wu0Ba49lquvV7p9WwNbv4D\u002Bg1vee8N3wf/Pqgx9s19q3Ao0OvRdeuGuPF7wdBMhWvnMnNDcxA\u002BDF9ZDC9CwB7Ijtwb8c1/nK/xaf6Un\u002BcreHd3l5QPZb\u002BiKMtaVQt5SW\u002BIttMhF7je6bJ\u002BPZ6K3xLz4rKqqSvRcvRB/Cy\u002BpoK6UsKlAEwBSSjNSpuQEWb2jvYGaIq29DP9PxxWh16qlIpMC\u002BMqVAqPt4StO6l8CpJKctoAoztdSF9gwA872zt5CzVE0Ue5oykCE74xdizCtDIvXTbXB0zgTx6b56fH4Tk3kXk/Lsc1xs28H\u002B8e98fkmJItZd\u002BiE8QTO993wNfig95rvQnDNF74O/wRhFC10aGhh1pR0UE4DAu2IKfNqVJWqmYBSw2ZSIu1xgysgw7VWhVqZq1SD5P\u002B89yAZVmvWlafBg\u002BCjJATmLrKzNLnJTqRTTB1lUmWZGmCa\u002BPAtJog5aWmnJa7GfwabCFJEk6UEy0qRY9pL/1msGOQTOaTiCKotYmeiUerX1bLCTmxjC\u002BwTIzeHtUzuYwYkSIDYMJrqSDpdtIOalX9tpnefDbLzm4n5eRzd5Mb\u002Bnx9xz1Xe6Ju3m2UnWUxNhOroIaniMW79ZCvtqXtG6fqKdRdoR7swNnsfLIwuiBdGv0VzHHcRZe1K2yjbJOmYQ5nz7PD\u002BfP8cLFcnCZsROry7v8F4BdIQR4UAijRTwAAAABJRU5ErkJggg==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-30T12:40:09.875Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 10,
               "Title": "InventoryQ.cs",
-              "DocumentMoniker": "C:\\Users\\Diogo Castelo Branco\\Desktop\\PirateGameJam\\Github\\Wizard-LLC\\Assets\\Phorzaeken\\InventoryQ.cs",
+              "DocumentMoniker": "E:\\Arbeit\\Projekte\\GameJam\\Wizard-LLC\\Assets\\Phorzaeken\\InventoryQ.cs",
               "RelativeDocumentMoniker": "Assets\\Phorzaeken\\InventoryQ.cs",
-              "ToolTip": "C:\\Users\\Diogo Castelo Branco\\Desktop\\PirateGameJam\\Github\\Wizard-LLC\\Assets\\Phorzaeken\\InventoryQ.cs",
+              "ToolTip": "E:\\Arbeit\\Projekte\\GameJam\\Wizard-LLC\\Assets\\Phorzaeken\\InventoryQ.cs",
               "RelativeToolTip": "Assets\\Phorzaeken\\InventoryQ.cs",
               "ViewState": "AQIAAAsAAAAAAAAAAAAhwDEAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -179,14 +196,14 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "DoorController.cs",
-              "DocumentMoniker": "C:\\Users\\Diogo Castelo Branco\\Desktop\\PirateGameJam\\Github\\Wizard-LLC\\Assets\\Phorzaeken\\DoorController.cs",
+              "DocumentMoniker": "E:\\Arbeit\\Projekte\\GameJam\\Wizard-LLC\\Assets\\Phorzaeken\\DoorController.cs",
               "RelativeDocumentMoniker": "Assets\\Phorzaeken\\DoorController.cs",
-              "ToolTip": "C:\\Users\\Diogo Castelo Branco\\Desktop\\PirateGameJam\\Github\\Wizard-LLC\\Assets\\Phorzaeken\\DoorController.cs",
+              "ToolTip": "E:\\Arbeit\\Projekte\\GameJam\\Wizard-LLC\\Assets\\Phorzaeken\\DoorController.cs",
               "RelativeToolTip": "Assets\\Phorzaeken\\DoorController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAADgAAAAYAAAA",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJUSURBVDhP3ZCxTxNxFIDf79e7lvYKbWkPE81JgoScAwT1IK0SZCAEmWBwFwdwFiPROMDAZMJgGHQRBmLY7UJMF4SUFNAO5IhYe/Wu0Ba49lquvV7p9WwNbv4D\u002Bg1vee8N3wf/Pqgx9s19q3Ao0OvRdeuGuPF7wdBMhWvnMnNDcxA\u002BDF9ZDC9CwB7Ijtwb8c1/nK/xaf6Un\u002BcreHd3l5QPZb\u002BiKMtaVQt5SW\u002BIttMhF7je6bJ\u002BPZ6K3xLz4rKqqSvRcvRB/Cy\u002BpoK6UsKlAEwBSSjNSpuQEWb2jvYGaIq29DP9PxxWh16qlIpMC\u002BMqVAqPt4StO6l8CpJKctoAoztdSF9gwA872zt5CzVE0Ue5oykCE74xdizCtDIvXTbXB0zgTx6b56fH4Tk3kXk/Lsc1xs28H\u002B8e98fkmJItZd\u002BiE8QTO993wNfig95rvQnDNF74O/wRhFC10aGhh1pR0UE4DAu2IKfNqVJWqmYBSw2ZSIu1xgysgw7VWhVqZq1SD5P\u002B89yAZVmvWlafBg\u002BCjJATmLrKzNLnJTqRTTB1lUmWZGmCa\u002BPAtJog5aWmnJa7GfwabCFJEk6UEy0qRY9pL/1msGOQTOaTiCKotYmeiUerX1bLCTmxjC\u002BwTIzeHtUzuYwYkSIDYMJrqSDpdtIOalX9tpnefDbLzm4n5eRzd5Mb\u002Bnx9xz1Xe6Ju3m2UnWUxNhOroIaniMW79ZCvtqXtG6fqKdRdoR7swNnsfLIwuiBdGv0VzHHcRZe1K2yjbJOmYQ5nz7PD\u002BfP8cLFcnCZsROry7v8F4BdIQR4UAijRTwAAAABJRU5ErkJggg==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-30T12:40:10.366Z"
             }
           ]
