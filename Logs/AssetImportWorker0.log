@@ -15,9 +15,15 @@ E:/Arbeit/Projekte/GameJam/Wizard-LLC
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
+<<<<<<< Updated upstream
 63736
 Successfully changed project path to: E:/Arbeit/Projekte/GameJam/Wizard-LLC
 E:/Arbeit/Projekte/GameJam/Wizard-LLC
+=======
+58691
+Successfully changed project path to: C:/Users/Diogo Castelo Branco/Desktop/PirateGameJam/Github/Wizard-LLC
+C:/Users/Diogo Castelo Branco/Desktop/PirateGameJam/Github/Wizard-LLC
+>>>>>>> Stashed changes
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,12 +55,21 @@ E:/Arbeit/Projekte/GameJam/Wizard-LLC
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
+<<<<<<< Updated upstream
 Player connection [11244] Host "[IP] 192.168.0.114 [Port] 0 [Flags] 2 [Guid] 3972246693 [EditorId] 3972246693 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-QOLIB5E) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
 Player connection [11244] Host "[IP] 192.168.0.114 [Port] 0 [Flags] 2 [Guid] 3972246693 [EditorId] 3972246693 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-QOLIB5E) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
 Refreshing native plugins compatible for Editor in 19.38 ms, found 3 plugins.
+=======
+Player connection [36024] Host "[IP] 192.168.1.70 [Port] 0 [Flags] 2 [Guid] 3104830820 [EditorId] 3104830820 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-R82JVO4) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [36024] Host "[IP] 192.168.1.70 [Port] 0 [Flags] 2 [Guid] 3104830820 [EditorId] 3104830820 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-R82JVO4) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Refreshing native plugins compatible for Editor in 17.00 ms, found 3 plugins.
+>>>>>>> Stashed changes
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.10f1 (ff3792e53c62)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Resources/UnitySubsystems
@@ -70,11 +85,16 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/MonoBleedingEdge/etc'
+<<<<<<< Updated upstream
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56824
+=======
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56536
+>>>>>>> Stashed changes
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+<<<<<<< Updated upstream
 Registered in 0.025798 seconds.
 - Loaded All Assemblies, in  0.571 seconds
 Native extension for WindowsStandalone target not found
@@ -83,11 +103,22 @@ Mono: successfully reloaded assembly
 - Finished resetting the current domain, in  0.418 seconds
 Domain Reload Profiling: 985ms
 	BeginReloadAssembly (174ms)
+=======
+Registered in 0.012063 seconds.
+- Loaded All Assemblies, in  0.369 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.236 seconds
+Domain Reload Profiling: 603ms
+	BeginReloadAssembly (105ms)
+>>>>>>> Stashed changes
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
+<<<<<<< Updated upstream
 	RebuildCommonClasses (55ms)
 	RebuildNativeTypeToScriptingClass (18ms)
 	initialDomainReloadingComplete (109ms)
@@ -110,6 +141,30 @@ Domain Reload Profiling: 985ms
 			BeforeProcessingInitializeOnLoad (3ms)
 			ProcessInitializeOnLoadAttributes (209ms)
 			ProcessInitializeOnLoadMethodAttributes (98ms)
+=======
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (59ms)
+	LoadAllAssembliesAndSetupDomain (160ms)
+		LoadAssemblies (103ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (158ms)
+			TypeCache.Refresh (157ms)
+				TypeCache.ScanAssembly (145ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (237ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (184ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (120ms)
+			ProcessInitializeOnLoadMethodAttributes (46ms)
+>>>>>>> Stashed changes
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -118,8 +173,13 @@ Domain Reload Profiling: 985ms
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
+<<<<<<< Updated upstream
 - Loaded All Assemblies, in  1.048 seconds
 Refreshing native plugins compatible for Editor in 8.46 ms, found 3 plugins.
+=======
+- Loaded All Assemblies, in  0.761 seconds
+Refreshing native plugins compatible for Editor in 9.48 ms, found 3 plugins.
+>>>>>>> Stashed changes
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 System.Exception: Error! Visual Scripting: couldn't find visual scripting package
@@ -144,14 +204,21 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
+<<<<<<< Updated upstream
 - Finished resetting the current domain, in  1.811 seconds
 Domain Reload Profiling: 2853ms
 	BeginReloadAssembly (208ms)
+=======
+- Finished resetting the current domain, in  1.112 seconds
+Domain Reload Profiling: 1868ms
+	BeginReloadAssembly (182ms)
+>>>>>>> Stashed changes
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (8ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (24ms)
+<<<<<<< Updated upstream
 	RebuildCommonClasses (51ms)
 	RebuildNativeTypeToScriptingClass (17ms)
 	initialDomainReloadingComplete (72ms)
@@ -185,6 +252,41 @@ Unloading 5314 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 86 unused Assets / (1.6 MB). Loaded Objects now: 5739.
 Memory consumption went from 185.2 MB to 183.6 MB.
 Total: 26.157000 ms (FindLiveObjects: 0.636000 ms CreateObjectMapping: 0.203900 ms MarkObjects: 24.747000 ms  DeleteObjects: 0.568400 ms)
+=======
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (488ms)
+		LoadAssemblies (395ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (210ms)
+			TypeCache.Refresh (180ms)
+				TypeCache.ScanAssembly (163ms)
+			ScanForSourceGeneratedMonoScriptInfo (24ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (1112ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (974ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (84ms)
+			ProcessInitializeOnLoadAttributes (757ms)
+			ProcessInitializeOnLoadMethodAttributes (112ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 10.09 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5314 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 86 unused Assets / (1.6 MB). Loaded Objects now: 5739.
+Memory consumption went from 185.1 MB to 183.5 MB.
+Total: 12.700500 ms (FindLiveObjects: 0.357300 ms CreateObjectMapping: 0.396500 ms MarkObjects: 11.569900 ms  DeleteObjects: 0.375900 ms)
+>>>>>>> Stashed changes
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -201,6 +303,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
+<<<<<<< Updated upstream
   Time since last request: 1194730.327170 seconds.
   path: Assets/Dominik/Modular Mesh/Prefabs/SmallDoorsThatOpen.prefab
   artifactKey: Guid(51b05b4dfdac68e4c9d987306148fb16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
@@ -223,12 +326,57 @@ Received Import Request.
 Start importing Assets/Dominik/Modular Mesh/Prefabs/SmallDoorsThatOpen.prefab using Guid(51b05b4dfdac68e4c9d987306148fb16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed65b14949959bfdbc0994ae205e634c') in 0.023472 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 63
+=======
+  Time since last request: 1590308.019431 seconds.
+  path: Assets/Phorzaeken/FootstepController.cs
+  artifactKey: Guid(e0bb3e74d7da88e4190c358840aa23a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Phorzaeken/FootstepController.cs using Guid(e0bb3e74d7da88e4190c358840aa23a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cf63f885725ff1cf8f9a96dcfd83905') in 0.002656 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 123.072896 seconds.
+  path: Assets/Phorzaeken/FootstepController.cs
+  artifactKey: Guid(e0bb3e74d7da88e4190c358840aa23a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Phorzaeken/FootstepController.cs using Guid(e0bb3e74d7da88e4190c358840aa23a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '561e9fd980a6fd527a2955dd4ccb6bda') in 0.000537 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 55.956021 seconds.
+  path: Assets/Phorzaeken/FootstepController.cs
+  artifactKey: Guid(e0bb3e74d7da88e4190c358840aa23a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Phorzaeken/FootstepController.cs using Guid(e0bb3e74d7da88e4190c358840aa23a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0546cee64b90354a56e43a49a9905eaa') in 0.000677 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 19.985802 seconds.
+  path: Assets/Phorzaeken/FootstepController.cs
+  artifactKey: Guid(e0bb3e74d7da88e4190c358840aa23a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Phorzaeken/FootstepController.cs using Guid(e0bb3e74d7da88e4190c358840aa23a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85cb5eb17feb2f3cbc0cce0f5bb84190') in 0.000475 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 68.823384 seconds.
+  path: Assets/Phorzaeken/FootstepController.cs
+  artifactKey: Guid(e0bb3e74d7da88e4190c358840aa23a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Phorzaeken/FootstepController.cs using Guid(e0bb3e74d7da88e4190c358840aa23a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9648b4d68c41d83ffbbe4bc51d0395d') in 0.000446 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+>>>>>>> Stashed changes
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
+<<<<<<< Updated upstream
 - Loaded All Assemblies, in  0.671 seconds
 Refreshing native plugins compatible for Editor in 10.69 ms, found 3 plugins.
+=======
+- Loaded All Assemblies, in  0.653 seconds
+Refreshing native plugins compatible for Editor in 12.44 ms, found 3 plugins.
+>>>>>>> Stashed changes
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 System.Exception: Error! Visual Scripting: couldn't find visual scripting package
@@ -252,13 +400,20 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
+<<<<<<< Updated upstream
 - Finished resetting the current domain, in  2.505 seconds
 Domain Reload Profiling: 3171ms
 	BeginReloadAssembly (233ms)
+=======
+- Finished resetting the current domain, in  1.742 seconds
+Domain Reload Profiling: 2390ms
+	BeginReloadAssembly (205ms)
+>>>>>>> Stashed changes
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
+<<<<<<< Updated upstream
 		CreateAndSetChildDomain (55ms)
 	RebuildCommonClasses (46ms)
 	RebuildNativeTypeToScriptingClass (15ms)
@@ -292,6 +447,41 @@ Unloading 5251 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 73 unused Assets / (1.6 MB). Loaded Objects now: 5755.
 Memory consumption went from 175.5 MB to 174.0 MB.
 Total: 21.051900 ms (FindLiveObjects: 0.664800 ms CreateObjectMapping: 0.406500 ms MarkObjects: 19.352500 ms  DeleteObjects: 0.625300 ms)
+=======
+		CreateAndSetChildDomain (48ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (60ms)
+	LoadAllAssembliesAndSetupDomain (322ms)
+		LoadAssemblies (394ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (34ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (14ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1742ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (686ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (87ms)
+			ProcessInitializeOnLoadAttributes (429ms)
+			ProcessInitializeOnLoadMethodAttributes (149ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 11.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5251 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 73 unused Assets / (1.6 MB). Loaded Objects now: 5743.
+Memory consumption went from 171.0 MB to 169.5 MB.
+Total: 11.144700 ms (FindLiveObjects: 0.356300 ms CreateObjectMapping: 0.394400 ms MarkObjects: 10.137400 ms  DeleteObjects: 0.255900 ms)
+>>>>>>> Stashed changes
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -309,6 +499,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
+<<<<<<< Updated upstream
   Time since last request: 227.696438 seconds.
   path: Assets/CB/Assets/Props/Batch2
   artifactKey: Guid(b972bf252d5a18b46be9607c897e5ba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
@@ -395,6 +586,86 @@ Received Import Request.
 Start importing Assets/Dominik/Furniture/Prefab/Closed02 3.prefab using Guid(a7b81ccb16c5ccb49b5f781ad75d99f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c51f214345bc4f4de42215e912cec676') in 0.036497 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 405
+=======
+  Time since last request: 117.220377 seconds.
+  path: Assets/NoizeProxy/Wood/Footsteps_Wood_Light_Heavy_Creaks_001.wav
+  artifactKey: Guid(dbacfc1ea41f07440996983d772071fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NoizeProxy/Wood/Footsteps_Wood_Light_Heavy_Creaks_001.wav using Guid(dbacfc1ea41f07440996983d772071fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fbdbeb38552460b3048bb56565d38bc') in 0.116892 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/NoizeProxy/Wood/Footsteps_Wood_Light_Heavy_Creaks_005.wav
+  artifactKey: Guid(b8fb53030f35a8743b1f57a8440dec1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NoizeProxy/Wood/Footsteps_Wood_Light_Heavy_Creaks_005.wav using Guid(b8fb53030f35a8743b1f57a8440dec1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '670caaa0da67050f223b8d39958e324c') in 0.012977 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/NoizeProxy/Wood/Footsteps_Wood_Light_Heavy_Creaks_011.wav
+  artifactKey: Guid(759004521cd031d4697866e314970be9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NoizeProxy/Wood/Footsteps_Wood_Light_Heavy_Creaks_011.wav using Guid(759004521cd031d4697866e314970be9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1161351948c9c50eeb1d0539d457ee99') in 0.011753 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/NoizeProxy/Wood/Footsteps_Wood_Light_Heavy_Creaks_007.wav
+  artifactKey: Guid(e42b10475402d0945882d383d6137f61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NoizeProxy/Wood/Footsteps_Wood_Light_Heavy_Creaks_007.wav using Guid(e42b10475402d0945882d383d6137f61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdfcbd1c9040fedd69e3883342146bd7') in 0.011893 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/NoizeProxy/Wood/Footsteps_Wood_Light_Heavy_Creaks_014.wav
+  artifactKey: Guid(2fe51adae2dfda24faaf7db054418ee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NoizeProxy/Wood/Footsteps_Wood_Light_Heavy_Creaks_014.wav using Guid(2fe51adae2dfda24faaf7db054418ee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a055e74aa94694f854db6f7d7319855e') in 0.012235 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/NoizeProxy/Wood/Footsteps_Wood_Light_Heavy_Creaks_013.wav
+  artifactKey: Guid(ef77072a254b05c418fc70bf2b200767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NoizeProxy/Wood/Footsteps_Wood_Light_Heavy_Creaks_013.wav using Guid(ef77072a254b05c418fc70bf2b200767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '623e6c54df9457dffb42f19f27fa04eb') in 0.013310 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/NoizeProxy/Wood/Footsteps_Wood_Light_Heavy_Creaks_004.wav
+  artifactKey: Guid(ddf3ac2347b35e44ab102940d3c1f36b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NoizeProxy/Wood/Footsteps_Wood_Light_Heavy_Creaks_004.wav using Guid(ddf3ac2347b35e44ab102940d3c1f36b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a47dd4711dbc62cf5be374f3e669c69e') in 0.076858 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/NoizeProxy/Wood/Footsteps_Wood_Light_Heavy_Creaks_017.wav
+  artifactKey: Guid(cc7b51844262f574399f04ae2623234a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NoizeProxy/Wood/Footsteps_Wood_Light_Heavy_Creaks_017.wav using Guid(cc7b51844262f574399f04ae2623234a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cf26783afbc3ff3cc2438af38844c58') in 0.012477 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/NoizeProxy/Wood/Footsteps_Wood_Light_Heavy_Creaks_009.wav
+  artifactKey: Guid(9da1deb351f2b204b98e1683d7a3d228) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NoizeProxy/Wood/Footsteps_Wood_Light_Heavy_Creaks_009.wav using Guid(9da1deb351f2b204b98e1683d7a3d228) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b340bdb1d24db8ec38d66e87d91ebba') in 0.013740 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/NoizeProxy/Wood/WOOD.mixer
+  artifactKey: Guid(300b74a4ef3e0144dbd77858b1611833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NoizeProxy/Wood/WOOD.mixer using Guid(300b74a4ef3e0144dbd77858b1611833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d0e6761a9e1df182b13a7f4befa7b3e') in 0.001705 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+>>>>>>> Stashed changes
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: Der E/A-Vorgang wurde wegen eines Threadendes oder einer Anwendungsanforderung abgebrochen.
 AssetImportWorker is now disconnected from the server

@@ -15,9 +15,15 @@ E:/Arbeit/Projekte/GameJam/Wizard-LLC
 -logFile
 Logs/AssetImportWorker3.log
 -srvPort
+<<<<<<< Updated upstream
 63736
 Successfully changed project path to: E:/Arbeit/Projekte/GameJam/Wizard-LLC
 E:/Arbeit/Projekte/GameJam/Wizard-LLC
+=======
+58691
+Successfully changed project path to: C:/Users/Diogo Castelo Branco/Desktop/PirateGameJam/Github/Wizard-LLC
+C:/Users/Diogo Castelo Branco/Desktop/PirateGameJam/Github/Wizard-LLC
+>>>>>>> Stashed changes
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,12 +55,21 @@ E:/Arbeit/Projekte/GameJam/Wizard-LLC
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
+<<<<<<< Updated upstream
 Player connection [15060] Host "[IP] 192.168.0.114 [Port] 0 [Flags] 2 [Guid] 3247014170 [EditorId] 3247014170 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-QOLIB5E) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
 Player connection [15060] Host "[IP] 192.168.0.114 [Port] 0 [Flags] 2 [Guid] 3247014170 [EditorId] 3247014170 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-QOLIB5E) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
 Refreshing native plugins compatible for Editor in 15.52 ms, found 3 plugins.
+=======
+Player connection [84784] Host "[IP] 192.168.1.70 [Port] 0 [Flags] 2 [Guid] 694676805 [EditorId] 694676805 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-R82JVO4) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [84784] Host "[IP] 192.168.1.70 [Port] 0 [Flags] 2 [Guid] 694676805 [EditorId] 694676805 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-R82JVO4) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Refreshing native plugins compatible for Editor in 17.53 ms, found 3 plugins.
+>>>>>>> Stashed changes
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.10f1 (ff3792e53c62)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Resources/UnitySubsystems
@@ -70,11 +85,16 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/MonoBleedingEdge/etc'
+<<<<<<< Updated upstream
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56432
+=======
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56916
+>>>>>>> Stashed changes
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+<<<<<<< Updated upstream
 Registered in 0.020118 seconds.
 - Loaded All Assemblies, in  0.494 seconds
 Native extension for WindowsStandalone target not found
@@ -83,11 +103,22 @@ Mono: successfully reloaded assembly
 - Finished resetting the current domain, in  0.320 seconds
 Domain Reload Profiling: 810ms
 	BeginReloadAssembly (158ms)
+=======
+Registered in 0.012074 seconds.
+- Loaded All Assemblies, in  0.333 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.225 seconds
+Domain Reload Profiling: 556ms
+	BeginReloadAssembly (104ms)
+>>>>>>> Stashed changes
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
+<<<<<<< Updated upstream
 	RebuildCommonClasses (47ms)
 	RebuildNativeTypeToScriptingClass (14ms)
 	initialDomainReloadingComplete (93ms)
@@ -110,6 +141,30 @@ Domain Reload Profiling: 810ms
 			BeforeProcessingInitializeOnLoad (3ms)
 			ProcessInitializeOnLoadAttributes (162ms)
 			ProcessInitializeOnLoadMethodAttributes (61ms)
+=======
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (59ms)
+	LoadAllAssembliesAndSetupDomain (128ms)
+		LoadAssemblies (101ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (126ms)
+			TypeCache.Refresh (125ms)
+				TypeCache.ScanAssembly (113ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (226ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (172ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (112ms)
+			ProcessInitializeOnLoadMethodAttributes (42ms)
+>>>>>>> Stashed changes
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -118,8 +173,13 @@ Domain Reload Profiling: 810ms
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
+<<<<<<< Updated upstream
 - Loaded All Assemblies, in  1.007 seconds
 Refreshing native plugins compatible for Editor in 10.04 ms, found 3 plugins.
+=======
+- Loaded All Assemblies, in  0.717 seconds
+Refreshing native plugins compatible for Editor in 9.86 ms, found 3 plugins.
+>>>>>>> Stashed changes
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 System.Exception: Error! Visual Scripting: couldn't find visual scripting package
@@ -144,6 +204,7 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
+<<<<<<< Updated upstream
 - Finished resetting the current domain, in  1.611 seconds
 Domain Reload Profiling: 2612ms
 	BeginReloadAssembly (217ms)
@@ -180,11 +241,53 @@ Domain Reload Profiling: 2612ms
 		AwakeInstancesAfterBackupRestoration (7ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
 Refreshing native plugins compatible for Editor in 8.82 ms, found 3 plugins.
+=======
+- Finished resetting the current domain, in  1.138 seconds
+Domain Reload Profiling: 1850ms
+	BeginReloadAssembly (140ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (18ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (486ms)
+		LoadAssemblies (352ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (217ms)
+			TypeCache.Refresh (185ms)
+				TypeCache.ScanAssembly (167ms)
+			ScanForSourceGeneratedMonoScriptInfo (25ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (1139ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (977ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (82ms)
+			ProcessInitializeOnLoadAttributes (758ms)
+			ProcessInitializeOnLoadMethodAttributes (117ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 11.62 ms, found 3 plugins.
+>>>>>>> Stashed changes
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 5314 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 86 unused Assets / (1.6 MB). Loaded Objects now: 5739.
 Memory consumption went from 185.2 MB to 183.6 MB.
+<<<<<<< Updated upstream
 Total: 21.765400 ms (FindLiveObjects: 0.491800 ms CreateObjectMapping: 0.197300 ms MarkObjects: 20.529100 ms  DeleteObjects: 0.545100 ms)
+=======
+Total: 12.136200 ms (FindLiveObjects: 0.439900 ms CreateObjectMapping: 0.384600 ms MarkObjects: 10.969000 ms  DeleteObjects: 0.341900 ms)
+>>>>>>> Stashed changes
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -201,6 +304,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
+<<<<<<< Updated upstream
   Time since last request: 1195807.668151 seconds.
   path: Assets/Uwoopsies/FrameVertical.fbx
   artifactKey: Guid(1c44ccdca0dfbc746ae57a6901cf928f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
@@ -221,26 +325,47 @@ Received Import Request.
   path: Assets/Uwoopsies/Materials/Portraits/Materials/Painting2 1.mat
   artifactKey: Guid(e41d66cb58052074bbb45f8cab5d548a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Uwoopsies/Materials/Portraits/Materials/Painting2 1.mat using Guid(e41d66cb58052074bbb45f8cab5d548a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b941d9dac5dad67e7a4185eec4e2ae9') in 0.024988 seconds
+=======
+  Time since last request: 1590875.233608 seconds.
+  path: Assets/NoizeProxy/Stone/Wizard_LLC_Footsteps_Stone-002.wav
+  artifactKey: Guid(b0328ab07da3684418d645112b13c3ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NoizeProxy/Stone/Wizard_LLC_Footsteps_Stone-002.wav using Guid(b0328ab07da3684418d645112b13c3ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '155bd978dfc97c8bf7fac74a724e0add') in 0.135651 seconds
+>>>>>>> Stashed changes
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
+<<<<<<< Updated upstream
   Time since last request: 0.000071 seconds.
   path: Assets/Uwoopsies/Materials/Portraits/Materials/Painting2.mat
   artifactKey: Guid(e7068b16668bcf846b3d90f63e365e12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Uwoopsies/Materials/Portraits/Materials/Painting2.mat using Guid(e7068b16668bcf846b3d90f63e365e12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28c6f12f715634133c540920cb8f2f76') in 0.019814 seconds
+=======
+  Time since last request: 0.000016 seconds.
+  path: Assets/NoizeProxy/Stone/Wizard_LLC_Footsteps_Stone-006.wav
+  artifactKey: Guid(cc78664f0e36e434c9f9926862131485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NoizeProxy/Stone/Wizard_LLC_Footsteps_Stone-006.wav using Guid(cc78664f0e36e434c9f9926862131485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fce46980d00b0b3f17b7a7d1430454ae') in 0.011965 seconds
+>>>>>>> Stashed changes
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
+<<<<<<< Updated upstream
   Time since last request: 0.000020 seconds.
   path: Assets/Uwoopsies/Materials/Portraits/Materials/Painting2 3.mat
   artifactKey: Guid(6592369dc5c71fc44bcca98ec567a1f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Uwoopsies/Materials/Portraits/Materials/Painting2 3.mat using Guid(6592369dc5c71fc44bcca98ec567a1f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7239faca3ffd0eeb9be0d8e382b8c639') in 0.019322 seconds
+=======
+  Time since last request: 0.000014 seconds.
+  path: Assets/NoizeProxy/Stone/Wizard_LLC_Footsteps_Stone-009.wav
+  artifactKey: Guid(682483d2df4318d47ad4a857c8899731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NoizeProxy/Stone/Wizard_LLC_Footsteps_Stone-009.wav using Guid(682483d2df4318d47ad4a857c8899731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f81c2e112d856a06c8f447397151da0e') in 0.010516 seconds
+>>>>>>> Stashed changes
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
+<<<<<<< Updated upstream
   Time since last request: 0.000029 seconds.
   path: Assets/CB/Environment Materials/M_EnvironmentBasementFloor.mat
   artifactKey: Guid(fb99765a003b3c04696de0520bbfb142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
@@ -253,10 +378,17 @@ Received Import Request.
   path: Assets/Uwoopsies/Materials/Portraits/Materials/Painting2 7.mat
   artifactKey: Guid(fc707342cae20024287257585bdd92a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Uwoopsies/Materials/Portraits/Materials/Painting2 7.mat using Guid(fc707342cae20024287257585bdd92a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e33c6571b9bc7da263184ce7881add6') in 0.020580 seconds
+=======
+  Time since last request: 0.000014 seconds.
+  path: Assets/NoizeProxy/Stone/Wizard_LLC_Footsteps_Stone-003.wav
+  artifactKey: Guid(0e352e9dc954089448034244ebae39e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NoizeProxy/Stone/Wizard_LLC_Footsteps_Stone-003.wav using Guid(0e352e9dc954089448034244ebae39e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd42b6590708d15796b4ff0f3d9defd80') in 0.012419 seconds
+>>>>>>> Stashed changes
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
+<<<<<<< Updated upstream
   Time since last request: 0.000022 seconds.
   path: Assets/Uwoopsies/Materials/M_Portrait 1.mat
   artifactKey: Guid(60e179f4a398f6242b3acdc0f117e5b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
@@ -373,6 +505,20 @@ Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
 - Loaded All Assemblies, in  0.820 seconds
 Refreshing native plugins compatible for Editor in 8.84 ms, found 3 plugins.
+=======
+  Time since last request: 0.000015 seconds.
+  path: Assets/NoizeProxy/Stone/Wizard_LLC_Footsteps_Stone-004.wav
+  artifactKey: Guid(c05b923f788d1184bb9532d2103e04ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NoizeProxy/Stone/Wizard_LLC_Footsteps_Stone-004.wav using Guid(c05b923f788d1184bb9532d2103e04ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '161a24f533d633b0bb35c2732805c152') in 0.011303 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.543 seconds
+Refreshing native plugins compatible for Editor in 11.35 ms, found 3 plugins.
+>>>>>>> Stashed changes
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 System.Exception: Error! Visual Scripting: couldn't find visual scripting package
@@ -396,6 +542,7 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
+<<<<<<< Updated upstream
 - Finished resetting the current domain, in  2.587 seconds
 Domain Reload Profiling: 3402ms
 	BeginReloadAssembly (283ms)
@@ -409,11 +556,27 @@ Domain Reload Profiling: 3402ms
 	initialDomainReloadingComplete (49ms)
 	LoadAllAssembliesAndSetupDomain (424ms)
 		LoadAssemblies (536ms)
+=======
+- Finished resetting the current domain, in  1.966 seconds
+Domain Reload Profiling: 2511ms
+	BeginReloadAssembly (179ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (45ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (287ms)
+		LoadAssemblies (361ms)
+>>>>>>> Stashed changes
 		RebuildTransferFunctionScriptingTraits (0ms)
 		AnalyzeDomain (16ms)
 			TypeCache.Refresh (7ms)
 				TypeCache.ScanAssembly (0ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
+<<<<<<< Updated upstream
 			ResolveRequiredComponents (7ms)
 	FinalizeReload (2587ms)
 		ReleaseScriptCaches (0ms)
@@ -436,6 +599,30 @@ Unloading 5251 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 73 unused Assets / (1.6 MB). Loaded Objects now: 5795.
 Memory consumption went from 176.1 MB to 174.6 MB.
 Total: 22.089900 ms (FindLiveObjects: 0.586100 ms CreateObjectMapping: 0.208600 ms MarkObjects: 20.815900 ms  DeleteObjects: 0.477200 ms)
+=======
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1974ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (916ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (110ms)
+			ProcessInitializeOnLoadAttributes (599ms)
+			ProcessInitializeOnLoadMethodAttributes (180ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 16.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5251 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 73 unused Assets / (1.6 MB). Loaded Objects now: 5753.
+Memory consumption went from 175.4 MB to 173.8 MB.
+Total: 17.198400 ms (FindLiveObjects: 0.447200 ms CreateObjectMapping: 0.738200 ms MarkObjects: 15.507500 ms  DeleteObjects: 0.504500 ms)
+>>>>>>> Stashed changes
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -451,3 +638,8 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
