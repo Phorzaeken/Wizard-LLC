@@ -15,9 +15,15 @@ E:/Arbeit/Projekte/GameJam/Wizard-LLC
 -logFile
 Logs/AssetImportWorker4.log
 -srvPort
+<<<<<<< Updated upstream:Logs/AssetImportWorker8-prev.log
 59510
 Successfully changed project path to: E:/Arbeit/Projekte/GameJam/Wizard-LLC
 E:/Arbeit/Projekte/GameJam/Wizard-LLC
+=======
+54459
+Successfully changed project path to: C:/Users/Diogo Castelo Branco/Desktop/PirateGameJam/Github/Wizard-LLC
+C:/Users/Diogo Castelo Branco/Desktop/PirateGameJam/Github/Wizard-LLC
+>>>>>>> Stashed changes:Logs/AssetImportWorker4.log
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,12 +55,21 @@ E:/Arbeit/Projekte/GameJam/Wizard-LLC
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [6796] Host "[IP] 192.168.0.114 [Port] 0 [Flags] 2 [Guid] 2706800020 [EditorId] 2706800020 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-QOLIB5E) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+<<<<<<< Updated upstream:Logs/AssetImportWorker8-prev.log
+Player connection [3108] Host "[IP] 192.168.0.114 [Port] 0 [Flags] 2 [Guid] 3203481610 [EditorId] 3203481610 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-QOLIB5E) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [6796] Host "[IP] 192.168.0.114 [Port] 0 [Flags] 2 [Guid] 2706800020 [EditorId] 2706800020 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-QOLIB5E) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [3108] Host "[IP] 192.168.0.114 [Port] 0 [Flags] 2 [Guid] 3203481610 [EditorId] 3203481610 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-QOLIB5E) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
-Refreshing native plugins compatible for Editor in 20.12 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 18.54 ms, found 3 plugins.
+=======
+Player connection [85684] Host "[IP] 192.168.1.70 [Port] 0 [Flags] 2 [Guid] 2334235192 [EditorId] 2334235192 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-R82JVO4) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [85684] Host "[IP] 192.168.1.70 [Port] 0 [Flags] 2 [Guid] 2334235192 [EditorId] 2334235192 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-R82JVO4) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Refreshing native plugins compatible for Editor in 23.91 ms, found 3 plugins.
+>>>>>>> Stashed changes:Logs/AssetImportWorker4.log
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.10f1 (ff3792e53c62)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Resources/UnitySubsystems
@@ -70,46 +85,86 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56236
+<<<<<<< Updated upstream:Logs/AssetImportWorker8-prev.log
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56148
+=======
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56468
+>>>>>>> Stashed changes:Logs/AssetImportWorker4.log
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.021696 seconds.
-- Loaded All Assemblies, in  0.558 seconds
+<<<<<<< Updated upstream:Logs/AssetImportWorker8-prev.log
+Registered in 0.022232 seconds.
+- Loaded All Assemblies, in  0.494 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.356 seconds
-Domain Reload Profiling: 909ms
-	BeginReloadAssembly (167ms)
+- Finished resetting the current domain, in  0.343 seconds
+Domain Reload Profiling: 832ms
+	BeginReloadAssembly (154ms)
+=======
+Registered in 0.012553 seconds.
+- Loaded All Assemblies, in  0.342 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.428 seconds
+Domain Reload Profiling: 768ms
+	BeginReloadAssembly (105ms)
+>>>>>>> Stashed changes:Logs/AssetImportWorker4.log
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (49ms)
-	RebuildNativeTypeToScriptingClass (17ms)
-	initialDomainReloadingComplete (104ms)
-	LoadAllAssembliesAndSetupDomain (214ms)
-		LoadAssemblies (164ms)
+<<<<<<< Updated upstream:Logs/AssetImportWorker8-prev.log
+	RebuildCommonClasses (47ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (92ms)
+	LoadAllAssembliesAndSetupDomain (183ms)
+		LoadAssemblies (150ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (210ms)
-			TypeCache.Refresh (207ms)
-				TypeCache.ScanAssembly (187ms)
-			ScanForSourceGeneratedMonoScriptInfo (1ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (357ms)
+		AnalyzeDomain (180ms)
+			TypeCache.Refresh (179ms)
+				TypeCache.ScanAssembly (163ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (343ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (278ms)
+		SetupLoadedEditorAssemblies (269ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (19ms)
+			InitializePlatformSupportModulesInManaged (18ms)
 			SetLoadedEditorAssemblies (7ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (188ms)
-			ProcessInitializeOnLoadMethodAttributes (62ms)
+			ProcessInitializeOnLoadAttributes (182ms)
+			ProcessInitializeOnLoadMethodAttributes (61ms)
+=======
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (62ms)
+	LoadAllAssembliesAndSetupDomain (131ms)
+		LoadAssemblies (103ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (129ms)
+			TypeCache.Refresh (128ms)
+				TypeCache.ScanAssembly (116ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (429ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (375ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (281ms)
+			ProcessInitializeOnLoadMethodAttributes (76ms)
+>>>>>>> Stashed changes:Logs/AssetImportWorker4.log
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -118,8 +173,13 @@ Domain Reload Profiling: 909ms
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.070 seconds
-Refreshing native plugins compatible for Editor in 10.10 ms, found 3 plugins.
+<<<<<<< Updated upstream:Logs/AssetImportWorker8-prev.log
+- Loaded All Assemblies, in  1.024 seconds
+Refreshing native plugins compatible for Editor in 8.39 ms, found 3 plugins.
+=======
+- Loaded All Assemblies, in  0.723 seconds
+Refreshing native plugins compatible for Editor in 10.26 ms, found 3 plugins.
+>>>>>>> Stashed changes:Logs/AssetImportWorker4.log
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 System.Exception: Error! Visual Scripting: couldn't find visual scripting package
@@ -144,47 +204,89 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.726 seconds
-Domain Reload Profiling: 2789ms
-	BeginReloadAssembly (215ms)
+<<<<<<< Updated upstream:Logs/AssetImportWorker8-prev.log
+- Finished resetting the current domain, in  1.560 seconds
+Domain Reload Profiling: 2579ms
+	BeginReloadAssembly (222ms)
+=======
+- Finished resetting the current domain, in  1.148 seconds
+Domain Reload Profiling: 1866ms
+	BeginReloadAssembly (139ms)
+>>>>>>> Stashed changes:Logs/AssetImportWorker4.log
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (7ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (26ms)
-	RebuildCommonClasses (46ms)
-	RebuildNativeTypeToScriptingClass (14ms)
+<<<<<<< Updated upstream:Logs/AssetImportWorker8-prev.log
+		CreateAndSetChildDomain (27ms)
+	RebuildCommonClasses (55ms)
+	RebuildNativeTypeToScriptingClass (17ms)
 	initialDomainReloadingComplete (66ms)
-	LoadAllAssembliesAndSetupDomain (721ms)
-		LoadAssemblies (513ms)
+	LoadAllAssembliesAndSetupDomain (657ms)
+		LoadAssemblies (484ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (343ms)
-			TypeCache.Refresh (291ms)
-				TypeCache.ScanAssembly (261ms)
-			ScanForSourceGeneratedMonoScriptInfo (42ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (1727ms)
+		AnalyzeDomain (307ms)
+			TypeCache.Refresh (260ms)
+				TypeCache.ScanAssembly (237ms)
+			ScanForSourceGeneratedMonoScriptInfo (39ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1561ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1484ms)
+		SetupLoadedEditorAssemblies (1347ms)
+=======
+		CreateAndSetChildDomain (19ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (496ms)
+		LoadAssemblies (366ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (214ms)
+			TypeCache.Refresh (182ms)
+				TypeCache.ScanAssembly (164ms)
+			ScanForSourceGeneratedMonoScriptInfo (26ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (1148ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1013ms)
+>>>>>>> Stashed changes:Logs/AssetImportWorker4.log
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (13ms)
-			SetLoadedEditorAssemblies (6ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (127ms)
-			ProcessInitializeOnLoadAttributes (1160ms)
-			ProcessInitializeOnLoadMethodAttributes (159ms)
+<<<<<<< Updated upstream:Logs/AssetImportWorker8-prev.log
+			BeforeProcessingInitializeOnLoad (120ms)
+			ProcessInitializeOnLoadAttributes (1020ms)
+			ProcessInitializeOnLoadMethodAttributes (169ms)
 			AfterProcessingInitializeOnLoad (19ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (10ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 9.77 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 9.25 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 5313 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 86 unused Assets / (1.6 MB). Loaded Objects now: 5738.
-Memory consumption went from 185.1 MB to 183.5 MB.
-Total: 23.405800 ms (FindLiveObjects: 0.560800 ms CreateObjectMapping: 0.223600 ms MarkObjects: 21.654500 ms  DeleteObjects: 0.965400 ms)
+Memory consumption went from 185.2 MB to 183.6 MB.
+Total: 21.613100 ms (FindLiveObjects: 0.568100 ms CreateObjectMapping: 0.202100 ms MarkObjects: 20.333600 ms  DeleteObjects: 0.508100 ms)
+=======
+			BeforeProcessingInitializeOnLoad (84ms)
+			ProcessInitializeOnLoadAttributes (791ms)
+			ProcessInitializeOnLoadMethodAttributes (117ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 11.41 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5314 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 86 unused Assets / (1.6 MB). Loaded Objects now: 5739.
+Memory consumption went from 185.3 MB to 183.8 MB.
+Total: 12.958800 ms (FindLiveObjects: 0.332200 ms CreateObjectMapping: 0.356700 ms MarkObjects: 11.909100 ms  DeleteObjects: 0.360000 ms)
+>>>>>>> Stashed changes:Logs/AssetImportWorker4.log
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -201,846 +303,63 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1187370.627755 seconds.
-  path: Assets/Dominik/Furniture/Prefab/Closed02.prefab
-  artifactKey: Guid(a9926795b06973d46915f429ee09551d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Furniture/Prefab/Closed02.prefab using Guid(a9926795b06973d46915f429ee09551d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c9b7c983a8bea8575667f9e0a458044') in 0.028377 seconds
+<<<<<<< Updated upstream:Logs/AssetImportWorker8-prev.log
+  Time since last request: 1190055.478905 seconds.
+  path: Assets/Uwoopsies/FrameHoriztonal.fbx
+  artifactKey: Guid(a6e91713fad922e49b21a79e399d554d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Uwoopsies/FrameHoriztonal.fbx using Guid(a6e91713fad922e49b21a79e399d554d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e59c3ca03b3001f6178ec5b431717881') in 0.193525 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
+Number of asset objects unloaded after import = 17
 ========================================================================
 Received Import Request.
-  Time since last request: 44.460388 seconds.
-  path: Assets/Dominik/Furniture/Prefab/Closed02.prefab
-  artifactKey: Guid(a9926795b06973d46915f429ee09551d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Furniture/Prefab/Closed02.prefab using Guid(a9926795b06973d46915f429ee09551d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ab30fdcf1b3e8cd3e25312e4b95bec0') in 0.136640 seconds
+  Time since last request: 0.000035 seconds.
+  path: Assets/Uwoopsies/Portrait.prefab
+  artifactKey: Guid(43298a620d5498c4a9808ee113ed47b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Uwoopsies/Portrait.prefab using Guid(43298a620d5498c4a9808ee113ed47b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08c15ececc43913b9666a4bf9e3ec878') in 0.024541 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 39
+Number of asset objects unloaded after import = 25
 ========================================================================
 Received Import Request.
-  Time since last request: 8.958009 seconds.
-  path: Assets/Dominik/Furniture/Prefab/Closed02 1.prefab
-  artifactKey: Guid(f8dade21f6fce7046abe309528dc7469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Furniture/Prefab/Closed02 1.prefab using Guid(f8dade21f6fce7046abe309528dc7469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a609db4c769843b2848636c7b04b0da0') in 0.018318 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 39
-========================================================================
-Received Import Request.
-  Time since last request: 6.072658 seconds.
-  path: Assets/Dominik/Furniture/Prefab/Closed02 1.prefab
-  artifactKey: Guid(f8dade21f6fce7046abe309528dc7469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Furniture/Prefab/Closed02 1.prefab using Guid(f8dade21f6fce7046abe309528dc7469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c4bf7aa2c923af8fd9e262be93b754c') in 0.021959 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 39
-========================================================================
-Received Import Request.
-  Time since last request: 3.593523 seconds.
-  path: Assets/Dominik/Furniture/Prefab/Closed02 1.prefab
-  artifactKey: Guid(f8dade21f6fce7046abe309528dc7469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Furniture/Prefab/Closed02 1.prefab using Guid(f8dade21f6fce7046abe309528dc7469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc449c6204fcfae824d4f98ec60fd3aa') in 0.021360 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 39
-========================================================================
-Received Import Request.
-  Time since last request: 3.004924 seconds.
-  path: Assets/Dominik/Furniture/Prefab/Closed02 1.prefab
-  artifactKey: Guid(f8dade21f6fce7046abe309528dc7469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Furniture/Prefab/Closed02 1.prefab using Guid(f8dade21f6fce7046abe309528dc7469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '305f0a8dd1773b6e77cf3239c873511d') in 0.020376 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 39
-========================================================================
-Received Import Request.
-  Time since last request: 2.597556 seconds.
-  path: Assets/Dominik/Furniture/Prefab/Closed02 1.prefab
-  artifactKey: Guid(f8dade21f6fce7046abe309528dc7469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Furniture/Prefab/Closed02 1.prefab using Guid(f8dade21f6fce7046abe309528dc7469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e8111fbe67a004a4009d0fe9edae9cc') in 0.034763 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 39
-========================================================================
-Received Import Request.
-  Time since last request: 2.383694 seconds.
-  path: Assets/Dominik/Furniture/Prefab/Closed02 1.prefab
-  artifactKey: Guid(f8dade21f6fce7046abe309528dc7469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Furniture/Prefab/Closed02 1.prefab using Guid(f8dade21f6fce7046abe309528dc7469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f25e48181286e5ef6004633ad76c5353') in 0.033421 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 39
-========================================================================
-Received Import Request.
-  Time since last request: 2.176564 seconds.
-  path: Assets/Dominik/Furniture/Prefab/Closed02 1.prefab
-  artifactKey: Guid(f8dade21f6fce7046abe309528dc7469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Furniture/Prefab/Closed02 1.prefab using Guid(f8dade21f6fce7046abe309528dc7469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c75c0fb87159d888769e89a721ae4c90') in 0.026360 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 39
-========================================================================
-Received Import Request.
-  Time since last request: 3.406806 seconds.
-  path: Assets/Dominik/Furniture/Prefab/Closed02 1.prefab
-  artifactKey: Guid(f8dade21f6fce7046abe309528dc7469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Furniture/Prefab/Closed02 1.prefab using Guid(f8dade21f6fce7046abe309528dc7469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78998f82ee46de6ab2ec62979399cee3') in 0.024642 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 39
-========================================================================
-Received Import Request.
-  Time since last request: 1.195001 seconds.
-  path: Assets/Dominik/Furniture/Prefab/Closed02 1.prefab
-  artifactKey: Guid(f8dade21f6fce7046abe309528dc7469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Furniture/Prefab/Closed02 1.prefab using Guid(f8dade21f6fce7046abe309528dc7469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ee3b1e4c0b9cfdc397fb2a11461f2b5') in 0.027930 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 39
-========================================================================
-Received Import Request.
-  Time since last request: 1.366035 seconds.
-  path: Assets/Dominik/Furniture/Prefab/Closed02 1.prefab
-  artifactKey: Guid(f8dade21f6fce7046abe309528dc7469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Furniture/Prefab/Closed02 1.prefab using Guid(f8dade21f6fce7046abe309528dc7469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84100340c59f98607b8f06b8956e2ce3') in 0.036659 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 39
-========================================================================
-Received Import Request.
-  Time since last request: 2.382487 seconds.
-  path: Assets/Dominik/Furniture/Prefab/Closed02 1.prefab
-  artifactKey: Guid(f8dade21f6fce7046abe309528dc7469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Furniture/Prefab/Closed02 1.prefab using Guid(f8dade21f6fce7046abe309528dc7469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ce8d06d635269b583b72b0431be618c') in 0.020584 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 39
-========================================================================
-Received Import Request.
-  Time since last request: 4.010932 seconds.
-  path: Assets/Dominik/Furniture/Prefab/Closed02 1.prefab
-  artifactKey: Guid(f8dade21f6fce7046abe309528dc7469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Furniture/Prefab/Closed02 1.prefab using Guid(f8dade21f6fce7046abe309528dc7469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20c564ed5fa9cebaf959b1f2904e03ee') in 0.023568 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 39
-========================================================================
-Received Import Request.
-  Time since last request: 1.992303 seconds.
-  path: Assets/Dominik/Furniture/Prefab/Closed02 1.prefab
-  artifactKey: Guid(f8dade21f6fce7046abe309528dc7469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Furniture/Prefab/Closed02 1.prefab using Guid(f8dade21f6fce7046abe309528dc7469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '678fcbdd56660416672c79435a7bc6d7') in 0.021302 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 39
-========================================================================
-Received Import Request.
-  Time since last request: 7.237537 seconds.
-  path: Assets/Dominik/Furniture/Prefab/Closed02 1.prefab
-  artifactKey: Guid(f8dade21f6fce7046abe309528dc7469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Furniture/Prefab/Closed02 1.prefab using Guid(f8dade21f6fce7046abe309528dc7469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9c9a77026ff64621e810cecbbc08a38') in 0.019986 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 39
-========================================================================
-Received Import Request.
-  Time since last request: 4.239420 seconds.
-  path: Assets/Dominik/Furniture/Prefab/Closed02 2.prefab
-  artifactKey: Guid(f30c077e604908748934ac03da1d78a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Furniture/Prefab/Closed02 2.prefab using Guid(f30c077e604908748934ac03da1d78a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52cefd452e6d6399aac202608293d158') in 0.018871 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 39
-========================================================================
-Received Import Request.
-  Time since last request: 5.126221 seconds.
-  path: Assets/Dominik/Furniture/Prefab/Closed02 1.prefab
-  artifactKey: Guid(f8dade21f6fce7046abe309528dc7469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Furniture/Prefab/Closed02 1.prefab using Guid(f8dade21f6fce7046abe309528dc7469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93da8ae06704540357a57b1e209132c4') in 0.045049 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 35
-========================================================================
-Received Import Request.
-  Time since last request: 1.187648 seconds.
-  path: Assets/Dominik/Furniture/Prefab/Closed02 1.prefab
-  artifactKey: Guid(f8dade21f6fce7046abe309528dc7469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Furniture/Prefab/Closed02 1.prefab using Guid(f8dade21f6fce7046abe309528dc7469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9a3a64594c844d3b06c85836a4ca2b9') in 0.020547 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 31
-========================================================================
-Received Import Request.
-  Time since last request: 26.916397 seconds.
-  path: Assets/Dominik/Furniture/Prefab/Closed02 3.prefab
-  artifactKey: Guid(a7b81ccb16c5ccb49b5f781ad75d99f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Furniture/Prefab/Closed02 3.prefab using Guid(a7b81ccb16c5ccb49b5f781ad75d99f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfbfe34ddc31ec718402075772fb1ab9') in 0.019414 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 31
-========================================================================
-Received Import Request.
-  Time since last request: 175.920292 seconds.
-  path: Assets/Uwoopsies/Materials/Portraits/Closed02 1.prefab
-  artifactKey: Guid(9374be5ea678d334d952a79659dbed49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Uwoopsies/Materials/Portraits/Closed02 1.prefab using Guid(9374be5ea678d334d952a79659dbed49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4246c04df49d9595ba812c1b91a59a61') in 0.021285 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 31
-========================================================================
-Received Import Request.
-  Time since last request: 98.030444 seconds.
-  path: Assets/Uwoopsies/Materials/Portraits/Painting1 1.png
-  artifactKey: Guid(e0dd1f69a92d27f4db9c5dca13a3556b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Uwoopsies/Materials/Portraits/Painting1 1.png using Guid(e0dd1f69a92d27f4db9c5dca13a3556b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f7142bf8fad7fb2f3fc590f88fcc390') in 0.037061 seconds
+  Time since last request: 21.976862 seconds.
+  path: Assets/Uwoopsies/Materials/Portraits/Painting2.png
+  artifactKey: Guid(04a60085b9d822b43835e207a2ffc89c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Uwoopsies/Materials/Portraits/Painting2.png using Guid(04a60085b9d822b43835e207a2ffc89c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b93ee6025d748d15c260f1ffdf36bdbd') in 0.062966 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 204.319537 seconds.
-  path: Assets/Dominik/Furniture/Prefab/Closed02 3.prefab
-  artifactKey: Guid(a7b81ccb16c5ccb49b5f781ad75d99f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Furniture/Prefab/Closed02 3.prefab using Guid(a7b81ccb16c5ccb49b5f781ad75d99f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ece92771617a7a8f250e4237f82520e') in 0.028147 seconds
+  Time since last request: 0.000036 seconds.
+  path: Assets/Uwoopsies/Materials/Portraits/Painting7.png
+  artifactKey: Guid(923e5183f3f531741b839e1997fc3ddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Uwoopsies/Materials/Portraits/Painting7.png using Guid(923e5183f3f531741b839e1997fc3ddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee05ee27f5e35bc588d38796e2b3fab2') in 0.046945 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 47
-========================================================================
-Received Import Request.
-  Time since last request: 3.710714 seconds.
-  path: Assets/Dominik/Furniture/Prefab/Barrel 2.prefab
-  artifactKey: Guid(200c7da8e3ce2a54793181d4573dec9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Furniture/Prefab/Barrel 2.prefab using Guid(200c7da8e3ce2a54793181d4573dec9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc87bee320aca4c5ed7fab4a302cbfe3') in 0.023260 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 34
-========================================================================
-Received Import Request.
-  Time since last request: 9.912588 seconds.
-  path: Assets/Dominik/Furniture/Prefab/Books.prefab
-  artifactKey: Guid(200c7da8e3ce2a54793181d4573dec9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Furniture/Prefab/Books.prefab using Guid(200c7da8e3ce2a54793181d4573dec9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45e448827f3ace907a60e10d20fc1141') in 0.019865 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 34
-========================================================================
-Received Import Request.
-  Time since last request: 4.750769 seconds.
-  path: Assets/Dominik/Furniture/Prefab/Books.prefab
-  artifactKey: Guid(200c7da8e3ce2a54793181d4573dec9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Furniture/Prefab/Books.prefab using Guid(200c7da8e3ce2a54793181d4573dec9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '948f98284db9f3bc240c3ad8e6780b7d') in 0.002201 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 54.623501 seconds.
-  path: Assets/Uwoopsies/Materials/M_Portrait 1.mat
-  artifactKey: Guid(60e179f4a398f6242b3acdc0f117e5b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Uwoopsies/Materials/M_Portrait 1.mat using Guid(60e179f4a398f6242b3acdc0f117e5b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc035a68f30c7ac04b6bea07dfa6dd32') in 0.045874 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 145.057653 seconds.
-  path: Assets/Dominik/Furniture/Prefab/Books.prefab
-  artifactKey: Guid(200c7da8e3ce2a54793181d4573dec9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Furniture/Prefab/Books.prefab using Guid(200c7da8e3ce2a54793181d4573dec9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '590edabe7ca6cc18e58ce767f436ebbd') in 0.021424 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 48
-========================================================================
-Received Import Request.
-  Time since last request: 2.160121 seconds.
-  path: Assets/Dominik/Furniture/Prefab/Books 1.prefab
-  artifactKey: Guid(9e69e358e43f8234193e88d3b6599746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Furniture/Prefab/Books 1.prefab using Guid(9e69e358e43f8234193e88d3b6599746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c9295b7c2c713e433d761e396f71485') in 0.017482 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 48
-========================================================================
-Received Import Request.
-  Time since last request: 10.751725 seconds.
-  path: Assets/Dominik/Furniture/Prefab/Books.prefab
-  artifactKey: Guid(200c7da8e3ce2a54793181d4573dec9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Furniture/Prefab/Books.prefab using Guid(200c7da8e3ce2a54793181d4573dec9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f63e36805dfa4a87cd3b32d7b9c205e') in 0.017651 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 48
-========================================================================
-Received Import Request.
-  Time since last request: 2.196718 seconds.
-  path: Assets/Dominik/Furniture/Prefab/Books.prefab
-  artifactKey: Guid(200c7da8e3ce2a54793181d4573dec9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Furniture/Prefab/Books.prefab using Guid(200c7da8e3ce2a54793181d4573dec9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a92c287bfb69f0e82677931f86b64f3') in 0.017369 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 48
-========================================================================
-Received Import Request.
-  Time since last request: 1.599423 seconds.
-  path: Assets/Dominik/Furniture/Prefab/Books.prefab
-  artifactKey: Guid(200c7da8e3ce2a54793181d4573dec9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Furniture/Prefab/Books.prefab using Guid(200c7da8e3ce2a54793181d4573dec9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2157005e38a12ae7c4d26302251714ff') in 0.018990 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 48
-========================================================================
-Received Import Request.
-  Time since last request: 1.592599 seconds.
-  path: Assets/Dominik/Furniture/Prefab/Books.prefab
-  artifactKey: Guid(200c7da8e3ce2a54793181d4573dec9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Furniture/Prefab/Books.prefab using Guid(200c7da8e3ce2a54793181d4573dec9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '933e49467aaf12bb8ff3aa037333e0e6') in 0.018522 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 48
-========================================================================
-Received Import Request.
-  Time since last request: 1.997284 seconds.
-  path: Assets/Dominik/Furniture/Prefab/Books.prefab
-  artifactKey: Guid(200c7da8e3ce2a54793181d4573dec9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Furniture/Prefab/Books.prefab using Guid(200c7da8e3ce2a54793181d4573dec9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e654d3dd5b5b178210d3512862259d8c') in 0.019225 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 48
-========================================================================
-Received Import Request.
-  Time since last request: 1.995738 seconds.
-  path: Assets/Dominik/Furniture/Prefab/Books.prefab
-  artifactKey: Guid(200c7da8e3ce2a54793181d4573dec9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Furniture/Prefab/Books.prefab using Guid(200c7da8e3ce2a54793181d4573dec9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '367746c8497ecacbab68d7fff324c09e') in 0.029792 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 48
-========================================================================
-Received Import Request.
-  Time since last request: 6.006059 seconds.
-  path: Assets/Dominik/Furniture/Prefab/Books.prefab
-  artifactKey: Guid(200c7da8e3ce2a54793181d4573dec9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Furniture/Prefab/Books.prefab using Guid(200c7da8e3ce2a54793181d4573dec9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f18783273fb887ce81b792d16c59ffb') in 0.016566 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 48
-========================================================================
-Received Import Request.
-  Time since last request: 3.810332 seconds.
-  path: Assets/Dominik/Furniture/Prefab/Books.prefab
-  artifactKey: Guid(200c7da8e3ce2a54793181d4573dec9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Furniture/Prefab/Books.prefab using Guid(200c7da8e3ce2a54793181d4573dec9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5eec80c65ced4b6ed2690684c40d096') in 0.016999 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 48
-========================================================================
-Received Import Request.
-  Time since last request: 8.646655 seconds.
-  path: Assets/Dominik/Furniture/Prefab/Books.prefab
-  artifactKey: Guid(200c7da8e3ce2a54793181d4573dec9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Furniture/Prefab/Books.prefab using Guid(200c7da8e3ce2a54793181d4573dec9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '611d46069693b6857f2e82ebaa1e9738') in 0.017424 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 48
-========================================================================
-Received Import Request.
-  Time since last request: 2.396276 seconds.
-  path: Assets/Dominik/Furniture/Prefab/Books.prefab
-  artifactKey: Guid(200c7da8e3ce2a54793181d4573dec9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Furniture/Prefab/Books.prefab using Guid(200c7da8e3ce2a54793181d4573dec9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfc8242e2c465075344e56d91e8d0029') in 0.020639 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 48
-========================================================================
-Received Import Request.
-  Time since last request: 1.791608 seconds.
-  path: Assets/Dominik/Furniture/Prefab/Books.prefab
-  artifactKey: Guid(200c7da8e3ce2a54793181d4573dec9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Furniture/Prefab/Books.prefab using Guid(200c7da8e3ce2a54793181d4573dec9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95b4729f30cad636937d26908ceed4d2') in 0.016984 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 48
-========================================================================
-Received Import Request.
-  Time since last request: 1.799732 seconds.
-  path: Assets/Dominik/Furniture/Prefab/Books.prefab
-  artifactKey: Guid(200c7da8e3ce2a54793181d4573dec9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Furniture/Prefab/Books.prefab using Guid(200c7da8e3ce2a54793181d4573dec9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78f6cf523bff082d3089746335fb0191') in 0.017615 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 48
-========================================================================
-Received Import Request.
-  Time since last request: 2.601196 seconds.
-  path: Assets/Dominik/Furniture/Prefab/Books.prefab
-  artifactKey: Guid(200c7da8e3ce2a54793181d4573dec9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Furniture/Prefab/Books.prefab using Guid(200c7da8e3ce2a54793181d4573dec9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c89126f52cdca43789aa0677a9a26e4') in 0.026565 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 48
-========================================================================
-Received Import Request.
-  Time since last request: 2.188441 seconds.
-  path: Assets/Dominik/Furniture/Prefab/Books.prefab
-  artifactKey: Guid(200c7da8e3ce2a54793181d4573dec9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Furniture/Prefab/Books.prefab using Guid(200c7da8e3ce2a54793181d4573dec9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0ec033496fe30022165c3141c0c1767') in 0.017993 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 48
-========================================================================
-Received Import Request.
-  Time since last request: 2.406451 seconds.
-  path: Assets/Dominik/Furniture/Prefab/Books.prefab
-  artifactKey: Guid(200c7da8e3ce2a54793181d4573dec9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Furniture/Prefab/Books.prefab using Guid(200c7da8e3ce2a54793181d4573dec9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c653c4bb281339ea0a231c88249a78f') in 0.017368 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 48
-========================================================================
-Received Import Request.
-  Time since last request: 1.586518 seconds.
-  path: Assets/Dominik/Furniture/Prefab/Books.prefab
-  artifactKey: Guid(200c7da8e3ce2a54793181d4573dec9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Furniture/Prefab/Books.prefab using Guid(200c7da8e3ce2a54793181d4573dec9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92e9ab56201d0bbdd3e2ba8b9af9363e') in 0.017474 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 48
-========================================================================
-Received Import Request.
-  Time since last request: 1.591981 seconds.
-  path: Assets/Dominik/Furniture/Prefab/Books.prefab
-  artifactKey: Guid(200c7da8e3ce2a54793181d4573dec9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Furniture/Prefab/Books.prefab using Guid(200c7da8e3ce2a54793181d4573dec9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c511957c7056b051caf99ba8b23cbbf5') in 0.017498 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 48
-========================================================================
-Received Import Request.
-  Time since last request: 6.434295 seconds.
-  path: Assets/Dominik/Furniture/Prefab/Books.prefab
-  artifactKey: Guid(200c7da8e3ce2a54793181d4573dec9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Furniture/Prefab/Books.prefab using Guid(200c7da8e3ce2a54793181d4573dec9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b4b1e80e79076f91f36c26a3affbc00') in 0.018639 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 48
-========================================================================
-Received Import Request.
-  Time since last request: 40.519817 seconds.
-  path: Assets/Dominik/Furniture/Prefab/Books.prefab
-  artifactKey: Guid(200c7da8e3ce2a54793181d4573dec9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Furniture/Prefab/Books.prefab using Guid(200c7da8e3ce2a54793181d4573dec9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70117467aa789ae1cf58d40dfa4dead4') in 0.017038 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 48
-========================================================================
-Received Import Request.
-  Time since last request: 3.265212 seconds.
-  path: Assets/Dominik/Furniture/Prefab/Books.prefab
-  artifactKey: Guid(200c7da8e3ce2a54793181d4573dec9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Furniture/Prefab/Books.prefab using Guid(200c7da8e3ce2a54793181d4573dec9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0693b45d2a08b68fc2e5b9a7e335a330') in 0.017257 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 53
-========================================================================
-Received Import Request.
-  Time since last request: 9.262780 seconds.
-  path: Assets/Dominik/Furniture/Prefab/Books 1.prefab
-  artifactKey: Guid(9e69e358e43f8234193e88d3b6599746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Furniture/Prefab/Books 1.prefab using Guid(9e69e358e43f8234193e88d3b6599746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd85cf624fd5cf0cf82fb30fd0abd8360') in 0.020684 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 53
-========================================================================
-Received Import Request.
-  Time since last request: 4.810979 seconds.
-  path: Assets/Dominik/Furniture/Prefab/Closed02.prefab
-  artifactKey: Guid(a9926795b06973d46915f429ee09551d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Furniture/Prefab/Closed02.prefab using Guid(a9926795b06973d46915f429ee09551d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd454209ad0c4fe3f612ce2ef1a4f0b3a') in 0.013288 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 40
-========================================================================
-Received Import Request.
-  Time since last request: 8.683807 seconds.
-  path: Assets/Dominik/Furniture/Prefab/Closed02.prefab
-  artifactKey: Guid(a9926795b06973d46915f429ee09551d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Furniture/Prefab/Closed02.prefab using Guid(a9926795b06973d46915f429ee09551d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca803544373bbeb9cb89749a9e888dbf') in 0.018105 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 42
-========================================================================
-Received Import Request.
-  Time since last request: 12.722721 seconds.
-  path: Assets/Dominik/Furniture/Prefab/Closed02 2.prefab
-  artifactKey: Guid(f30c077e604908748934ac03da1d78a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Furniture/Prefab/Closed02 2.prefab using Guid(f30c077e604908748934ac03da1d78a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '430db7c7fcda665e072b2090ea82cacc') in 0.022743 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 42
-========================================================================
-Received Import Request.
-  Time since last request: 7.255528 seconds.
-  path: Assets/Dominik/Furniture/Prefab/Closed02 1.prefab
-  artifactKey: Guid(f8dade21f6fce7046abe309528dc7469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Furniture/Prefab/Closed02 1.prefab using Guid(f8dade21f6fce7046abe309528dc7469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef9222881b8749dc2466a655b0fbd8e8') in 0.033550 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 32
-========================================================================
-Received Import Request.
-  Time since last request: 4.402039 seconds.
-  path: Assets/Dominik/Furniture/Prefab/Closed02 1.prefab
-  artifactKey: Guid(f8dade21f6fce7046abe309528dc7469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Furniture/Prefab/Closed02 1.prefab using Guid(f8dade21f6fce7046abe309528dc7469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f69502b7fe1dcd243a5b719f8d273c89') in 0.025154 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 32
-========================================================================
-Received Import Request.
-  Time since last request: 6.097905 seconds.
-  path: Assets/Dominik/Furniture/Prefab/Closed02 3.prefab
-  artifactKey: Guid(a7b81ccb16c5ccb49b5f781ad75d99f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Furniture/Prefab/Closed02 3.prefab using Guid(a7b81ccb16c5ccb49b5f781ad75d99f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '819305a0bc86f20f0d37bd2ffc6207dd') in 0.025032 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 48
-========================================================================
-Received Import Request.
-  Time since last request: 6.275806 seconds.
-  path: Assets/Dominik/Furniture/Prefab/Bookshelf 5.prefab
-  artifactKey: Guid(6fe59319ca8053e4da0b8cf3e069c395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Furniture/Prefab/Bookshelf 5.prefab using Guid(6fe59319ca8053e4da0b8cf3e069c395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '182bee11dadb6c20ad0757b2011725d0') in 0.029368 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 169
-========================================================================
-Received Import Request.
-  Time since last request: 3.994563 seconds.
-  path: Assets/Dominik/Furniture/Prefab/Bookshelf 4.prefab
-  artifactKey: Guid(210bdb5a4b2ca1244a2dfb4fc0e55f77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Furniture/Prefab/Bookshelf 4.prefab using Guid(210bdb5a4b2ca1244a2dfb4fc0e55f77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45a853fedbfda7481a74a5fae2f05781') in 0.032575 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 169
-========================================================================
-Received Import Request.
-  Time since last request: 4.032809 seconds.
-  path: Assets/Dominik/Furniture/Prefab/Bookshelf 2.prefab
-  artifactKey: Guid(c869ee7cc0043aa468cf58937de57017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Furniture/Prefab/Bookshelf 2.prefab using Guid(c869ee7cc0043aa468cf58937de57017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a490228cc79b825b6dd4c2560c2e99d2') in 0.039065 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 219
-========================================================================
-Received Import Request.
-  Time since last request: 4.227816 seconds.
-  path: Assets/Dominik/Furniture/Prefab/Bookshelf 1.prefab
-  artifactKey: Guid(e395991de2e50714ea2aea4d21123873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Furniture/Prefab/Bookshelf 1.prefab using Guid(e395991de2e50714ea2aea4d21123873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32da947628910cabfb9dcaa79893e0f4') in 0.025806 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 195
-========================================================================
-Received Import Request.
-  Time since last request: 4.250590 seconds.
-  path: Assets/Dominik/Furniture/Prefab/Bookshelf.prefab
-  artifactKey: Guid(dd6347fe11dcd7e46a8c34c7512e33c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Furniture/Prefab/Bookshelf.prefab using Guid(dd6347fe11dcd7e46a8c34c7512e33c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c78025628f09c7965e111ad46f03c0bc') in 0.025608 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 214
-========================================================================
-Received Import Request.
-  Time since last request: 12.446878 seconds.
-  path: Assets/Dominik/Furniture/Prefab/Closed02 3.prefab
-  artifactKey: Guid(a7b81ccb16c5ccb49b5f781ad75d99f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Furniture/Prefab/Closed02 3.prefab using Guid(a7b81ccb16c5ccb49b5f781ad75d99f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e10db15c765a107aaf1fc3cd63d6543') in 0.025844 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 48
-========================================================================
-Received Import Request.
-  Time since last request: 3.387164 seconds.
-  path: Assets/Dominik/Furniture/Prefab/Closed02 3.prefab
-  artifactKey: Guid(a7b81ccb16c5ccb49b5f781ad75d99f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Furniture/Prefab/Closed02 3.prefab using Guid(a7b81ccb16c5ccb49b5f781ad75d99f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3308d8545dbe3e36dfe818cebf6d2a4c') in 0.022786 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 48
-========================================================================
-Received Import Request.
-  Time since last request: 4.203540 seconds.
-  path: Assets/Dominik/Furniture/Prefab/Closed02 3.prefab
-  artifactKey: Guid(a7b81ccb16c5ccb49b5f781ad75d99f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Furniture/Prefab/Closed02 3.prefab using Guid(a7b81ccb16c5ccb49b5f781ad75d99f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6b4fb0c4705ccd838018d8127b38ec8') in 0.019525 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 32
-========================================================================
-Received Import Request.
-  Time since last request: 138.661343 seconds.
-  path: Assets/Dominik/Furniture/Prefab/Closed02 3.prefab
-  artifactKey: Guid(a7b81ccb16c5ccb49b5f781ad75d99f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Furniture/Prefab/Closed02 3.prefab using Guid(a7b81ccb16c5ccb49b5f781ad75d99f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80cb7b54506e865b723e09dc7cfbe6bc') in 0.026783 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 384
-========================================================================
-Received Import Request.
-  Time since last request: 39.004043 seconds.
-  path: Assets/Dominik/Furniture/Prefab/Closed02 3.prefab
-  artifactKey: Guid(a7b81ccb16c5ccb49b5f781ad75d99f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Furniture/Prefab/Closed02 3.prefab using Guid(a7b81ccb16c5ccb49b5f781ad75d99f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef9f1fea6c86dd62a5ee14a44eb05978') in 0.028722 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 421
-========================================================================
-Received Import Request.
-  Time since last request: 5.567323 seconds.
-  path: Assets/Dominik/Furniture/Prefab/Closed02 3.prefab
-  artifactKey: Guid(a7b81ccb16c5ccb49b5f781ad75d99f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Furniture/Prefab/Closed02 3.prefab using Guid(a7b81ccb16c5ccb49b5f781ad75d99f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '833082ca61c15b6dc36031fcd3f3ffb9') in 0.027274 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 421
-========================================================================
-Received Import Request.
-  Time since last request: 4.009326 seconds.
-  path: Assets/Dominik/Furniture/Prefab/Closed02 3.prefab
-  artifactKey: Guid(a7b81ccb16c5ccb49b5f781ad75d99f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Furniture/Prefab/Closed02 3.prefab using Guid(a7b81ccb16c5ccb49b5f781ad75d99f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64410de0a32d61089d85e8338dad6db6') in 0.027023 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 421
-========================================================================
-Received Import Request.
-  Time since last request: 1.378289 seconds.
-  path: Assets/Dominik/Furniture/Prefab/Closed02 3.prefab
-  artifactKey: Guid(a7b81ccb16c5ccb49b5f781ad75d99f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Furniture/Prefab/Closed02 3.prefab using Guid(a7b81ccb16c5ccb49b5f781ad75d99f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bdd020f36281eba23fee298ac91a070') in 0.024406 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 415
-========================================================================
-Received Import Request.
-  Time since last request: 77.572913 seconds.
-  path: Assets/Dominik/Furniture/Prefab/Closed02 2.prefab
-  artifactKey: Guid(f30c077e604908748934ac03da1d78a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Furniture/Prefab/Closed02 2.prefab using Guid(f30c077e604908748934ac03da1d78a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff93404d51ac310c74fb27b1fb439b21') in 0.020447 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 42
-========================================================================
-Received Import Request.
-  Time since last request: 14.539048 seconds.
-  path: Assets/Dominik/Furniture/Prefab/Closed02 4.prefab
-  artifactKey: Guid(e40746c955d665e48b78e1acdebf788b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Furniture/Prefab/Closed02 4.prefab using Guid(e40746c955d665e48b78e1acdebf788b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '499fcaf685da9679cc018eca9b29cdc2') in 0.033929 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 415
-========================================================================
-Received Import Request.
-  Time since last request: 7.497187 seconds.
-  path: Assets/Dominik/Furniture/Prefab/Closed02 3.prefab
-  artifactKey: Guid(a7b81ccb16c5ccb49b5f781ad75d99f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Furniture/Prefab/Closed02 3.prefab using Guid(a7b81ccb16c5ccb49b5f781ad75d99f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90ba601581128831d97e23c8a7e3bc42') in 0.026492 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 415
-========================================================================
-Received Import Request.
-  Time since last request: 8.275008 seconds.
-  path: Assets/Dominik/Furniture/Prefab/Closed02 3.prefab
-  artifactKey: Guid(a7b81ccb16c5ccb49b5f781ad75d99f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Furniture/Prefab/Closed02 3.prefab using Guid(a7b81ccb16c5ccb49b5f781ad75d99f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0be018c15c962c22e04181bfcedb0aa9') in 0.028080 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 410
-========================================================================
-Received Import Request.
-  Time since last request: 1.587008 seconds.
-  path: Assets/Dominik/Furniture/Prefab/Closed02 3.prefab
-  artifactKey: Guid(a7b81ccb16c5ccb49b5f781ad75d99f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Furniture/Prefab/Closed02 3.prefab using Guid(a7b81ccb16c5ccb49b5f781ad75d99f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c51f214345bc4f4de42215e912cec676') in 0.029209 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 405
-========================================================================
-Received Import Request.
-  Time since last request: 54.711045 seconds.
-  path: Assets/Dominik/Furniture/Prefab/Closed02 4.prefab
-  artifactKey: Guid(e40746c955d665e48b78e1acdebf788b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Furniture/Prefab/Closed02 4.prefab using Guid(e40746c955d665e48b78e1acdebf788b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '558ad330377b8c1a6bdd825c644b6ab3') in 0.023014 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 415
-========================================================================
-Received Import Request.
-  Time since last request: 3.597607 seconds.
-  path: Assets/Dominik/Furniture/Prefab/Closed02 4.prefab
-  artifactKey: Guid(e40746c955d665e48b78e1acdebf788b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Furniture/Prefab/Closed02 4.prefab using Guid(e40746c955d665e48b78e1acdebf788b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d785b40f736e1b739d1d306ac483162') in 0.027219 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 415
-========================================================================
-Received Import Request.
-  Time since last request: 7.893547 seconds.
-  path: Assets/Dominik/Furniture/Prefab/Closed02 4.prefab
-  artifactKey: Guid(e40746c955d665e48b78e1acdebf788b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Furniture/Prefab/Closed02 4.prefab using Guid(e40746c955d665e48b78e1acdebf788b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a1bdf3e437c5af6753618495e19a80f') in 0.022155 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 415
-========================================================================
-Received Import Request.
-  Time since last request: 3.582049 seconds.
-  path: Assets/Dominik/Furniture/Prefab/Closed02 4.prefab
-  artifactKey: Guid(e40746c955d665e48b78e1acdebf788b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Furniture/Prefab/Closed02 4.prefab using Guid(e40746c955d665e48b78e1acdebf788b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '691bded864b5681c9c2721fe8ffd4ad6') in 0.025857 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 400
-========================================================================
-Received Import Request.
-  Time since last request: 4.033182 seconds.
-  path: Assets/Dominik/Furniture/Prefab/Closed02 4.prefab
-  artifactKey: Guid(e40746c955d665e48b78e1acdebf788b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Furniture/Prefab/Closed02 4.prefab using Guid(e40746c955d665e48b78e1acdebf788b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b7ffa3cd276f756ec1119c760564550') in 0.022991 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 395
-========================================================================
-Received Import Request.
-  Time since last request: 264.575972 seconds.
-  path: Assets/Dominik/Modular Mesh/Floor_8x8.fbx
-  artifactKey: Guid(a13d5861e1f7dfa4f86bfae34e1c6ca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Modular Mesh/Floor_8x8.fbx using Guid(a13d5861e1f7dfa4f86bfae34e1c6ca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6a753ec1edcfa1048698902e7c5846e') in 0.052003 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
   Time since last request: 0.000039 seconds.
-  path: Assets/Dominik/Modular Mesh/Wall_8x10_A.fbx
-  artifactKey: Guid(4fb3a9855b9340445b8c709c4dd3f468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Modular Mesh/Wall_8x10_A.fbx using Guid(4fb3a9855b9340445b8c709c4dd3f468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22954751848d05ec6a2028b664d81c8a') in 0.027689 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Dominik/Modular Mesh/Wall_Beam_1x5_A.fbx
-  artifactKey: Guid(5cb2d42819c589d4882dbdce6d749f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Modular Mesh/Wall_Beam_1x5_A.fbx using Guid(5cb2d42819c589d4882dbdce6d749f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bac18b90fd4ca50c68b5291670282f5a') in 0.031279 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Dominik/Modular Mesh/Wall_Round_Arch_B.fbx
-  artifactKey: Guid(bccea4dbe6be5fc41b99b6e00ed285ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Modular Mesh/Wall_Round_Arch_B.fbx using Guid(bccea4dbe6be5fc41b99b6e00ed285ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c35e3c8bdb5f7afc98acd39e588609d') in 0.024395 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Dominik/Modular Mesh/Wall_Door_B.fbx
-  artifactKey: Guid(87d502515c53d43488c07696ed0c5535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Modular Mesh/Wall_Door_B.fbx using Guid(87d502515c53d43488c07696ed0c5535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20f78a8b1371965fe963f0a9fea946d5') in 0.045985 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Dominik/Modular Mesh/Wall_Round_Arch_Corner_A.fbx
-  artifactKey: Guid(a313081367f01fd4a8fbf582abb1b05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Modular Mesh/Wall_Round_Arch_Corner_A.fbx using Guid(a313081367f01fd4a8fbf582abb1b05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3d3c9302e4c40088766780e205d66c0') in 0.026257 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Dominik/Modular Mesh/Wall_Door_A.fbx
-  artifactKey: Guid(4d89cc97fe56be245816afa5bc21ccf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Modular Mesh/Wall_Door_A.fbx using Guid(4d89cc97fe56be245816afa5bc21ccf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4297e874f7f98cc1a742e6654eb1ffe') in 0.035062 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Dominik/Modular Mesh/Wall_Door_8x10_A.fbx
-  artifactKey: Guid(f62ee482a0ce6a04980d5054b8fdd055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Modular Mesh/Wall_Door_8x10_A.fbx using Guid(f62ee482a0ce6a04980d5054b8fdd055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d2c6e26c7716d8c26e5895370859b4a') in 0.027365 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Dominik/Modular Mesh/Wall_Doorframe_8x10_A.fbx
-  artifactKey: Guid(284b25983f0d78042a324a4526e8c7b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Modular Mesh/Wall_Doorframe_8x10_A.fbx using Guid(284b25983f0d78042a324a4526e8c7b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3483bbf4ddfd42930955552589811feb') in 0.026228 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Dominik/Modular Mesh/Wall_Doorframe_8x10_B.fbx
-  artifactKey: Guid(63390739c21f3ea46b398cd7bc0dd2b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Modular Mesh/Wall_Doorframe_8x10_B.fbx using Guid(63390739c21f3ea46b398cd7bc0dd2b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5282ac925172c0a2f8b164d885924a9') in 0.026021 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Dominik/Modular Mesh/Wall_Beam_Small_B.fbx
-  artifactKey: Guid(d38998c89f148104ea55d2294308fb1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Modular Mesh/Wall_Beam_Small_B.fbx using Guid(d38998c89f148104ea55d2294308fb1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc9f58109b1b62363941582557f6e707') in 0.024155 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Dominik/Modular Mesh/Wall_Window_A.fbx
-  artifactKey: Guid(7f6a0cb59185eff4aa869a85093d956b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Modular Mesh/Wall_Window_A.fbx using Guid(7f6a0cb59185eff4aa869a85093d956b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31da5b782a210832079b959752cc24c5') in 0.031337 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
-========================================================================
-Received Import Request.
-  Time since last request: 0.264265 seconds.
-  path: Assets/Dominik/Modular Mesh/Prefabs
-  artifactKey: Guid(0db2b5fdaa7f45142bca546036d9cf3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Modular Mesh/Prefabs using Guid(0db2b5fdaa7f45142bca546036d9cf3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b29e5aaf77316bba685f24a47bf9c1dc') in 0.000827 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.058888 seconds.
-  path: Assets/Dominik/Modular Mesh/Prefabs/BigDoors.prefab
-  artifactKey: Guid(e288e461d0e7af342845255b944f80f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Modular Mesh/Prefabs/BigDoors.prefab using Guid(e288e461d0e7af342845255b944f80f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55acb7f4a00c3f1a9aa6f359bfbf1ebf') in 0.032260 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 30
-========================================================================
-Received Import Request.
-  Time since last request: 0.000085 seconds.
-  path: Assets/Dominik/Modular Mesh/Prefabs/RoundedDoors.prefab
-  artifactKey: Guid(e4a881093c8447346bcf2c7498159458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Modular Mesh/Prefabs/RoundedDoors.prefab using Guid(e4a881093c8447346bcf2c7498159458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c21235112ff374f6dbf4b15ef2cd5a99') in 0.033847 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 30
-========================================================================
-Received Import Request.
-  Time since last request: 4.258199 seconds.
-  path: Assets/Dominik/Modular Mesh/Prefabs/SmallDoorsThatOpen.prefab
-  artifactKey: Guid(51b05b4dfdac68e4c9d987306148fb16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Modular Mesh/Prefabs/SmallDoorsThatOpen.prefab using Guid(51b05b4dfdac68e4c9d987306148fb16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '349215cf7281784c9d22feff72772fc5') in 0.032059 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 61
-========================================================================
-Received Import Request.
-  Time since last request: 6.353393 seconds.
-  path: Assets/Dominik/Modular Mesh/Prefabs/BigDoorsThatOpen.prefab
-  artifactKey: Guid(94fdd996cbdc9e5418efb96b8486896f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dominik/Modular Mesh/Prefabs/BigDoorsThatOpen.prefab using Guid(94fdd996cbdc9e5418efb96b8486896f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a295beaea8bea5977ed84c4e9f6beee9') in 0.023894 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 63
-========================================================================
-Received Import Request.
-  Time since last request: 230.513656 seconds.
-  path: Assets/CB/Assets/Glass/Glass_normal.png
-  artifactKey: Guid(703a1e7adc1bb5d4fbe8196d6fcbe67a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CB/Assets/Glass/Glass_normal.png using Guid(703a1e7adc1bb5d4fbe8196d6fcbe67a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ef18a9edc06c21c2380271454ab82f7') in 0.038189 seconds
+  path: Assets/Uwoopsies/Materials/Portraits/Painting9.png
+  artifactKey: Guid(ff4ad65732c2e6b49a6e4484db15f004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Uwoopsies/Materials/Portraits/Painting9.png using Guid(ff4ad65732c2e6b49a6e4484db15f004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd391c0bd431b9917542f4765fbb0bb8e') in 0.037230 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 10.057357 seconds.
-  path: Assets/CB/Assets/Props/Batch1/Meshes/Prefabs/InkBottle_I.prefab
-  artifactKey: Guid(18fc19b519937fa4f8f16e6b7485ead8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CB/Assets/Props/Batch1/Meshes/Prefabs/InkBottle_I.prefab using Guid(18fc19b519937fa4f8f16e6b7485ead8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e7c7e9c1784f3fdfb0868a704728209') in 0.051936 seconds
+  Time since last request: 0.000041 seconds.
+  path: Assets/Uwoopsies/Materials/Portraits/Painting5.png
+  artifactKey: Guid(f575696f9ae3e5346b6c6d4d59a83531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Uwoopsies/Materials/Portraits/Painting5.png using Guid(f575696f9ae3e5346b6c6d4d59a83531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69f2c4274781feab78ecf63c71549fd6') in 0.037053 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 46
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/CB/Assets/Props/Batch1/Meshes/Prefabs/Oilohomora.prefab
-  artifactKey: Guid(95d787406417ec84f9b526dca42a91de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CB/Assets/Props/Batch1/Meshes/Prefabs/Oilohomora.prefab using Guid(95d787406417ec84f9b526dca42a91de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b2f0f3cbe8984e90b2903dad3718fae') in 0.055924 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 49
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/CB/Assets/Props/Batch1/Meshes/Prefabs/SSWNCard.prefab
-  artifactKey: Guid(efe14b66b6e32084a84e0c163283868e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CB/Assets/Props/Batch1/Meshes/Prefabs/SSWNCard.prefab using Guid(efe14b66b6e32084a84e0c163283868e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8917d619a0ba0b970e6956e3317cbff8') in 0.033355 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 22
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/CB/Assets/Props/Batch1/Meshes/Prefabs/PlungerPrefab.prefab
-  artifactKey: Guid(b4bdbc252e24786469e62796dce6ae3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CB/Assets/Props/Batch1/Meshes/Prefabs/PlungerPrefab.prefab using Guid(b4bdbc252e24786469e62796dce6ae3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e40b5bda89fa9d3012451e7f646a882') in 0.036030 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 35
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/CB/Assets/Props/Batch1/Meshes/Prefabs/Lattekasam.prefab
-  artifactKey: Guid(3520e9f16721ae74e98b16585b7e98c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CB/Assets/Props/Batch1/Meshes/Prefabs/Lattekasam.prefab using Guid(3520e9f16721ae74e98b16585b7e98c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b9ad4d34ef67082d45994f23fc13780') in 0.037045 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 39
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/CB/Assets/Props/Batch1/Meshes/Prefabs/Toilet Plunger.prefab
-  artifactKey: Guid(f3c1bd24ccdc2f648a03566d1a402561) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CB/Assets/Props/Batch1/Meshes/Prefabs/Toilet Plunger.prefab using Guid(f3c1bd24ccdc2f648a03566d1a402561) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5b917f101e1add69f02b196e60d7517') in 0.044770 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 97
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/CB/Assets/Props/Batch1/Meshes/Prefabs/OiliveGarden.prefab
-  artifactKey: Guid(3e44151228dd0eb40a19815e91c5571e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CB/Assets/Props/Batch1/Meshes/Prefabs/OiliveGarden.prefab using Guid(3e44151228dd0eb40a19815e91c5571e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5c224988c52861552cdb16ef4d96ca7') in 0.041153 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 48
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/CB/Assets/Props/Batch1/Meshes/Prefabs/SmokeDetector.prefab
-  artifactKey: Guid(7d65162cc11b1734db2704b76926c222) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CB/Assets/Props/Batch1/Meshes/Prefabs/SmokeDetector.prefab using Guid(7d65162cc11b1734db2704b76926c222) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7263a1299b371606cc208e0199ca3c4b') in 0.031771 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 22
+Number of asset objects unloaded after import = 2
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: Der E/A-Vorgang wurde wegen eines Threadendes oder einer Anwendungsanforderung abgebrochen.
 AssetImportWorker is now disconnected from the server
 Process exiting
 Exiting without the bug reporter. Application will terminate with return code 0
+=======
+  Time since last request: 1588355.016401 seconds.
+  path: Assets/Barrel 2.prefab
+  artifactKey: Guid(ad4ff2a53d25ccb4990b362bf3b7b8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Barrel 2.prefab using Guid(ad4ff2a53d25ccb4990b362bf3b7b8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '083dad9aac35953c785c7af54a3d09f3') in 0.121876 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 34
+>>>>>>> Stashed changes:Logs/AssetImportWorker4.log
